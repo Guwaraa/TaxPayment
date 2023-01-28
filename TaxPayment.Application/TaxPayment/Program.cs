@@ -1,4 +1,7 @@
+using AutoMapper;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using TaxPayment.Common.TaxSetup;
 using TaxPayment.Models;
 using TaxPayment.Repository.DapperDao;
 using TaxPayment.Repository.GenericRepository;
@@ -11,13 +14,24 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddDbContext<TaxSystemContext>(options => options.UseSqlServer("DefaultConnection"));
 
+
+//Business
 builder.Services.AddScoped<ITaxSetupBusiness, TaxSetupBusiness>();
 
 
-
+//Repository
 builder.Services.AddScoped<IDapperDao, DapperDao>();
 builder.Services.AddScoped<IGenericRepository, GenericRepository>();
 
+
+//Mapper
+
+var config = new MapperConfiguration(cfg =>
+         {
+             //Create all maps here
+             cfg.CreateMap<TaxSetupViewModel, TaxSetupParam>();
+         });
+IMapper mapper = config.CreateMapper();
 
 var app = builder.Build();
 

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using TaxPayment.Common.TaxSetup;
 using TaxPaymet.Business.Setup.TaxSetup;
 
@@ -7,9 +8,11 @@ namespace TaxPayment.Controllers.Setup
     public class TaxSetupController : Controller
     {
         private ITaxSetupBusiness _taxSetupBusiness;
-        public TaxSetupController(ITaxSetupBusiness taxSetupBusiness)
+        private IMapper _mapper;
+        public TaxSetupController(ITaxSetupBusiness taxSetupBusiness,IMapper mapper)
         {
             _taxSetupBusiness = taxSetupBusiness;
+            _mapper = mapper;
         }
         public IActionResult Index()
         {
@@ -22,11 +25,13 @@ namespace TaxPayment.Controllers.Setup
         }
         public IActionResult ManageTaxSetup()
         {
-            return View();
+            var taxDetail = new TaxSetupViewModel();
+            return View(taxDetail);
         }
         [HttpPost]
         public IActionResult AddTaxSetup(TaxSetupViewModel taxSetupViewModel)
         {
+            var taxdetail = _mapper.Map<TaxSetupParam>(taxSetupViewModel);
             return RedirectToAction("Index");
         }
         public IActionResult UpdateTaxSetup(string RowId)

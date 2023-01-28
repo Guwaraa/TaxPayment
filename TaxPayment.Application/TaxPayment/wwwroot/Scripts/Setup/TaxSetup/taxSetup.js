@@ -1,4 +1,4 @@
-﻿\var TaxSetupManagement = (function (taxSetupManagement, $) {
+﻿var TaxSetupManagement = (function (taxSetupManagement, $) {
     "use strict";
     taxSetupManagement.taxSetup = function () {
         var config = {
@@ -10,76 +10,66 @@
             }
         };
         var viewModel = {
-            
+            loadJExcel: function (data) {
+                var spreadsheet = $('#spreadsheet').jexcel({
+                    data: data,
+                    colHeaders: ['CCFrom', 'CCTo', 'YaxRate'],
+                    colWidths: [400, 400, 400],
+                    columns: [
+                        {
+                            type: 'text',
+                            name: 'CCFrom'
+                        },
+                        {
+                            type: 'text',
+                            name: 'CCTo'
+                        },
+                        {
+                            type: 'text',
+                            name: 'TaxRate'
+                        }
+                    ],
+                    allowInsertColumn: false,
+                    allowInsertRow: false,
+                    allowDeleteRow: false,
+                    csvHeaders: true,
+                    tableOverflow: true,
+                    onchange: function (instance, cell, x, y, value) {
+                        $("#TaxSetupUploadJson").val(viewModel.jexcelToJSON($('#spreadsheet').jexcel('getData'), $('#spreadsheet').jexcel('getHeaders').split(',')));
+                    }
+                });
+                return spreadsheet;
+            },
+            jexcelToJSON: function (data, headers) {
+                var jsonData = JSON.stringify(data.map(x => x.reduce(function (obj, val, index) {
+                    obj[headers[index]] = val;
+                    return obj;
+                }, {})));
+                return jsonData;
+            }
         };
         return ({
             renderIndex: function () {
-              
+
 
             },
             renderManage: function () {
-                $("#manage-TaxSetups-form").validate({
-                    rules: {
-                        NmcNo: "required",
-                        DoctorName: "required",
-                        DoctorNameNative: "required",
-                        Dob: "required",
-                        MobileNo: "required",
-                        Email: {
-                            required: true,
-                            email:true
-                        },
-                        Remarks: "required",
-                        AssociatedHospital: "required",
-                    },
-                    messages: {
-                        NmcNo: "Please enter the NMC Number.",
-                        DoctorName: "Please enter the doctor name.",
-                        DoctorNameNative: "Please enter the doctor native name.",
-                        Dob: "Please select your Date of Birth.",
-                        MobileNo: "Please enter the mobile number.",
-                        Email: {
-                            required: "Please enter the email.",
-                            email: "Please enter valid email.",
-                        },
-                        Remarks: "Please enter the remarks.",
-                        AssociatedHospital: "Please select the associated hospital.",
-                    },
-                    errorPlacement: function (error, element) {
-                        var attrName = $(element).attr("name");
-                        error.appendTo($("#" + attrName + "_jserror"));
-                    },
-                    highlight: function (element, errorClass, validClass) {
-                        if ($(element).hasClass("select2-hidden-accessible")) {
-                            $(element).next().contents().find(".select2-selection--single").addClass(errorClass);
-                        } else {
-                            $(element).addClass(errorClass);
-                        }
-                    },
-                    unhighlight: function (element, errorClass, validClass) {
-                        if ($(element).hasClass("select2-hidden-accessible")) {
-                            $(element).next().contents().find(".select2-selection--single").removeClass(errorClass);
-                        } else {
-                            $(element).removeClass(errorClass);
-                        }
-                    }
-                });
-                $("#AssociatedHospital").select2().on('change', function () {
-                    $(this).valid();
-                });
-                $("#NmcNo").on("change", function () {
-                    viewModel.checkNmcNo($(this).val()).success(function (data) {
-                        if (data.code == "111") {
-                            $("#NmcNo_jserror").text(data.message).addClass("error");
-                            $("#NmcNo").addClass("error");
-                            $("#btnAddBranch").prop('disabled', true);
-                        } else {
-                            $("#NmcNo_jserror").text("");
-                            $("#NmcNo").removeClass("error");
-                            $("#btnAddBranch").prop('disabled', false);
-
-                        }
-                    });
+                $('#UploadFile').on('change', function (e) {
+                    $('#spreadsheet').remove(); //need to delete instance of jexcel, so remove the element
+                    $('#spreadsheetDiv').append(`<div id="spreadsheet"></div>`); //create element again
+                    var file = e.target.files[0];
+                    var reader = new FileReader();
+                    reader.readAsText(file);
+                    reader.onload = function (evt) {
+                        let csvData = evt.target.result;
+                        let data = $.csv.toObjects(csvData);
+                        let spreadsheet = viewModel.loadJExcel(data);
+                        debugger;
+                        $("#TaxSetupUploadJson").val(viewModel.jexcelToJSON(spreadsheet.getData(), spreadsheet.getHeaders().split(',')));
+                    };
+                    reader.onerror = function () {
+                        alert('Unable to read ' + file.fileName);
+                    };
                 });
             }
         });

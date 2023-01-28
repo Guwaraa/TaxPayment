@@ -16,19 +16,66 @@
     </div>
     <div class="col-md-3" style="margin-left:8%">
         <button type="button" class="btn" style="background-color:gainsboro" onclick="javascript:history.go(-1);"><i class="mdi mdi-arrow-left"></i> Back</button>
+        <a href="~/Sample/TaxSetupSample.csv" class="btn btn-warning">Download Sample</a>
     </div>
 </div>
 <hr />
 <section class="section-forms">
-    <form method="post" asp-action="@(string.IsNullOrEmpty(null) ? "AddTaxSetup" : "UpdateTaxSetup")" asp-controller="TaxSetup" id="manage-TaxSetup-form">
+    <form method="post" asp-action="@(string.IsNullOrEmpty(Model.RowId) ? "AddTaxSetup" : "UpdateTaxSetup")" asp-controller="TaxSetup" id="manage-TaxSetup-form">
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label asp-for="CCTo">NMC Number<span class="text-danger">*</span></label>
-                            <input type="text" asp-for="CCTo" id="CCTo" class="form-control" placeholder="Enter the Name">
-                            <span id="Name_jserror"></span>
+                            <label asp-for="VechicleCategory">Vechicle Category<span class="text-danger">*</span></label>
+                            <select asp-for="VechicleCategory" class="form-control">
+                                <option>Select Vechicle Category</option>
+                                <option value="Bike">Bike</option>
+                            </select>
+                            <span id="VechicleCategory_jserror"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="FiscalYear">Fiscal Year<span class="text-danger">*</span></label>
+                            <select asp-for="FiscalYear" class="form-control">
+                                <option>Select Fiscal Year</option>
+                                <option class="78/79">78/79</option>
+                            </select>
+                            <span id="FiscalYear_jserror"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Province">Province<span class="text-danger">*</span></label>
+                            <select asp-for="Province" class="form-control">
+                                <option>Select Province</option>
+                                <option value="Province1">Province 1</option>
+                            </select>
+                            <span id="Province_jserror"></span>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Excel File <span class="text-danger">*</span></label>
+                            <div class="col-sm-8">
+                                <input type="file" id="UploadFile" class="form-control"   accept=".csv" />
+                                <span id="UploadFile_jserror"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <div id="spreadsheetDiv">
+                                <div id="spreadsheet"></div>
+                                <input type="hidden" name="TaxSetupUploadJson" id="TaxSetupUploadJson" class="form-control" value="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -37,8 +84,9 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <button type="submit" id="btnAddBranch" class="btn btn-success">
-                                @(string.IsNullOrEmpty(null) ? "Add Tax Setup" : "Update Tax Setup")
+                                @(string.IsNullOrEmpty(Model.RowId) ? "Add Tax Setup" : "Update Tax Setup")
                             </button>
+                            <input type="hidden" asp-for="RowId"/>
                         </div>
                     </div>
                 </div>
@@ -46,4 +94,14 @@
         </div>
     </form>
 </section>
+@section scripts{
+    <script src="~/Scripts/Setup/TaxSetup/taxSetup.js" type="text/javascript"></script>
+    <script src="~/assets/jquery-validation/dist/additional-methods.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            var taxSetup = TaxSetupManagement.taxSetup();
+            taxSetup.renderManage();
+        });
+    </script>
+}
 

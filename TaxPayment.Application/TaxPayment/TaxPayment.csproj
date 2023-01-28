@@ -30,4 +30,8 @@
     <ProjectReference Include="..\TaxPaymet.Business\TaxPaymet.Business.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Sample\" />
+  </ItemGroup>
+
 </Project>
