@@ -1,0 +1,49 @@
+﻿@model TaxPayment.Common.TaxSetup.TaxSetupViewModel
+@{
+    ViewData["Title"] = "ManageTaxSetup";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="col-md-3" style="margin-left:8%">
+        <button type="button" class="btn" style="background-color:gainsboro" onclick="javascript:history.go(-1);"><i class="mdi mdi-arrow-left"></i> Back</button>
+    </div>
+</div>
+<hr />
+<section class="section-forms">
+    <form method="post" asp-action="@(string.IsNullOrEmpty(null) ? "AddTaxSetup" : "UpdateTaxSetup")" asp-controller="TaxSetup" id="manage-TaxSetup-form">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="CCTo">NMC Number<span class="text-danger">*</span></label>
+                            <input type="text" asp-for="CCTo" id="CCTo" class="form-control" placeholder="Enter the Name">
+                            <span id="Name_jserror"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <button type="submit" id="btnAddBranch" class="btn btn-success">
+                                @(string.IsNullOrEmpty(null) ? "Add Tax Setup" : "Update Tax Setup")
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+
