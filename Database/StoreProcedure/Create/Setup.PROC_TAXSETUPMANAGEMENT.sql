@@ -20,16 +20,12 @@
 		@Status 					VARCHAR(1)				= NULL,
 		@CreatedBy					VARCHAR(250)			= NULL,
 		@CreatedDate				DATETIME2				= NULL,
-		@VerifiedBy					VARCHAR(250)			= NULL,
-		@ApprovedBy 				VARCHAR(250)			= NULL,
-		@RejectedBy					VARCHAR(250)			= NULL,
 		@ModifiedBy					VARCHAR(250)			= NULL,
-		@VerifiedRemarks			VARCHAR(250)			= NULL,
-		@ApprovedRemarks 			VARCHAR(250)			= NULL,
-		@RejectedRemarks			VARCHAR(250)			= NULL,
-		@ModifiedRemarks			VARCHAR(250)			= NULL,
-		@RejectedMessageRemarks		VARCHAR(MAX)			= NULL,
-		@RejectedDate				VARCHAR(250)			= NULL
+		@VechicleCategory			VARCHAR(250)			= NULL,
+		@FiscalYear 				VARCHAR(250)			= NULL,
+		@Province 					VARCHAR(250)			= NULL,
+		@TaxSetupUploadJson 		VARCHAR(MAX)			= NULL,
+		@TaxCount					INT						= NULL
 		
 )
 AS 
@@ -40,17 +36,118 @@ BEGIN TRY
 		SET @LastRec = @DisplayStart + @DisplayLength;
 	IF @Flag='GetRequiredDetailList'
 	BEGIN
-		SELECT tsd.RowId,
+		SELECT tsd.TaxCode,
                tsd.VechicleCategory,
                tsd.FiscalYear,
                tsd.Province,
-               tsd.CCFrom,
-               tsd.CCTo,
-               tsd.TaxRate,
                tsd.Status
                FROM Setup.TaxSetupDetails AS tsd
+			   GROUP BY tsd.TaxCode,tsd.VechicleCategory, tsd.FiscalYear,tsd.Province,tsd.Status
 	END
-	
+	ELSE IF @Flag='AddTaxSetupDetails'
+	BEGIN
+	    BEGIN TRY
+			BEGIN TRANSACTION TaxSetup
+			SELECT 
+				temp.CCFrom,
+			    temp.CCTo,
+			    temp.TaxRate
+				INTO #TempTaxSetup
+				FROM OPENJSON(@TaxSetupUploadJson) 
+				WITH(
+					CCFrom			VARCHAR(200)		'$.CCFrom',
+					CCTo 			VARCHAR(200)		'$.CCTo',
+					TaxRate 		VARCHAR(200)		'$.TaxRate'
+				)temp
+				SELECT @TaxCount=COUNT(*) FROM Setup.TaxSetupDetails AS tsd
+				SET @TaxCount = @TaxCount +1 
+
+				INSERT INTO Setup.TaxSetupDetails
+				(
+				    TaxCode,
+				    VechicleCategory,
+				    FiscalYear,
+				    Province,
+				    CCFrom,
+				    CCTo,
+				    TaxRate,
+				    Status,
+				    CreatedBy,
+				    CreatedDate
+				)
+				SELECT
+					'T'+CONVERT(VARCHAR(200),@TaxCount), 
+				    @VechicleCategory, 
+				    @FiscalYear, 
+				    @Province, 
+				    temp.CCFrom,
+					temp.CCTo,
+					temp.TaxRate,
+					'A', 
+				    @CreatedBy, 
+				    GETDATE() 
+					FROM #TempTaxSetup temp
+					SELECT '000' Code,'Tax Setup Added Sucessfully' Message
+	    		 COMMIT TRANSACTION TaxSetup
+				 DROP TABLE #TempTaxSetup
+	    	   END TRY
+	    	   BEGIN CATCH
+	    		ROLLBACK TRANSACTION TaxSetup
+	    		SELECT 101 Code, ERROR_MESSAGE() Message, '' Id
+	    	   END CATCH
+	END
+	ELSE IF @Flag='UpdateTaxSetupDetails'
+	BEGIN
+	    BEGIN TRY
+			BEGIN TRANSACTION TaxSetup
+			SELECT 
+				temp.CCFrom,
+			    temp.CCTo,
+			    temp.TaxRate
+				INTO #TempUpdateTaxSetup
+				FROM OPENJSON(@TaxSetupUploadJson) 
+				WITH(
+					CCFrom			VARCHAR(200)		'$.CCFrom',
+					CCTo 			VARCHAR(200)		'$.CCTo',
+					TaxRate 		VARCHAR(200)		'$.TaxRate'
+				)temp
+				
+				DELETE FROM Setup.TaxSetupDetails WHERE TaxCode=@TaxCount
+
+				INSERT INTO Setup.TaxSetupDetails
+				(
+				    TaxCode,
+				    VechicleCategory,
+				    FiscalYear,
+				    Province,
+				    CCFrom,
+				    CCTo,
+				    TaxRate,
+				    Status,
+				    CreatedBy,
+				    CreatedDate
+				)
+				SELECT
+					'T'+CONVERT(VARCHAR(200),@TaxCount), 
+				    @VechicleCategory, 
+				    @FiscalYear, 
+				    @Province, 
+				    temp.CCFrom,
+					temp.CCTo,
+					temp.TaxRate,
+					'A', 
+				    @CreatedBy, 
+				    GETDATE() 
+					FROM #TempUpdateTaxSetup temp
+					SELECT '000' Code,'Tax Setup Updated Sucessfully' Message
+	    		 COMMIT TRANSACTION TaxSetup
+				 DROP TABLE #TempUpdateTaxSetup
+	    	   END TRY
+	    	   BEGIN CATCH
+	    		ROLLBACK TRANSACTION TaxSetup
+	    		SELECT 101 Code, ERROR_MESSAGE() Message, '' Id
+	    	   END CATCH
+	END
 	
 END TRY
 BEGIN CATCH
