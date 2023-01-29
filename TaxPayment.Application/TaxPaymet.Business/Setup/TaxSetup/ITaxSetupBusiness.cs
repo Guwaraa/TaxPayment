@@ -10,7 +10,7 @@ namespace TaxPaymet.Business.Setup.TaxSetup
 {
     public interface ITaxSetupBusiness
     {
-        SystemResponse ManageData(object param);
+        SystemResponse ManageTaxSetupDetails(TaxSetupParam param);
         List<TaxSetupDetails> GetRequiredDetailList(object param);
     }
 }

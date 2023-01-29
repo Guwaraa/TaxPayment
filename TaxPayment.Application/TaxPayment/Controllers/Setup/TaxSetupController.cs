@@ -8,11 +8,9 @@ namespace TaxPayment.Controllers.Setup
     public class TaxSetupController : Controller
     {
         private ITaxSetupBusiness _taxSetupBusiness;
-        private IMapper _mapper;
-        public TaxSetupController(ITaxSetupBusiness taxSetupBusiness,IMapper mapper)
+        public TaxSetupController(ITaxSetupBusiness taxSetupBusiness)
         {
             _taxSetupBusiness = taxSetupBusiness;
-            _mapper = mapper;
         }
         public IActionResult Index()
         {
@@ -29,9 +27,11 @@ namespace TaxPayment.Controllers.Setup
             return View(taxDetail);
         }
         [HttpPost]
-        public IActionResult AddTaxSetup(TaxSetupViewModel taxSetupViewModel)
+        public IActionResult AddTaxSetup(TaxSetupParam taxSetupParam)
         {
-            var taxdetail = _mapper.Map<TaxSetupParam>(taxSetupViewModel);
+            taxSetupParam.Flag = "AddTaxSetupDetails";
+            taxSetupParam.CreatedBy = "admin";
+            var response = _taxSetupBusiness.ManageTaxSetupDetails(taxSetupParam);
             return RedirectToAction("Index");
         }
         public IActionResult UpdateTaxSetup(string RowId)

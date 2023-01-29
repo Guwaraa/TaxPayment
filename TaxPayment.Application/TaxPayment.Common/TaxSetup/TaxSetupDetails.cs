@@ -25,9 +25,7 @@ namespace TaxPayment.Common.TaxSetup
         public string VechicleCategory { get; set; }
         public string FiscalYear { get; set; }
         public string Province { get; set; }
-        public string CCFrom { get; set; }
-        public string CCTo { get; set; }
-        public string TaxRate { get; set; }
+        public string TaxSetupUploadJson { get; set; }
         public string CreatedBy { get; set; }
         public string ModifiedBy { get; set; }
     }

@@ -18,7 +18,7 @@ namespace TaxPaymet.Business.Setup.TaxSetup
         {
             _genericRepository = genericRepository;
         }
-        public SystemResponse ManageData(object param)
+        public SystemResponse ManageTaxSetupDetails(TaxSetupParam param)
         {
             var response = _genericRepository.ManageData(StoredProcedureName, param);
             return response;
