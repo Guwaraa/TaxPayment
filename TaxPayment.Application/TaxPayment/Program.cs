@@ -1,6 +1,7 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using TaxPayment.Common.Premium;
 using TaxPayment.Common.TaxSetup;
 using TaxPayment.Models;
 using TaxPayment.Repository.DapperDao;
@@ -30,6 +31,7 @@ var config = new MapperConfiguration(cfg =>
          {
              //Create all maps here
              cfg.CreateMap<TaxSetupViewModel, TaxSetupParam>();
+             cfg.CreateMap<PremiumViewModel, PremiumDetailsParam>();
          });
 IMapper mapper = config.CreateMapper();
 
