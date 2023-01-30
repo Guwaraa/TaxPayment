@@ -13,7 +13,7 @@
             loadJExcel: function (data) {
                 var spreadsheet = $('#spreadsheet').jexcel({
                     data: data,
-                    colHeaders: ['CCFrom', 'CCTo', 'YaxRate'],
+                    colHeaders: ['CCFrom', 'CCTo', 'TaxRate'],
                     colWidths: [400, 400, 400],
                     columns: [
                         {
@@ -53,7 +53,10 @@
 
 
             },
-            renderManage: function () {
+            renderManage: function (TaxCode) {
+                if (TaxCode !== "") {
+                    viewModel.loadJExcel(JSON.parse($("#TaxSetupUploadJson").val()));
+                }
                 $('#UploadFile').on('change', function (e) {
                     $('#spreadsheet').remove(); //need to delete instance of jexcel, so remove the element
                     $('#spreadsheetDiv').append(`<div id="spreadsheet"></div>`); //create element again

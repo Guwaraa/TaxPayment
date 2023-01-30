@@ -9,6 +9,7 @@ using Microsoft.Data.SqlClient;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Dapper;
+using TaxPayment.Common;
 
 namespace TaxPayment.Repository.DapperDao
 {
@@ -578,6 +579,32 @@ namespace TaxPayment.Repository.DapperDao
                 {
                     sqlConnection.Close();
                 }
+            }
+        }
+        public List<List<GenericStaticData>> ExecuteQueryWithMultipleSelectValues<T0>(string sqlQuery, object sqlParam,
+          CommandType queryType = CommandType.StoredProcedure)
+        {
+            using var sqlConnection = new SqlConnection(GetConnectionString());
+            try
+            {
+                List<List<GenericStaticData>> listOfGenerics = new List<List<GenericStaticData>>();
+                sqlConnection.Open();
+                var result = sqlConnection.QueryMultiple(sqlQuery, sqlParam, commandTimeout: 30000,
+                    commandType: queryType);
+                while (!result.IsConsumed)
+                {
+                    listOfGenerics.Add(result.Read<GenericStaticData>().ToList());
+                }
+                return listOfGenerics;
+            }
+            catch (Exception ex)
+            {
+                _log.Error("Error on Database Operation. Error Details As: {0}", ex.StackTrace);
+                throw;
+            }
+            finally
+            {
+                sqlConnection.Close();
             }
         }
 

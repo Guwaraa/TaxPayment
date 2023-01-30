@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,8 @@ namespace TaxPayment.Repository.GenericRepository
         List<T> ManageDataWithListObject<T>(string spName, object obj);
         List<object> ManageDataWithListObjectMultiple<T0, T1>(string spName, object obj);
         List<object> ManageDataWithObjectMultiple<T0, T1, T2, T3, T4, T5, T6>(string spName, object obj);
+        List<List<SelectListItem>> ManageDataWithMultipleSelectListItem(string spName, string flagName);
+
     }
 }
 

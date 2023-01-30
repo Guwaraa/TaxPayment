@@ -34,13 +34,22 @@ namespace TaxPayment.Controllers.Setup
             var response = _taxSetupBusiness.ManageTaxSetupDetails(taxSetupParam);
             return RedirectToAction("Index");
         }
-        public IActionResult UpdateTaxSetup(string RowId)
+        public IActionResult UpdateTaxSetup(string TaxCode)
         {
-            return RedirectToAction("Index");
+            var param = new
+            {
+                Flag = "GetTaxSetupDetails",
+                TaxCode = TaxCode
+            };
+            var response = _taxSetupBusiness.GetTaxSetupDetails(param);
+            return View("ManageTaxSetup",response);
         }
         [HttpPost]
-        public IActionResult UpdateTaxSetup(TaxSetupViewModel taxSetupViewModel)
+        public IActionResult UpdateTaxSetup(TaxSetupParam taxSetupParam)
         {
+            taxSetupParam.Flag = "UpdateTaxSetupDetails";
+            taxSetupParam.ModifiedBy = "admin";
+            var response = _taxSetupBusiness.ManageTaxSetupDetails(taxSetupParam);
             return RedirectToAction("Index");
         }
         public IActionResult UpdateTaxSetupStatus(string RowId)

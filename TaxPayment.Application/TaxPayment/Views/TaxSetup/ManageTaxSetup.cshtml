@@ -21,7 +21,7 @@
 </div>
 <hr />
 <section class="section-forms">
-    <form method="post" asp-action="@(string.IsNullOrEmpty(Model.RowId) ? "AddTaxSetup" : "UpdateTaxSetup")" asp-controller="TaxSetup" id="manage-TaxSetup-form">
+    <form method="post" asp-action="@(string.IsNullOrEmpty(Model.TaxCode) ? "AddTaxSetup" : "UpdateTaxSetup")" asp-controller="TaxSetup" id="manage-TaxSetup-form">
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="row">
@@ -74,7 +74,7 @@
                         <div class="form-group">
                             <div id="spreadsheetDiv">
                                 <div id="spreadsheet"></div>
-                                <input type="hidden" name="TaxSetupUploadJson" id="TaxSetupUploadJson" class="form-control" value="">
+                                <input type="hidden" asp-for="TaxSetupUploadJson"  class="form-control">
                             </div>
                         </div>
                     </div>
@@ -84,9 +84,9 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <button type="submit" id="btnAddBranch" class="btn btn-success">
-                                @(string.IsNullOrEmpty(Model.RowId) ? "Add Tax Setup" : "Update Tax Setup")
+                                @(string.IsNullOrEmpty(Model.TaxCode) ? "Add Tax Setup" : "Update Tax Setup")
                             </button>
-                            <input type="hidden" asp-for="RowId"/>
+                            <input type="hidden" asp-for="TaxCode"/>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
     <script type="text/javascript">
         $(function () {
             var taxSetup = TaxSetupManagement.taxSetup();
-            taxSetup.renderManage();
+            taxSetup.renderManage("@Model.TaxCode");
         });
     </script>
 }

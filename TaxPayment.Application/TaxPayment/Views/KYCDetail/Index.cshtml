@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="col-md-3" style="margin-left:8%">
+        <button type="button" class="btn" style="background-color:gainsboro" onclick="javascript:history.go(-1);"><i class="mdi mdi-arrow-left"></i> Back</button>
+        <a asp-controller="TaxSetup" asp-action="ManageTaxSetup" class="btn btn-primary"><i class="mdi mdi-plus"></i>Add Tax Setup</a>
+    </div>
+</div>
+<hr />
+<div class="card">
+    <div class="table-responsive text-nowrap">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="text-center">SN</th>
+                    <th class="text-center">Fiscal Year</th>
+                    <th class="text-center">Province</th>
+                    <th class="text-center">Status</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+
+                @* @if (Model.Count != 0)
+                {
+                    @foreach (var item in Model)
+                    {
+                                <tr class="text-center">
+                                    <td class="text-center">@item.RowNum</td>
+                                    <td class="text-center">@item.FiscalYear</td>
+                                    <td class="text-center">@item.Province</td>
+                                    <td class="text-center">@item.Status</td>
+                                    <td>
+                                        <a class="dropdown-item" href="@Url.Action("UpdateTaxSetup","TaxSetup",new { TaxCode = item.TaxCode })"><i class="bx bx-edit-alt"></i> </a>
+                                    </td>
+                                </tr>
+                    }
+                }
+                else
+                {
+                        <tr class="text-center">
+                            <td colspan="5">No Data Exists</td>
+                        </tr>
+                }*@
+
+            </tbody>
+        </table>
+    </div>
+</div>
+

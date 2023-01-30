@@ -12,5 +12,6 @@ namespace TaxPaymet.Business.Setup.TaxSetup
     {
         SystemResponse ManageTaxSetupDetails(TaxSetupParam param);
         List<TaxSetupDetails> GetRequiredDetailList(object param);
+        TaxSetupViewModel GetTaxSetupDetails(object param);
     }
 }
