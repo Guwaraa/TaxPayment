@@ -9,6 +9,7 @@ namespace TaxPayment.Common.TaxSetup
     public class TaxSetupViewModel
     {
         public string RowId { get; set; }
+        public string TaxCode { get; set; }
         public string VechicleCategory { get; set; }
         public string FiscalYear { get; set; }
         public string Province { get; set; }

@@ -5,6 +5,7 @@ using TaxPayment.Common.TaxSetup;
 using TaxPayment.Models;
 using TaxPayment.Repository.DapperDao;
 using TaxPayment.Repository.GenericRepository;
+using TaxPaymet.Business.KYCDetail;
 using TaxPaymet.Business.Setup.TaxSetup;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,7 @@ builder.Services.AddDbContext<TaxSystemContext>(options => options.UseSqlServer(
 
 //Business
 builder.Services.AddScoped<ITaxSetupBusiness, TaxSetupBusiness>();
+builder.Services.AddScoped<IKYCDetailBusiness, KYCDetailBusiness>();
 
 
 //Repository

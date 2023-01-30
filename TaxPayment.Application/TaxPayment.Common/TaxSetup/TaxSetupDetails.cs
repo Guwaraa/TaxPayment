@@ -11,6 +11,7 @@ namespace TaxPayment.Common.TaxSetup
     {
         public string RowId { get; set; }
         public string RowNum { get; set; }
+        public string TaxCode { get; set; }
         public string VechicleCategory { get; set; }
         public string FiscalYear { get; set; }
         public string Province { get; set; }
@@ -22,6 +23,7 @@ namespace TaxPayment.Common.TaxSetup
     public class TaxSetupParam
     {
         public string Flag { get; set; }
+        public string TaxCode { get; set; }
         public string VechicleCategory { get; set; }
         public string FiscalYear { get; set; }
         public string Province { get; set; }
