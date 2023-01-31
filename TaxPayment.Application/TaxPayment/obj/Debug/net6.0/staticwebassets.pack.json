@@ -5,6 +5,246 @@
       "PackagePath": "staticwebassets\\TaxPayment.bundle.scp.css"
     },
     {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\templatemo-grad-school.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\templatemo-grad-school.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\choose-us-image-01.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\choose-us-image-01.png"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\choose-us-image-02.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\choose-us-image-02.png"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\choose-us-image-03.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\choose-us-image-03.png"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\choosing-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\choosing-bg.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\close.png"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\coming-soon-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\coming-soon-bg.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\course-video.mp4",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\course-video.mp4"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-01.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-01.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-02.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-02.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-03.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-03.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-04.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-04.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-05.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-05.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-bg.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\main-slider-01.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\main-slider-01.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\main-slider-02.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\main-slider-02.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\main-slider-03.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\main-slider-03.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\main-thumb.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\main-thumb.png"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\next.png"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\video-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\video-bg.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\video-thumb-01.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\video-thumb-01.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\video-thumb-02.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\video-thumb-02.jpg"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\lightbox.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\slick-slider.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\slick-slider.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\tabs.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\video.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\video.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Front\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Scripts\\Setup\\TaxSetup\\taxSetup.js",
       "PackagePath": "staticwebassets\\Scripts\\Setup\\TaxSetup\\taxSetup.js"
     },

@@ -1,0 +1,19 @@
+CREATE TABLE Setup.BlueBookDocument(
+	RowId					INT				IDENTITY(1,1),
+	KYCCode					VARCHAR(150)	NULL,
+	VechicleType			VARCHAR(150)	NULL,
+	VechicleNumber			VARCHAR(150)	NULL,
+	RegisteredDate			DATETIME		NULL,
+	Ownername				VARCHAR(150)	NULL,
+	FrontPageImage			VARCHAR(max)	NULL,
+	CompanyName				VARCHAR(150)	NULL,
+	VechicleModel			VARCHAR(150)	NULL,
+	DateOfModification		DATETIME		NULL,
+	VechiclePower			VARCHAR(150)	NULL,
+	Color					VARCHAR(150)	NULL,
+	EngineNumber			VARCHAR(150)	NULL,
+	VechicleInfoImage		VARCHAR(MAX)	NULL,
+	LastTaxPaidDateFrom		DATETIME		NULL,
+	LastTaxPaidDateTo		DATETIME		NULL,
+	TaxPaidImage			VARCHAR(MAX)	NULL			
+)
