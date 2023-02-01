@@ -34,4 +34,11 @@
     <Folder Include="Sample\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\assets\select2\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\assets\select2\.github\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\assets\select2\.github\PULL_REQUEST_TEMPLATE.md" />
+    <None Include="wwwroot\assets\select2\.github\stale.yml" />
+  </ItemGroup>
+
 </Project>

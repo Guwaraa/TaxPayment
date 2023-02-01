@@ -54,6 +54,40 @@
 
             },
             renderManage: function () {
+                $("#manage-PremiumSetup-form").validate({
+                    rules: {
+                        VechicleCategory: "required",
+                        FiscalYear: "required",
+                        Province: "required",
+                        InsuranceCompany: "required",
+                        InsuranceRate: "required"
+                    },
+                    messages: {
+                        VechicleCategory: "Please select vehicle category.",
+                        FiscalYear: "Please select fiscal year.",
+                        Province: "Please select province.",
+                        InsuranceCompany: "Please select insurance company.",
+                        InsuranceRate: "Please enter insurance rate."
+                    },
+                    errorPlacement: function (error, element) {
+                        var attrName = $(element).attr("name");
+                        error.appendTo($("#" + attrName + "_jserror"));
+                    },
+                    highlight: function (element, errorClass, validClass) {
+                        if ($(element).hasClass("select2-hidden-accessible")) {
+                            $(element).next().contents().find(".select2-selection--single").addClass(errorClass);
+                        } else {
+                            $(element).addClass(errorClass);
+                        }
+                    },
+                    unhighlight: function (element, errorClass, validClass) {
+                        if ($(element).hasClass("select2-hidden-accessible")) {
+                            $(element).next().contents().find(".select2-selection--single").removeClass(errorClass);
+                        } else {
+                            $(element).removeClass(errorClass);
+                        }
+                    }
+                });
                 $('#UploadFile').on('change', function (e) {
                     $('#spreadsheet').remove(); //need to delete instance of jexcel, so remove the element
                     $('#spreadsheetDiv').append(`<div id="spreadsheet"></div>`); //create element again

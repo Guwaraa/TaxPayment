@@ -21,6 +21,7 @@
 		@CreatedBy					VARCHAR(250)			= NULL,
 		@CreatedDate				DATETIME2				= NULL,
 		@ModifiedBy					VARCHAR(250)			= NULL,
+		@TaxCode					VARCHAR(250)			= NULL,
 		@VechicleCategory			VARCHAR(250)			= NULL,
 		@FiscalYear 				VARCHAR(250)			= NULL,
 		@Province 					VARCHAR(250)			= NULL,
@@ -36,7 +37,9 @@ BEGIN TRY
 		SET @LastRec = @DisplayStart + @DisplayLength;
 	IF @Flag='GetRequiredDetailList'
 	BEGIN
-		SELECT tsd.TaxCode,
+		SELECT	ROW_NUMBER() OVER (ORDER BY tsd.TaxCode DESC) AS RowNum,
+		      	COUNT(*) over()  AS FilterCount,
+			   tsd.TaxCode,
                tsd.VechicleCategory,
                tsd.FiscalYear,
                tsd.Province,
@@ -96,6 +99,21 @@ BEGIN TRY
 	    		SELECT 101 Code, ERROR_MESSAGE() Message, '' Id
 	    	   END CATCH
 	END
+	ELSE IF @Flag='GetTaxSetupDetails'
+	BEGIN
+	    SELECT  tsd.TaxCode,
+               tsd.VechicleCategory,
+               tsd.FiscalYear,
+               tsd.Province
+               FROM Setup.TaxSetupDetails AS tsd WHERE tsd.TaxCode=@TaxCode
+
+
+		SELECT  tsd.CCFrom,
+               tsd.CCTo,
+               tsd.TaxRate
+              FROM Setup.TaxSetupDetails AS tsd  WHERE tsd.TaxCode=@TaxCode
+	END
+
 	ELSE IF @Flag='UpdateTaxSetupDetails'
 	BEGIN
 	    BEGIN TRY
@@ -112,7 +130,7 @@ BEGIN TRY
 					TaxRate 		VARCHAR(200)		'$.TaxRate'
 				)temp
 				
-				DELETE FROM Setup.TaxSetupDetails WHERE TaxCode=@TaxCount
+				DELETE FROM Setup.TaxSetupDetails WHERE TaxCode=@TaxCode
 
 				INSERT INTO Setup.TaxSetupDetails
 				(
@@ -124,11 +142,11 @@ BEGIN TRY
 				    CCTo,
 				    TaxRate,
 				    Status,
-				    CreatedBy,
-				    CreatedDate
+				    ModifiedBy,
+				    ModifiedDate
 				)
 				SELECT
-					'T'+CONVERT(VARCHAR(200),@TaxCount), 
+					'T'+CONVERT(VARCHAR(200),@TaxCode), 
 				    @VechicleCategory, 
 				    @FiscalYear, 
 				    @Province, 
@@ -136,7 +154,7 @@ BEGIN TRY
 					temp.CCTo,
 					temp.TaxRate,
 					'A', 
-				    @CreatedBy, 
+				    @ModifiedBy, 
 				    GETDATE() 
 					FROM #TempUpdateTaxSetup temp
 					SELECT '000' Code,'Tax Setup Updated Sucessfully' Message

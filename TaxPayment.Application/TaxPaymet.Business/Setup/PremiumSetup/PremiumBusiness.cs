@@ -28,15 +28,22 @@ namespace TaxPaymet.Business.Setup.PremiumSetup
             var response = _genericRepository.ManageData(StoredProcedureName, param);
             return response;
         }
-        //public PremiumViewModel GetRequiredDetails()
-        //{
-        //    var flag = "GetGroupDetails";
-        //    var response = _genericRepository.ManageDataWithListObjectMultiple(StoredProcedureName, flag);
-        //    var groupList = new PremiumViewModel
-        //    {
-        //        GroupList = response[0]
-        //    };
-        //    return groupList;
-        //}
+        public PremiumViewModel GetRequiredDetails()
+        {
+            var flag = "GetRequiredList";
+            var response = _genericRepository.ManageDataWithMultipleSelectListItem(StoredProcedureName, flag);
+            var premiumList = new PremiumViewModel
+            {
+                VechicleCategoryList = response[0],
+                FiscalYearList = response[1],
+                ProvinceList = response[2],
+                InsuranceCompanyList = response[3]
+            };
+            return premiumList;
+        }
+        public PremiumViewModel GetPremiumUpdateDetails(PremiumViewModel premiumParam)
+        {
+            return _genericRepository.ManageDataWithListObject<PremiumViewModel>(StoredProcedureName, premiumParam)[0];
+        }
     }
 }

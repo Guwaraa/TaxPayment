@@ -30,7 +30,8 @@
     <link rel="stylesheet" href="~/assets/vendor/css/core.css" class="template-customizer-core-css" />
     <link rel="stylesheet" href="~/assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
     <link rel="stylesheet" href="~/assets/css/demo.css" />
-
+    <link href="~/assets/sweetalert2/dist/sweetalert2.css" rel="stylesheet" />
+    <link href="~/assets/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="~/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 
@@ -123,7 +124,7 @@
 
                         <ul class="menu-sub">
                             <li class="menu-item">
-                                <a asp-area="" asp-controller="Home" asp-action="Index" class="menu-link">
+                                <a asp-area="" asp-controller="PremiumSetup" asp-action="Index" class="menu-link">
                                     <div data-i18n="Without menu">Premium Setup</div>
                                 </a>
                             </li>
@@ -133,6 +134,24 @@
                                 </a>
                             </li>
                         </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <div data-i18n="Analytics">KYC Details</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <div data-i18n="Analytics">Insurance Payment</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <div data-i18n="Analytics">Tax Payment</div>
+                        </a>
                     </li>
                 </ul>
             </aside>
@@ -302,9 +321,13 @@
 
 
     <script src="~/assets/js/main.js"></script>
-
-
+    <script src="~/assets/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="~/assets/sweetalert2/dist/sweetalert2.all.js"></script>
+    <script src="~/assets/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="~/assets/sweetalert2/dist/sweetalert2.js"></script>
+    <script src="~/assets/sweetalert2/dist/sweetalert2.min.js"></script>
     <script src="~/assets/js/dashboards-analytics.js"></script>
+
     <script src="~/csv/jquery-csv/src/jquery.csv.min.js"></script>
     <script src="~/csv/jexcel/dist/jexcel.js"></script>
     <script src="~/csv/jsuites/dist/jsuites.js"></script>

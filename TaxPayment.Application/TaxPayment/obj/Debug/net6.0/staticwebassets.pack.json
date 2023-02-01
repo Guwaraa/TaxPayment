@@ -229,6 +229,1342 @@
       "PackagePath": "staticwebassets\\assets\\js\\ui-toasts.js"
     },
     {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\nepali.datepicker.v2.2\\nepali.datepicker.v2.2.min.css",
+      "PackagePath": "staticwebassets\\assets\\nepali.datepicker.v2.2\\nepali.datepicker.v2.2.min.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\nepali.datepicker.v2.2\\nepali.datepicker.v2.2.min.js",
+      "PackagePath": "staticwebassets\\assets\\nepali.datepicker.v2.2\\nepali.datepicker.v2.2.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\.bower.json",
+      "PackagePath": "staticwebassets\\assets\\select2\\.bower.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\.editorconfig",
+      "PackagePath": "staticwebassets\\assets\\select2\\.editorconfig"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\.gitignore",
+      "PackagePath": "staticwebassets\\assets\\select2\\.gitignore"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\.jshintignore",
+      "PackagePath": "staticwebassets\\assets\\select2\\.jshintignore"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\.jshintrc",
+      "PackagePath": "staticwebassets\\assets\\select2\\.jshintrc"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\.travis.yml",
+      "PackagePath": "staticwebassets\\assets\\select2\\.travis.yml"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\assets\\select2\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\Gruntfile.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\LICENSE.md",
+      "PackagePath": "staticwebassets\\assets\\select2\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\README.md",
+      "PackagePath": "staticwebassets\\assets\\select2\\README.md"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\select2\\bower.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\component.json",
+      "PackagePath": "staticwebassets\\assets\\select2\\component.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\composer.json",
+      "PackagePath": "staticwebassets\\assets\\select2\\composer.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\css\\select2.css",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\css\\select2.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\af.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\af.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ar.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ar.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\az.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\az.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\bg.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\bg.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\bn.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\bn.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\bs.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\bs.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ca.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ca.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\cs.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\cs.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\da.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\da.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\de.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\de.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\dsb.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\dsb.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\el.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\el.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\en.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\en.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\es.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\es.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\et.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\et.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\eu.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\eu.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\fa.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\fa.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\fi.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\fi.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\fr.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\fr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\gl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\gl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\he.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\he.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\hi.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\hi.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\hr.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\hr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\hsb.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\hsb.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\hu.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\hu.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\hy.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\hy.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\id.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\id.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\is.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\is.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\it.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\it.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ja.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ja.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ka.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ka.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\km.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\km.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ko.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ko.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\lt.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\lt.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\lv.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\lv.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\mk.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\mk.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ms.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ms.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\nb.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\nb.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ne.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ne.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\nl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\nl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\pl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\pl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ps.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ps.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\pt-BR.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\pt-BR.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\pt.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\pt.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ro.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ro.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\ru.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\ru.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\sk.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\sk.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\sl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\sl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\sq.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\sq.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\sr-Cyrl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\sr.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\sr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\sv.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\sv.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\th.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\th.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\tk.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\tk.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\tr.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\tr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\uk.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\uk.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\vi.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\vi.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\zh-CN.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\zh-CN.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\i18n\\zh-TW.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\i18n\\zh-TW.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\select2.full.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\select2.full.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\select2.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\select2.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\dist\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\dist\\js\\select2.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\docs\\README.md",
+      "PackagePath": "staticwebassets\\assets\\select2\\docs\\README.md"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\docs\\announcements-4.0.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\docs\\announcements-4.0.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\docs\\community.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\docs\\community.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\docs\\examples.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\docs\\examples.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\docs\\index.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\docs\\index.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\docs\\options-old.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\docs\\options-old.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\docs\\options.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\docs\\options.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\package.json",
+      "PackagePath": "staticwebassets\\assets\\select2\\package.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\banner.end.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\banner.end.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\banner.start.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\banner.start.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\jquery.mousewheel.shim.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\jquery.mousewheel.shim.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\jquery.select2.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\jquery.select2.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\jquery.shim.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\jquery.shim.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\compat\\containerCss.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\compat\\containerCss.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\compat\\dropdownCss.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\compat\\dropdownCss.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\compat\\initSelection.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\compat\\initSelection.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\compat\\inputData.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\compat\\inputData.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\compat\\matcher.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\compat\\matcher.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\compat\\query.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\compat\\query.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\compat\\utils.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\compat\\utils.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\core.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\core.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\data\\ajax.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\data\\ajax.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\data\\array.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\data\\array.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\data\\base.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\data\\base.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\data\\maximumInputLength.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\data\\maximumInputLength.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\data\\maximumSelectionLength.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\data\\maximumSelectionLength.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\data\\minimumInputLength.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\data\\minimumInputLength.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\data\\select.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\data\\select.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\data\\tags.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\data\\tags.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\data\\tokenizer.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\data\\tokenizer.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\defaults.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\defaults.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\diacritics.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\diacritics.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown\\attachBody.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown\\attachBody.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown\\attachContainer.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown\\attachContainer.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown\\closeOnSelect.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown\\closeOnSelect.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown\\hidePlaceholder.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown\\hidePlaceholder.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown\\infiniteScroll.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown\\infiniteScroll.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown\\minimumResultsForSearch.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown\\minimumResultsForSearch.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown\\search.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown\\search.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown\\selectOnClose.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown\\selectOnClose.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\dropdown\\stopPropagation.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\dropdown\\stopPropagation.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\af.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\af.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ar.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ar.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\az.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\az.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\bg.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\bg.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\bn.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\bn.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\bs.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\bs.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ca.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ca.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\cs.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\cs.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\da.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\da.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\de.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\de.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\dsb.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\dsb.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\el.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\el.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\en.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\en.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\es.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\es.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\et.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\et.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\eu.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\eu.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\fa.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\fa.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\fi.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\fi.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\fr.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\fr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\gl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\gl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\he.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\he.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\hi.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\hi.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\hr.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\hr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\hsb.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\hsb.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\hu.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\hu.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\hy.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\hy.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\id.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\id.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\is.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\is.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\it.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\it.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ja.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ja.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ka.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ka.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\km.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\km.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ko.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ko.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\lt.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\lt.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\lv.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\lv.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\mk.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\mk.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ms.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ms.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\nb.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\nb.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ne.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ne.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\nl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\nl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\pl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\pl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ps.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ps.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\pt-BR.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\pt-BR.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\pt.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\pt.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ro.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ro.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\ru.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\ru.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\sk.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\sk.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\sl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\sl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\sq.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\sq.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\sr-Cyrl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\sr.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\sr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\sv.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\sv.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\th.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\th.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\tk.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\tk.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\tr.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\tr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\uk.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\uk.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\vi.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\vi.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\zh-CN.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\zh-CN.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\i18n\\zh-TW.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\i18n\\zh-TW.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\keys.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\keys.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\options.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\options.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\results.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\results.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\selection\\allowClear.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\selection\\allowClear.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\selection\\base.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\selection\\base.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\selection\\clickMask.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\selection\\clickMask.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\selection\\eventRelay.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\selection\\eventRelay.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\selection\\multiple.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\selection\\multiple.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\selection\\placeholder.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\selection\\placeholder.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\selection\\search.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\selection\\search.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\selection\\single.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\selection\\single.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\selection\\stopPropagation.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\selection\\stopPropagation.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\translation.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\translation.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\select2\\utils.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\select2\\utils.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\wrapper.end.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\wrapper.end.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\js\\wrapper.start.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\js\\wrapper.start.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\_multiple.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\_multiple.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\_single.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\_single.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\core.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\theme\\classic\\_defaults.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\theme\\classic\\_defaults.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\theme\\classic\\_multiple.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\theme\\classic\\_multiple.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\theme\\classic\\_single.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\theme\\classic\\_single.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\theme\\classic\\layout.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\theme\\classic\\layout.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\theme\\default\\_multiple.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\theme\\default\\_multiple.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\theme\\default\\_single.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\theme\\default\\_single.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\src\\scss\\theme\\default\\layout.scss",
+      "PackagePath": "staticwebassets\\assets\\select2\\src\\scss\\theme\\default\\layout.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\a11y\\search-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\a11y\\search-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\a11y\\selection-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\a11y\\selection-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\data\\array-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\data\\array-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\data\\base-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\data\\base-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\data\\inputData-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\data\\inputData-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\data\\maximumInputLength-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\data\\maximumInputLength-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\data\\maximumSelectionLength-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\data\\maximumSelectionLength-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\data\\minimumInputLength-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\data\\minimumInputLength-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\data\\select-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\data\\select-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\data\\tags-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\data\\tags-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\data\\tokenizer-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\data\\tokenizer-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\dropdown\\dropdownCss-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\dropdown\\dropdownCss-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\dropdown\\positioning-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\dropdown\\positioning-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\dropdown\\selectOnClose-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\dropdown\\selectOnClose-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\dropdown\\stopPropagation-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\dropdown\\stopPropagation-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\helpers.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\helpers.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\integration-jq1.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\integration-jq1.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\integration-jq2.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\integration-jq2.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\integration\\dom-changes.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\integration\\dom-changes.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\integration\\jquery-calls.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\integration\\jquery-calls.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\integration\\select2-methods.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\integration\\select2-methods.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\options\\ajax-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\options\\ajax-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\options\\data-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\options\\data-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\options\\deprecated-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\options\\deprecated-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\options\\translation-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\options\\translation-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\options\\width-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\options\\width-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\results\\focusing-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\results\\focusing-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\selection\\allowClear-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\selection\\allowClear-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\selection\\containerCss-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\selection\\containerCss-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\selection\\multiple-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\selection\\multiple-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\selection\\placeholder-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\selection\\placeholder-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\selection\\search-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\selection\\search-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\selection\\single-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\selection\\single-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\selection\\stopPropagation-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\selection\\stopPropagation-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\unit-jq1.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\unit-jq1.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\unit-jq2.html",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\unit-jq2.html"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\utils\\decorator-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\utils\\decorator-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\utils\\escapeMarkup-tests.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\utils\\escapeMarkup-tests.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\vendor\\jquery-1.7.2.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\vendor\\jquery-1.7.2.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\vendor\\jquery-2.2.4.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\vendor\\jquery-2.2.4.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\vendor\\qunit-1.23.1.css",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\vendor\\qunit-1.23.1.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\tests\\vendor\\qunit-1.23.1.js",
+      "PackagePath": "staticwebassets\\assets\\select2\\tests\\vendor\\qunit-1.23.1.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\README.md",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\README.md"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\dist\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\dist\\sweetalert2.all.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\dist\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\dist\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\dist\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\dist\\sweetalert2.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\dist\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\dist\\sweetalert2.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\dist\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\dist\\sweetalert2.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\package.json",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\package.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\SweetAlert.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\SweetAlert.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\constants.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\constants.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\globalState.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\globalState.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\_destroy.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\_destroy.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\_main.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\_main.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\buttons-handlers.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\buttons-handlers.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\close.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\close.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\enable-disable-elements.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\enable-disable-elements.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\getInput.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\getInput.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\hideLoading.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\hideLoading.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\keydown-handler.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\keydown-handler.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\popup-click-handler.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\popup-click-handler.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\progress-steps.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\progress-steps.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\show-reset-validation-error.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\show-reset-validation-error.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\instanceMethods\\update.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\instanceMethods\\update.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\privateMethods.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\privateMethods.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\privateProps.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\privateProps.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\scss\\_animations.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\scss\\_animations.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\scss\\_body.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\scss\\_body.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\scss\\_polyfills.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\scss\\_polyfills.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\scss\\_theming.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\scss\\_theming.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\scss\\_toasts-animations.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\scss\\_toasts-animations.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\scss\\_toasts-body.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\scss\\_toasts-body.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\staticMethods.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\staticMethods.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\staticMethods\\argsToParams.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\staticMethods\\argsToParams.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\staticMethods\\dom.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\staticMethods\\dom.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\staticMethods\\fire.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\staticMethods\\fire.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\staticMethods\\mixin.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\staticMethods\\mixin.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\staticMethods\\queue.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\staticMethods\\queue.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\staticMethods\\showLoading.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\staticMethods\\showLoading.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\staticMethods\\timer.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\staticMethods\\timer.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\sweetalert2.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\sweetalert2.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\sweetalert2.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\DismissReason.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\DismissReason.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\Timer.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\Timer.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\aria.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\aria.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\classes.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\classes.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\defaultInputValidators.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\defaultInputValidators.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\animationEndEvent.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\animationEndEvent.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\domUtils.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\domUtils.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\getters.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\getters.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\index.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\index.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\init.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\init.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\inputUtils.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\inputUtils.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\measureScrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\measureScrollbar.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\parseHtmlToContainer.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\parseHtmlToContainer.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\render.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\render.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderActions.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderActions.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderCloseButton.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderCloseButton.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderContainer.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderContainer.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderContent.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderContent.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderFooter.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderFooter.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderHeader.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderHeader.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderIcon.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderIcon.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderImage.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderImage.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderInput.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderInput.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderPopup.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderPopup.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderProgressSteps.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderProgressSteps.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderTitle.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\dom\\renderers\\renderTitle.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\ieFix.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\ieFix.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\iosFix.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\iosFix.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\isNodeEnv.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\isNodeEnv.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\openPopup.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\openPopup.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\params.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\params.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\scrollbarFix.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\scrollbarFix.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\setParameters.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\setParameters.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\utils\\utils.js",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\utils\\utils.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\src\\variables.scss",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\src\\variables.scss"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\sweetalert2.d.ts",
+      "PackagePath": "staticwebassets\\assets\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\vendor\\css\\core.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\css\\core.css"
     },

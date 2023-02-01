@@ -12,5 +12,7 @@ namespace TaxPaymet.Business.Setup.PremiumSetup
     {
         List<PremiumDetails> GetRequiredDetailList(object param);
         SystemResponse ManagePremiumSetupDetails(PremiumDetailsParam param);
+        PremiumViewModel GetRequiredDetails();
+        PremiumViewModel GetPremiumUpdateDetails(PremiumViewModel premiumParam);
     }
 }

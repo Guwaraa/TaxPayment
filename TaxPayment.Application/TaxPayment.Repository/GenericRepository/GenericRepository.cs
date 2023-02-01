@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Newtonsoft.Json;
 using Serilog;
 using System;
 using System.Collections.Generic;
@@ -65,6 +66,20 @@ namespace TaxPayment.Repository.GenericRepository
             var response = _dapperDao.ExecuteQuery<T0, T1, T2, T3, T4, T5, T6>(procedureName, obj);
             _log.Information("response returned as {0}", JsonConvert.SerializeObject(response));
             return response;
+        }
+        public List<List<SelectListItem>> ManageDataWithMultipleSelectListItem(string spName, string flagName)
+        {
+            var param = new
+            {
+                Flag = flagName
+            };
+            var multipleSelectList = new List<List<SelectListItem>>();
+            var response = _dapperDao.ExecuteQueryWithMultipleSelectValues<List<List<SelectListItem>>>(spName, param);
+            foreach (var eachResponse in response)
+            {
+                multipleSelectList.Add(eachResponse.Select(x => new SelectListItem { Value = x.Value, Text = x.Description }).ToList());
+            }
+            return multipleSelectList;
         }
     }
 }

@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TaxPayment.Common;
 
 namespace TaxPayment.Repository.DapperDao
 {
@@ -24,6 +25,8 @@ namespace TaxPayment.Repository.DapperDao
         List<object> ExecuteQuery<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(string sqlQuery, object sqlParam, CommandType queryType = CommandType.StoredProcedure);
         List<object> ExecuteQuery<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(string sqlQuery, object sqlParam, CommandType queryType = CommandType.StoredProcedure);
         List<object> ExecuteQuery<T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(string sqlQuery, object sqlParam, CommandType queryType = CommandType.StoredProcedure);
+        List<List<GenericStaticData>> ExecuteQueryWithMultipleSelectValues<T0>(string sqlQuery, object sqlParam, CommandType queryType = CommandType.StoredProcedure);
+
 
         #endregion
     }
