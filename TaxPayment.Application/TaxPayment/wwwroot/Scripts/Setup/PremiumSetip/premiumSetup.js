@@ -10,43 +10,7 @@
             }
         };
         var viewModel = {
-            loadJExcel: function (data) {
-                var spreadsheet = $('#spreadsheet').jexcel({
-                    data: data,
-                    colHeaders: ['CCFrom', 'CCTo', 'YaxRate'],
-                    colWidths: [400, 400, 400],
-                    columns: [
-                        {
-                            type: 'text',
-                            name: 'CCFrom'
-                        },
-                        {
-                            type: 'text',
-                            name: 'CCTo'
-                        },
-                        {
-                            type: 'text',
-                            name: 'TaxRate'
-                        }
-                    ],
-                    allowInsertColumn: false,
-                    allowInsertRow: false,
-                    allowDeleteRow: false,
-                    csvHeaders: true,
-                    tableOverflow: true,
-                    onchange: function (instance, cell, x, y, value) {
-                        $("#TaxSetupUploadJson").val(viewModel.jexcelToJSON($('#spreadsheet').jexcel('getData'), $('#spreadsheet').jexcel('getHeaders').split(',')));
-                    }
-                });
-                return spreadsheet;
-            },
-            jexcelToJSON: function (data, headers) {
-                var jsonData = JSON.stringify(data.map(x => x.reduce(function (obj, val, index) {
-                    obj[headers[index]] = val;
-                    return obj;
-                }, {})));
-                return jsonData;
-            }
+           
         };
         return ({
             renderIndex: function () {

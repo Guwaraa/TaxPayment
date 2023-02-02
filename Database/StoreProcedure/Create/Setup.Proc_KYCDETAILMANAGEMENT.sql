@@ -1,7 +1,7 @@
 -- =============================================
 -- Created By:	Sushant Manandhar
 -- =============================================
-  CREATE OR ALTER  PROCEDURE Setup.Proc_KYCDETAILMANAGEMENT
+  ALTER  PROCEDURE Setup.Proc_KYCDETAILMANAGEMENT
 	(
 		@Flag						NVARCHAR(100),
 		@RowId						VARCHAR(100)			= NULL,
@@ -41,7 +41,15 @@
 		@Gender 					VARCHAR(250)			= NULL,
 		@Email	 					VARCHAR(250)			= NULL,
 		@FrontImagePath 			VARCHAR(MAX)			= NULL,
-		@BackImagePath 				VARCHAR(MAX)			= NULL
+		@BackImagePath 				VARCHAR(MAX)			= NULL,
+		@Remarks	 				VARCHAR(MAX)			= NULL,
+		@FilterCount 				VARCHAR(MAX)			= NULL,
+		@ApprovedDate 				VARCHAR(MAX)			= NULL,
+		@ModifiedDate 				VARCHAR(MAX)			= NULL
+
+
+
+
 )
 AS 
 SET NOCOUNT ON
@@ -52,9 +60,12 @@ BEGIN TRY
 	IF @Flag='GetGridDetailList'
 	BEGIN
 	
-	WITH KYCDEtail AS
+	SET @FirstRec = @DisplayStart;
+	SET @LastRec  = @DisplayStart + @DisplayLength;
+	;WITH CTE_Report AS
 	(
-			SELECT kd.KYCCode,
+	Select ROW_NUMBER() over (ORDER BY kd.RowId DESC) AS RowNum,COUNT(*) OVER() AS FilterCount, 
+			kd.RowId,
                kd.FirstName+' '+kd.MiddleName+' '+ kd.LastName FullName,
                kd.DateOfBirth,
                kd.CurrentAddress,
@@ -65,10 +76,9 @@ BEGIN TRY
                kd.ApprovedBy,
                kd.RejectedBy
 			   FROM Setup.KYCDetails AS kd
-	)
-	SELECT *
-	FROM KYCDEtail
-	    return
+			   )
+			   SELECT * FROM CTE_Report WHERE RowNum > @FirstRec AND RowNum <= @LastRec;
+
 	END
 	ELSE IF @Flag='AddKYCDetails'
 	BEGIN
@@ -109,15 +119,40 @@ BEGIN TRY
 	   SELECT 101 Code, ERROR_MESSAGE() Message, '' Id
 	   END CATCH
 	END
+	ELSE IF @Flag='GetRequiredKycDetails'
+	BEGIN
+	SELECT RowId,
+          KYCCode,
+          FirstName,
+          MiddleName,
+          LastName,
+          DateOfBirth,
+          CurrentAddress,
+          ParmanentAddress,
+          ContactNumber,
+          Gender,
+          Email,
+          Status,
+          VerifiedBy,
+          VerifiedDate,
+          VerifiedRemarks,
+          ApprovedBy,
+          ApprovedDate,
+          ApprovedRemarks,
+          RejectedBy,
+          RejectedDate,
+          RejectedRemarks FROM Setup.KYCDetails WHERE RowId=@RowId
+	END
 	ELSE IF @Flag= 'VerifyKYCDetail'
 	BEGIN
 		BEGIN TRANSACTION 
 	     UPDATE Setup.KYCDetails
 		 SET 
-		 VerifiedBy = @VerifiedBy,
+		 Status='V',
+		 VerifiedBy = 'admin',
 		 VerifiedDate=GETDATE(),
 		 VerifiedRemarks=@VerifiedRemarks
-		 WHERE UserId=@UserId
+		 WHERE RowId=@RowId
 		 IF @@ERROR=0
 		 BEGIN
 		     COMMIT TRANSACTION 
@@ -130,10 +165,10 @@ BEGIN TRY
 			BEGIN TRANSACTION 
 		     UPDATE Setup.KYCDetails
 			 SET 
-			 ApprovedBy = @ApprovedBy,
+			 ApprovedBy = 'admin',
 			 ApprovedDate=GETDATE(),
 			 ApprovedRemarks=@ApprovedRemarks
-			 WHERE  UserId=@UserId
+			 WHERE  RowId=@RowId
 			 IF @@ERROR=0
 			 BEGIN
 			     COMMIT TRANSACTION 
@@ -149,10 +184,10 @@ BEGIN TRY
 		     UPDATE Setup.KYCDetails
 			 SET 
 			 Status				=		 'R',
-			 RejectedBy			=		 @RejectedBy,
+			 RejectedBy			=		 'admin',
 			 RejectedDate		=		 GETDATE(),
 			 RejectedRemarks	=		 CASE WHEN @RejectedMessageRemarks IS NULL THEN @RejectedRemarks ELSE @RejectedMessageRemarks+' , '+@RejectedRemarks END
-			 WHERE  UserId=@UserId
+			 WHERE  RowId=@RowId
 			 IF @@ERROR=0
 			 BEGIN
 			     COMMIT TRANSACTION 

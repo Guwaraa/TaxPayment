@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ISolutionVersionNext.Shared.GridHelpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,7 @@ namespace TaxPaymet.Business.KYCDetail
         SystemResponse ManageKYCDetail(KYCParam param);
         KYCViewModel GetKYCDetail(KYCParam param);
         List<KYCDetails> GetGridDetailList(KYCParam param);
+       Task<List<KYCDetails>> GetKycLists(GridParam gridParam);
+        KYCViewModel VerifyKycDetails(KYCParam doctorparam);
     }
 }

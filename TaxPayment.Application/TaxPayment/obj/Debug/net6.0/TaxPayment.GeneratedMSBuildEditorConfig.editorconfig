@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\college\KIST\TaxPayment\TaxPayment.Application\TaxPayment
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/Calulate/PremiumCalulator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsdWxhdGVcUHJlbWl1bUNhbHVsYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/Calulate/TaxCalulator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsdWxhdGVcVGF4Q2FsdWxhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,8 +36,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlUGF5bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/KYCDetail/ApproveKYCDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS1lDRGV0YWlsXEFwcHJvdmVLWUNEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/KYCDetail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS1lDRGV0YWlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/KYCDetail/ManageKycDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS1lDRGV0YWlsXE1hbmFnZUt5Y0RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/KYCDetail/VerifyKYCDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS1lDRGV0YWlsXFZlcmlmeUtZQ0RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/KYCDetail/ViewKYCDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS1lDRGV0YWlsXFZpZXdLWUNEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/PremiumSetup/Index.cshtml]
@@ -64,12 +96,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/Payemnt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxQYXllbW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxSetup/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4U2V0dXBcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxSetup/ManageTaxSetup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4U2V0dXBcTWFuYWdlVGF4U2V0dXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/VechicleRegistration/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVjaGljbGVSZWdpc3RyYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/VechicleRegistration/ManageVechicleRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVjaGljbGVSZWdpc3RyYXRpb25cTWFuYWdlVmVjaGljbGVSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/_ViewImports.cshtml]
