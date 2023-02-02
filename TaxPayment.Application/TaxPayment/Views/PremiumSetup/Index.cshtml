@@ -20,7 +20,27 @@
     </div>
 </div>
 <hr />
-<div class="card">
+<section class="section-listing">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="nowrap" id="agentType">
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>Vechicle Category</th>
+                            <th>Fiscal Year</th>
+                            <th>Insurance Company</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+@*<div class="card">
     <div class="table-responsive text-nowrap">
         <table class="table table-striped">
             <thead>
@@ -43,12 +63,14 @@
                             <td class="text-center">@item.VechicleCategory</td>
                             <td class="text-center">@item.FiscalYear</td>
                             <td class="text-center">@item.InsuranceCompany</td>
-                            <td class="text-center">@item.Status</td>
+                            <td class="text-center"> @item.Status = @item.Status == "A" ? "<i class=\"mdi mdi-check-circle mdi-18px text-success\" title='Active'></i>" : "<i class=\"mdi mdi-close-circle mdi-18px text-danger\" title='Inactive'></i>";</td>
                             <td>
-                                <a class="dropdown-item" href="/PremiumSetup/ManagePremiumSetup?id=@item.RowId"  title="Agent Trainee"><i class="bx bx-edit-alt"></i></a>
+                                <a class="dropdown-item" href="@Url.Action("ManagePremiumSetup","PremiumSetup",new { RowId = item.RowId })"><i class="bx bx-edit-alt"></i> </a>
+                                <a title='Change Status' class="btn btn-sm btn-success btn-round confirmation" href="@Url.Action("UpdatePremiumSetupStatus","PremiumSetup",new { RowId = item.RowId })"><i class='mdi mdi-lock-reset'></i> </a>
+                                @*<a class="dropdown-item" href="/PremiumSetup/ManagePremiumSetup?id=@item.RowId"  title="Agent Trainee"><i class="bx bx-edit-alt"></i></a>*@
                                 @*<a class="dropdown-item" href="@Url.Action("UpdatePremiumSetup","PremiumSetup",new { TaxCode = item.TaxCode })"><i class="bx bx-edit-alt"></i> </a>*@
                                 @*<a href='" + _configuration["ApplicationData:RootUrl"] + "/PremiumSetup/UpdatePremiumSetup/" + item.RowId + "' class='btn btn-sm btn-info btn-round' title='View Doctor Details'><i class='mdi mdi-eye'></i></a>*@
-                            </td>
+ @*                           </td>
                         </tr>
 
                     }
@@ -61,14 +83,14 @@
             </tbody>
         </table>
     </div>
-</div>
+</div>*@
 @section scripts{
-    <script src="~/Scripts/Setup/PremiumSetup/premiumSetup.js" type="text/javascript"></script>
+    <script src="~/Scripts/Setup/PremiumSetip/premiumSetup.js" type="text/javascript"></script>
     <partial name="_AlertPartial" />
     <script type="text/javascript">
         $(function () {
-            var premiumSetup = PremiumSetupManagement.premiumSetup();
-            premiumSetup.renderIndex();
+            var premiumSetupMgmt = PremiumSetupManagement.premiumSetup();
+            premiumSetupMgmt.renderIndex();
         });
     </script>
 }

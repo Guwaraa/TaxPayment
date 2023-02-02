@@ -1,4 +1,5 @@
-﻿using ISolutionVersionNext.UtilityHelpers.Alert;
+﻿using ISolutionVersionNext.Shared.GridHelpers;
+using ISolutionVersionNext.UtilityHelpers.Alert;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Serilog;
@@ -18,12 +19,32 @@ namespace TaxPayment.Controllers.Setup.Premium
         }
         public IActionResult Index()
         {
-            var param = new
+            return View();
+        }
+        [HttpPost]
+        public async Task<string> GetGridDetails(GridDetails param)
+        {
+            var agentTypeDetails = new GridParam
             {
+                DisplayLength = param.length,
+                DisplayStart = param.start,
+                SortDir = param.order[0].dir,
+                SortCol = param.order[0].column,
                 Flag = "GetRequiredDetailList",
+                Search = param.search.value,
+                UserName = User.Identity.Name,
             };
-            var response = _premiumBusiness.GetRequiredDetailList(param);
-            return View(response);
+            var agentType = await _premiumBusiness.GetPremiumSetupLists(agentTypeDetails);
+            var agentTypeLists = new HtmlGrid<PremiumDetails>();
+            agentTypeLists.aaData = agentType;
+            var firstDefault = agentType.FirstOrDefault();
+            if (firstDefault != null)
+            {
+                agentTypeLists.iTotalDisplayRecords = Convert.ToInt32(firstDefault.FilterCount);
+                agentTypeLists.iTotalRecords = Convert.ToInt32(firstDefault.FilterCount);
+            }
+            var result = JsonConvert.SerializeObject(agentTypeLists);
+            return result;
         }
         public IActionResult ManagePremiumSetup(string id)
         {
@@ -34,6 +55,7 @@ namespace TaxPayment.Controllers.Setup.Premium
             }
             var premiumDetailsParam = new PremiumViewModel
             {
+                RowId= id,
                 Flag = "GetRequiredPremiumDetails"
             };
             var response = _premiumBusiness.GetPremiumUpdateDetails(premiumDetailsParam);
@@ -58,7 +80,18 @@ namespace TaxPayment.Controllers.Setup.Premium
             premiumSetupParam.Flag = "UpdatePremiumSetupDetails";
             premiumSetupParam.ModifiedBy = User.Identity.Name;
             var response = _premiumBusiness.ManagePremiumSetupDetails(premiumSetupParam);
-            return RedirectToAction("Index").WithAlertMessage(response.Code, response.Message); ;
+            return RedirectToAction("Index").WithAlertMessage(response.Code, response.Message); 
+        }
+        public IActionResult UpdatePremiumSetupStatus(string RowId)
+        {
+            var premiumSetupParam = new PremiumDetailsParam
+            {
+                Flag = "UpdatePremiumSetupStatus",
+                RowId =RowId,
+            };
+            var response = _premiumBusiness.ManagePremiumSetupDetails(premiumSetupParam);
+            return RedirectToAction("Index").WithAlertMessage(response.Code, response.Message);
+
         }
     }
 }
