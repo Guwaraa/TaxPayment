@@ -1,4 +1,5 @@
 ﻿
+@model TaxPayment.Common.VechicleRegistration.RegistrationViewModel
 @{
     ViewData["Title"] = "ManageVechicleRegistration";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -20,18 +21,17 @@
                         <div class="col-md-4">
                             <fieldset>
                                 <fieldset>
-                                    <select class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
+                                    <select class="form-control dropdown" asp-for="VechicleType" style="background-color: #414B5C; color: #fff;" id="sel1">
                                         <option>Vechile Type</option>
-                                        <option>A</option>
-                                        <option>B</option>
-                                        <option>C</option>
+                                        <option value="Car">Car</option>
+                                        <option value="Bike">Bike</option>
                                     </select>
                                 </fieldset>
                             </fieldset>
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="vNumber"
+                                <input asp-for="VechicleNumber"
                                        type="text"
                                        class="form-control"
                                        id="vhumber"
@@ -41,7 +41,7 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="resDate"
+                                <input asp-for="RegisteredDate"
                                        type="text"
                                        class="form-control"
                                        id="resDate"
@@ -51,7 +51,7 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="comName"
+                                <input asp-for="CompanyName"
                                        type="text"
                                        class="form-control"
                                        id="comName"
@@ -61,7 +61,7 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="vModel"
+                                <input asp-for="VechicleModel"
                                        type="text"
                                        class="form-control"
                                        id="vModel"
@@ -71,8 +71,8 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="modificationDate"
-                                       type="text"
+                                <input asp-for="DateOfModification"
+                                       type="date"
                                        class="form-control"
                                        id="modificationDate"
                                        placeholder="Date of Modification"
@@ -81,7 +81,7 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="ownerName"
+                                <input asp-for="Ownername"
                                        type="text"
                                        class="form-control"
                                        id="ownerName"
@@ -91,13 +91,15 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="file"
+                                <input asp-for="FrontPageImage"
                                        type="file"
                                        class="form-control"
                                        id="image"
                                        
                                        style="display:none;" />
                                 <label for="image" class="file-selector">Upload your photo</label>
+                                <a href="https://www.youtube.com/" target="_blank">View</a>
+                               
                             </fieldset>
                         </div>
                     </div>
@@ -106,8 +108,8 @@
                     <div class="row">
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="LastpaidDatefrom"
-                                       type="text"
+                                <input asp-for="LastTaxPaidDateFrom"
+                                       type="date"
                                        class="form-control"
                                        id="LastpaidDatefrom"
                                        placeholder="Last Paid Date From"
@@ -116,8 +118,8 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="LastpaidDateTo"
-                                       type="text"
+                                <input asp-for="LastTaxPaidDateTo"
+                                       type="date"
                                        class="form-control"
                                        id="LastpaidDateTo"
                                        placeholder="Last Paid Date To"
@@ -126,7 +128,7 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="taximage"
+                                <input asp-for="TaxPaidImage"
                                        type="file"
                                        class="form-control"
                                        id="taximage"
@@ -140,7 +142,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="color"
+                                <input asp-for="VechiclePower"
                                        type="text"
                                        class="form-control"
                                        id="Vechile-power"
@@ -150,7 +152,7 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="color"
+                                <input asp-for="Color"
                                        type="text"
                                        class="form-control"
                                        id="color"
@@ -160,7 +162,7 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="Engine Number"
+                                <input asp-for="EngineNumber"
                                        type="text"
                                        class="form-control"
                                        id="Engine Number"
@@ -170,7 +172,7 @@
                         </div>
                         <div class="col-md-4">
                             <fieldset>
-                                <input name="Vechile-image"
+                                <input asp-for="VechicleInfoImage"
                                        type="file"
                                        class="form-control"
                                        id="Vechile-image"

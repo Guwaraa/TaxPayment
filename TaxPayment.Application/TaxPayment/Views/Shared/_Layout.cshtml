@@ -10,13 +10,13 @@
           rel="stylesheet" />
     <title>Tax Pay</title>
     <!-- Bootstrap core CSS -->
-    <link href="~/frontjs/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/newjs/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="~/frontjs/assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="~/frontjs/assets/css/templatemo-grad-school.css" />
-    <link rel="stylesheet" href="~/frontjs/assets/css/owl.css" />
-    <link rel="stylesheet" href="~/frontjs/assets/css/lightbox.css" />
-    <link rel="stylesheet" href="~/frontjs/assets/css/style.css" />
+    <link rel="stylesheet" href="~/newjs/assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="~/newjs/assets/css/templatemo-grad-school.css" />
+    <link rel="stylesheet" href="~/newjs/assets/css/owl.css" />
+    <link rel="stylesheet" href="~/newjs/assets/css/lightbox.css" />
+    <link rel="stylesheet" href="~/newjs/assets/css/style.css" />
 </head>
 
 <body>
@@ -32,20 +32,39 @@
                 <li class="has-submenu">
                     <a href="#">Calculate</a>
                     <ul class="sub-menu">
-                        <li><a class="stretched-link" asp-controller="Calulate" asp-action="TaxCalulator">Tax</a></li>
-                        <li><a asp-controller="Calulate" asp-action="PremiumCalulator">Insurance</a></li>
+                        <li><a href="/pages/Calculator.html">Tax</a></li>
+                        <li><a href="#">Insurance</a></li>
                     </ul>
                 </li>
-                 <li class="has-submenu">
+                  <li class="has-submenu">
                     <a href="#">Payment</a>
                     <ul class="sub-menu">
-                        <li><a asp-controller="Calulate" asp-action="PremiumCalulator">Insurance</a></li>
-                        <li><a asp-controller="Calulate" asp-action="TaxCalulator">Tax Payment</a></li>
+                        <li><a href="/pages/Calculator.html">Tax</a></li>
+                        <li><a href="#">Insurance</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <div class="btn-holder">
+            <ul class="main-menu">
+                <li class="has-submenu">
+                    <a href="#">
+                        <img class="rounded-circle"
+                             style="width: 35px; margin-right: 10px"
+                             alt="avatar1"
+                             src="https://mdbcdn.b-cdn.net/img/new/avatars/9.webp" />
+                        Naina
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a asp-controller="User" asp-action="Profile">Profile</a></li>
+                        <li><a asp-controller="KYCDetail" asp-action="ManageKycDetail">KYC Form</a></li>
+                        <li><a asp-controller="VechicleRegistration" asp-action="Index">Registration</a></li>
+                        <li><a asp-controller="User" asp-action="Logout">LogOut</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </header>
 
 
@@ -63,70 +82,17 @@
     </footer>
 
     <!-- Scripts -->
-    @*  <!-- Bootstrap core JavaScript -->
-    <script src="~/frontjs/vendor/jquery/jquery.min.js"></script>
-    <script src="~/frontjs/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+     <!-- Bootstrap core JavaScript -->
+    <script src="~/newjs/vendor/jquery/jquery.min.js"></script>
+    <script src="~/newjs/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="~/frontjs/assets/js/isotope.min.js"></script>
-    <script src="~/frontjs/assets/js/owl-carousel.js"></script>
-    <script src="~/frontjs/assets/js/lightbox.js"></script>
-    <script src="~/frontjs/assets/js/tabs.js"></script>
-    <script src="~/frontjs/assets/js/video.js"></script>
-    <script src="~/frontjs/assets/js/slick-slider.js"></script>
-    <script src="~/frontjs/assets/js/custom.js"></script>
-    <script>
-    //according to loftblog tut
-    $(".nav li:first").addClass("active");
-
-    var showSection = function showSection(section, isAnimate) {
-    var direction = section.replace(/#/, ""),
-    reqSection = $(".section").filter(
-    '[data-section="' + direction + '"]'
-    ),
-    reqSectionPos = reqSection.offset().top - 0;
-
-    if (isAnimate) {
-    $("body, html").animate(
-    {
-    scrollTop: reqSectionPos,
-    },
-    800
-    );
-    } else {
-    $("body, html").scrollTop(reqSectionPos);
-    }
-    };
-
-    var checkSection = function checkSection() {
-    $(".section").each(function () {
-    var $this = $(this),
-    topEdge = $this.offset().top - 80,
-    bottomEdge = topEdge + $this.height(),
-    wScroll = $(window).scrollTop();
-    if (topEdge < wScroll && bottomEdge > wScroll) {
-    var currentId = $this.data("section"),
-    reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-    reqLink
-    .closest("li")
-    .addClass("active")
-    .siblings()
-    .removeClass("active");
-    }
-    });
-    };
-
-    $(".main-menu, .scroll-to-section").on("click", "a", function (e) {
-    if ($(e.target).hasClass("external")) {
-    return;
-    }
-    e.preventDefault();
-    $("#menu").removeClass("active");
-    showSection($(this).attr("href"), true);
-    });
-
-    $(window).scroll(function () {
-    checkSection();
-    });
-    </script>*@
+    <script src="~/newjs/assets/js/isotope.min.js"></script>
+    <script src="~/newjs/assets/js/owl-carousel.js"></script>
+    <script src="~/newjs/assets/js/lightbox.js"></script>
+    <script src="~/newjs/assets/js/tabs.js"></script>
+    <script src="~/newjs/assets/js/video.js"></script>
+    <script src="~/newjs/assets/js/slick-slider.js"></script>
+    <script src="~/newjs/assets/js/custom.js"></script>
+   
 </body>
 </html>
