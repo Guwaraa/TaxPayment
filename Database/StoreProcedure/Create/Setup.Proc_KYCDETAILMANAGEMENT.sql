@@ -27,8 +27,21 @@
 		@RejectedRemarks			VARCHAR(250)			= NULL,
 		@ModifiedRemarks			VARCHAR(250)			= NULL,
 		@RejectedMessageRemarks		VARCHAR(MAX)			= NULL,
-		@RejectedDate				VARCHAR(250)			= NULL
-		
+		@RejectedDate				VARCHAR(250)			= NULL,
+		@UserId						VARCHAR(250)			= NULL,
+		@KYCCode 					VARCHAR(250)			= NULL,
+		@FirstName 					VARCHAR(250)			= NULL,
+		@MiddleName 				VARCHAR(250)			= NULL,
+		@LastName 					VARCHAR(250)			= NULL,
+		@DateOfBirth 				DATETIME				= NULL,
+		@CurrentAddress 			VARCHAR(250)			= NULL,
+		@ParmanentAddress 			VARCHAR(250)			= NULL,
+		@ContactNumber 				VARCHAR(250)			= NULL,
+		@CitizenshipNumber 			VARCHAR(250)			= NULL,
+		@Gender 					VARCHAR(250)			= NULL,
+		@Email	 					VARCHAR(250)			= NULL,
+		@FrontImagePath 			VARCHAR(MAX)			= NULL,
+		@BackImagePath 				VARCHAR(MAX)			= NULL
 )
 AS 
 SET NOCOUNT ON
@@ -55,12 +68,98 @@ BEGIN TRY
 	)
 	SELECT *
 	FROM KYCDEtail
-		
-			   
 	    return
 	END
+	ELSE IF @Flag='AddKYCDetails'
+	BEGIN
+	    BEGIN TRY
+	    	 BEGIN TRANSACTION KYCDetails
+				INSERT INTO Setup.KYCDetails
+				(
+				    KYCCode,
+				    FirstName,
+				    MiddleName,
+				    LastName,
+				    DateOfBirth,
+				    CurrentAddress,
+				    ParmanentAddress,
+				    ContactNumber,
+				    Gender,
+				    Email,
+				    Status
+				)
+				VALUES
+				(   NULL,
+				    @FirstName,
+				    @MiddleName,
+				    @LastName,
+				    @DateOfBirth,
+				    @CurrentAddress,
+				    @ParmanentAddress,
+				    @ContactNumber,
+				    @Gender,
+				    @Email,
+					'A'
+				  )
+				  SELECT '000' Code,'KYC Detail Added Sucessfully' Message
+	    	 COMMIT TRANSACTION KYCDetails
+	   END TRY
+	   BEGIN CATCH
+	   ROLLBACK TRANSACTION KYCDetails
+	   SELECT 101 Code, ERROR_MESSAGE() Message, '' Id
+	   END CATCH
+	END
+	ELSE IF @Flag= 'VerifyKYCDetail'
+	BEGIN
+		BEGIN TRANSACTION 
+	     UPDATE Setup.KYCDetails
+		 SET 
+		 VerifiedBy = @VerifiedBy,
+		 VerifiedDate=GETDATE(),
+		 VerifiedRemarks=@VerifiedRemarks
+		 WHERE UserId=@UserId
+		 IF @@ERROR=0
+		 BEGIN
+		     COMMIT TRANSACTION 
+			 SELECT '000' Code, ' Verifed Successfully' Message
+			 RETURN
+		 END
+	END
+		ELSE IF @Flag= 'ApproveKYCDetail'
+		BEGIN
+			BEGIN TRANSACTION 
+		     UPDATE Setup.KYCDetails
+			 SET 
+			 ApprovedBy = @ApprovedBy,
+			 ApprovedDate=GETDATE(),
+			 ApprovedRemarks=@ApprovedRemarks
+			 WHERE  UserId=@UserId
+			 IF @@ERROR=0
+			 BEGIN
+			     COMMIT TRANSACTION 
+				 SELECT '000' Code, ' Approved Successfully' Message
+				 RETURN
+			 END
+		END
+		ELSE IF @Flag= 'RejectKYCDetail'
+		BEGIN
+			BEGIN TRANSACTION 
+			SELECT @RejectedMessageRemarks=t.RejectedRemarks FROM Setup.KYCDetails AS t  WHERE  UserId=@UserId
 	
-	
+		     UPDATE Setup.KYCDetails
+			 SET 
+			 Status				=		 'R',
+			 RejectedBy			=		 @RejectedBy,
+			 RejectedDate		=		 GETDATE(),
+			 RejectedRemarks	=		 CASE WHEN @RejectedMessageRemarks IS NULL THEN @RejectedRemarks ELSE @RejectedMessageRemarks+' , '+@RejectedRemarks END
+			 WHERE  UserId=@UserId
+			 IF @@ERROR=0
+			 BEGIN
+			     COMMIT TRANSACTION 
+				 SELECT '000' Code, ' Rejected Successfully' Message
+				 RETURN
+			 END
+		END
 END TRY
 BEGIN CATCH
 IF @@TRANCOUNT>0

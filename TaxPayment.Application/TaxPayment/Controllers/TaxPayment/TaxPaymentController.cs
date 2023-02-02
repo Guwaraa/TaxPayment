@@ -20,6 +20,10 @@ namespace TaxPayment.Controllers.TaxPayment
             var response = _taxPayementBusiness.GetGridDetailList(param);
             return View(response);
         }
+        public IActionResult Payemnt()
+        {
+            return View();
+        }
         public IActionResult VerifyTaxPayementDetail(TaxPayementParam param)
         {
             param.Flag = "VerifyTaxPayementDetail";

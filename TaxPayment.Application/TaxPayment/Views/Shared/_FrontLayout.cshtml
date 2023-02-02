@@ -10,13 +10,13 @@
           rel="stylesheet" />
     <title>Tax Pay</title>
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/frontjs/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="~/front/assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="~/front/assets/css/templatemo-grad-school.css" />
-    <link rel="stylesheet" href="~/front/assets/css/owl.css" />
-    <link rel="stylesheet" href="~/front/assets/css/lightbox.css" />
-    <link rel="stylesheet" href="~/front/assets/css/style.css" />
+    <link rel="stylesheet" href="~/frontjs/assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="~/frontjs/assets/css/templatemo-grad-school.css" />
+    <link rel="stylesheet" href="~/frontjs/assets/css/owl.css" />
+    <link rel="stylesheet" href="~/frontjs/assets/css/lightbox.css" />
+    <link rel="stylesheet" href="~/frontjs/assets/css/style.css" />
 </head>
 
 <body>
@@ -32,8 +32,8 @@
                 <li class="has-submenu">
                     <a href="#">Calculate</a>
                     <ul class="sub-menu">
-                        <li><a href="/pages/Calculator.html">Tax</a></li>
-                        <li><a href="#">Insurance</a></li>
+                        <li><a class="stretched-link" asp-controller="Calulate" asp-action="TaxCalulator">Tax</a></li>
+                        <li><a asp-controller="Calulate" asp-action="PremiumCalulator">Insurance</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Contact</a></li>
@@ -41,247 +41,16 @@
         </nav>
         <div class="btn-holder">
             <div class="main-button">
-                <div class="scroll-to-section"><a href="#">Login</a></div>
+                <div class="scroll-to-section"><a asp-area="" asp-controller="Login" asp-action="Login">Login</a></div>
             </div>
             <div class="main-button">
-                <div class="scroll-to-section"><a href="#">Sign In</a></div>
+                <div class="scroll-to-section"><a asp-area="" asp-controller="Login" asp-action="Register">Sign In</a></div>
             </div>
         </div>
     </header>
 
-    <!-- ***** Main Banner Area Start ***** -->
-    <section class="section main-banner" id="top" data-section="section1">
-        <video autoplay muted loop id="bg-video">
-            <source src="assets/images/course-video.mp4" type="video/mp4" />
-        </video>
 
-        <div class="video-overlay header-text">
-            <div class="caption">
-                <h6>Pay Taxes More Easily</h6>
-                <h2><em>Payment</em> GetWay</h2>
-                <div class="main-button">
-                    <div class="scroll-to-section"><a href="#">Pay Now</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Main Banner Area End ***** -->
     @RenderBody()
-
-    <section class="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-12">
-                    <div class="features-post">
-                        <div class="features-content">
-                            <div class="content-show">
-                                <h4><i class="fa fa-pencil"></i>Calculate Insurance</h4>
-                            </div>
-                            <div class="content-hide">
-                                <p>
-                                    Curabitur id eros vehicula, tincidunt libero eu, lobortis
-                                    mi. In mollis eros a posuere imperdiet. Donec maximus
-                                    elementum ex. Cras convallis ex rhoncus, laoreet libero eu,
-                                    vehicula libero.
-                                </p>
-                                <p class="hidden-sm">
-                                    Curabitur id eros vehicula, tincidunt libero eu, lobortis
-                                    mi. In mollis eros a posuere imperdiet.
-                                </p>
-                                <div class="scroll-to-section">
-                                    <a href="#section2">More Info.</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12">
-                    <div class="features-post second-features">
-                        <div class="features-content">
-                            <div class="content-show">
-                                <h4><i class="fa fa-pencil"></i>Calculate Tax</h4>
-                            </div>
-                            <div class="content-hide">
-                                <p>
-                                    Curabitur id eros vehicula, tincidunt libero eu, lobortis
-                                    mi. In mollis eros a posuere imperdiet. Donec maximus
-                                    elementum ex. Cras convallis ex rhoncus, laoreet libero eu,
-                                    vehicula libero.
-                                </p>
-                                <p class="hidden-sm">
-                                    Curabitur id eros vehicula, tincidunt libero eu, lobortis
-                                    mi. In mollis eros a posuere imperdiet.
-                                </p>
-                                <div class="scroll-to-section"><a href="#">Details</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12">
-                    <div class="features-post third-features">
-                        <div class="features-content">
-                            <div class="content-show">
-                                <h4><i class="fa fa-book"></i>Payments</h4>
-                            </div>
-                            <div class="content-hide">
-                                <p>
-                                    Curabitur id eros vehicula, tincidunt libero eu, lobortis
-                                    mi. In mollis eros a posuere imperdiet. Donec maximus
-                                    elementum ex. Cras convallis ex rhoncus, laoreet libero eu,
-                                    vehicula libero.
-                                </p>
-                                <p class="hidden-sm">
-                                    Curabitur id eros vehicula, tincidunt libero eu, lobortis
-                                    mi. In mollis eros a posuere imperdiet.
-                                </p>
-                                <div class="scroll-to-section"><a href="#">Read More</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section why-us" data-section="section2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
-                        <h2>Why choose Tax Pay?</h2>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div id="tabs">
-                        <ul>
-                            <li><a href="#tabs-1">Easy Payment</a></li>
-                            <li><a href="#tabs-2">Secured</a></li>
-                            <li><a href="#tabs-3">Save Time</a></li>
-                        </ul>
-                        <section class="tabs-content">
-                            <article id="tabs-1">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="assets/images/choose-us-image-01.png" alt="" />
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h4>Easy Payment</h4>
-                                        <p>
-                                            Curabitur id eros vehicula, tincidunt libero eu,
-                                            lobortis mi. In mollis eros a posuere imperdiet. Donec
-                                            maximus elementum ex. Cras convallis ex rhoncus, laoreet
-                                            libero eu, vehicula libero<a href="https://paypal.me/templatemo"
-                                                                         target="_parent"
-                                                                         rel="sponsored">a little donation</a>
-                                            to TemplateMo. Please tell your friends about us. Thank
-                                            you.
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
-                            <article id="tabs-2">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="assets/images/choose-us-image-02.png" alt="" />
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h4>Secured</h4>
-                                        <p>
-                                            Curabitur id eros vehicula, tincidunt libero eu,
-                                            lobortis mi. In mollis eros a posuere imperdiet. Donec
-                                            maximus elementum ex. Cras convallis ex rhoncus, laoreet
-                                            libero eu, vehicula libero
-                                        </p>
-                                        <p>
-                                            Suspendisse tincidunt, magna ut finibus rutrum, libero
-                                            dolor euismod odio, nec interdum quam felis non ante.
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
-                            <article id="tabs-3">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="assets/images/choose-us-image-03.png" alt="" />
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h4>Save Time</h4>
-                                        <p>
-                                            Curabitur id eros vehicula, tincidunt libero eu,
-                                            lobortis mi. In mollis eros a posuere imperdiet. Donec
-                                            maximus elementum ex. Cras convallis ex rhoncus, laoreet
-                                            libero eu, vehicula libero
-                                            <a rel="nofollow"
-                                               href="https://templatemo.com/contact"
-                                               target="_parent">contact TemplateMo</a>
-                                            now.
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="section contact" data-section="section6">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
-                        <h2>Let’s Keep In Touch</h2>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <form id="contact" action="" method="post">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <fieldset>
-                                    <input name="name"
-                                           type="text"
-                                           class="form-control"
-                                           id="name"
-                                           placeholder="Your Name"
-                                           required="" />
-                                </fieldset>
-                            </div>
-                            <div class="col-md-6">
-                                <fieldset>
-                                    <input name="email"
-                                           type="text"
-                                           class="form-control"
-                                           id="email"
-                                           placeholder="Your Email"
-                                           required="" />
-                                </fieldset>
-                            </div>
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <textarea name="message"
-                                              rows="6"
-                                              class="form-control"
-                                              id="message"
-                                              placeholder="Your message..."
-                                              required=""></textarea>
-                                </fieldset>
-                            </div>
-                            <div class="col-md-12">
-                                <fieldset>
-                                    <button type="submit" id="form-submit" class="button">
-                                        Send Message Now
-                                    </button>
-                                </fieldset>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </section>
 
 
     <footer>
@@ -295,17 +64,17 @@
     </footer>
 
     <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="~/front/vendor/jquery/jquery.min.js"></script>
-    <script src="~/front/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  @*  <!-- Bootstrap core JavaScript -->
+    <script src="~/frontjs/vendor/jquery/jquery.min.js"></script>
+    <script src="~/frontjs/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="~/front/assets/js/isotope.min.js"></script>
-    <script src="~/front/assets/js/owl-carousel.js"></script>
-    <script src="~/front/assets/js/lightbox.js"></script>
-    <script src="~/front/assets/js/tabs.js"></script>
-    <script src="~/front/assets/js/video.js"></script>
-    <script src="~/front/assets/js/slick-slider.js"></script>
-    <script src="~/front/assets/js/custom.js"></script>
+    <script src="~/frontjs/assets/js/isotope.min.js"></script>
+    <script src="~/frontjs/assets/js/owl-carousel.js"></script>
+    <script src="~/frontjs/assets/js/lightbox.js"></script>
+    <script src="~/frontjs/assets/js/tabs.js"></script>
+    <script src="~/frontjs/assets/js/video.js"></script>
+    <script src="~/frontjs/assets/js/slick-slider.js"></script>
+    <script src="~/frontjs/assets/js/custom.js"></script>
     <script>
         //according to loftblog tut
         $(".nav li:first").addClass("active");
@@ -359,6 +128,6 @@
         $(window).scroll(function () {
             checkSection();
         });
-    </script>
+    </script>*@
 </body>
 </html>
