@@ -5,6 +5,246 @@
       "PackagePath": "staticwebassets\\TaxPayment.bundle.scp.css"
     },
     {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\lightbox.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\css\\templatemo-grad-school.css",
+      "PackagePath": "staticwebassets\\Front\\assets\\css\\templatemo-grad-school.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\Front\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\choose-us-image-01.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\choose-us-image-01.png"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\choose-us-image-02.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\choose-us-image-02.png"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\choose-us-image-03.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\choose-us-image-03.png"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\choosing-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\choosing-bg.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\close.png"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\coming-soon-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\coming-soon-bg.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\course-video.mp4",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\course-video.mp4"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-01.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-01.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-02.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-02.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-03.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-03.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-04.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-04.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-05.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-05.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\courses-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\courses-bg.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\main-slider-01.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\main-slider-01.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\main-slider-02.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\main-slider-02.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\main-slider-03.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\main-slider-03.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\main-thumb.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\main-thumb.png"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\next.png"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\video-bg.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\video-bg.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\video-thumb-01.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\video-thumb-01.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\images\\video-thumb-02.jpg",
+      "PackagePath": "staticwebassets\\Front\\assets\\images\\video-thumb-02.jpg"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\lightbox.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\slick-slider.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\slick-slider.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\tabs.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\assets\\js\\video.js",
+      "PackagePath": "staticwebassets\\Front\\assets\\js\\video.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Front\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Front\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\Front\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Scripts\\Setup\\PremiumSetip\\premiumSetup.js",
       "PackagePath": "staticwebassets\\Scripts\\Setup\\PremiumSetip\\premiumSetup.js"
     },
@@ -15,6 +255,98 @@
     {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\demo.css",
       "PackagePath": "staticwebassets\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\portal.css",
+      "PackagePath": "staticwebassets\\assets\\css\\portal.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\portal.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\portal.css.map"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\portal.css.min.map",
+      "PackagePath": "staticwebassets\\assets\\css\\portal.css.min.map"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\portal.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\portal.min.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\site.min.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\.bower.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\.bower.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\.gitignore",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\.gitignore"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\README.md",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\README.md"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\bower.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\component.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\component.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\composer.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\composer.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars-source.gemspec",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars-source.gemspec"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.amd.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.amd.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.amd.min.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.amd.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.js.nuspec",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.js.nuspec"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.min.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.runtime.amd.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.runtime.amd.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.runtime.amd.min.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.runtime.amd.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.runtime.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.runtime.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.runtime.min.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.runtime.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\lib\\handlebars\\source.rb",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\lib\\handlebars\\source.rb"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\package.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\package.json"
     },
     {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\img\\avatars\\1.png",
@@ -193,8 +525,364 @@
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-navbar-light.png"
     },
     {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\.bower.json",
+      "PackagePath": "staticwebassets\\assets\\jquery\\.bower.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\MIT-LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\jquery\\MIT-LICENSE.txt"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\jquery\\bower.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\assets\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\jsonp.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\jsonp.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\load.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\load.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\parseJSON.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\parseJSON.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\parseXML.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\parseXML.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\script.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\script.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\var\\nonce.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\var\\nonce.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\var\\rquery.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\var\\rquery.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\xhr.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\xhr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\attr.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\attr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\classes.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\classes.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\prop.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\prop.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\support.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\val.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\val.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\callbacks.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\callbacks.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\access.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\access.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\init.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\init.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\parseHTML.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\parseHTML.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\ready.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\ready.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\var\\rsingleTag.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\var\\rsingleTag.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\addGetHookIf.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\addGetHookIf.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\curCSS.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\curCSS.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\defaultDisplay.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\defaultDisplay.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\hiddenVisibleSelectors.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\hiddenVisibleSelectors.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\support.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\swap.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\swap.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\var\\cssExpand.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\var\\cssExpand.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\var\\isHidden.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\var\\isHidden.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\var\\rmargin.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\var\\rmargin.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\var\\rnumnonpx.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\var\\rnumnonpx.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\data.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\data.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\data\\accepts.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\data\\accepts.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\data\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\data\\support.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\deferred.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\deferred.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\deprecated.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\deprecated.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\dimensions.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\dimensions.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\effects.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\effects.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\effects\\Tween.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\effects\\Tween.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\effects\\animatedSelector.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\effects\\animatedSelector.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\effects\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\effects\\support.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\event.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\event.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\event\\ajax.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\event\\ajax.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\event\\alias.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\event\\alias.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\event\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\event\\support.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\exports\\amd.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\exports\\amd.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\exports\\global.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\exports\\global.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\intro.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\intro.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\jquery.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\manipulation.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\manipulation.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\manipulation\\_evalUrl.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\manipulation\\_evalUrl.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\manipulation\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\manipulation\\support.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\manipulation\\var\\rcheckableType.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\manipulation\\var\\rcheckableType.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\offset.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\offset.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\outro.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\outro.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\queue.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\queue.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\queue\\delay.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\queue\\delay.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\selector-sizzle.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\selector-sizzle.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\selector.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\selector.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\serialize.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\serialize.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\sizzle\\dist\\sizzle.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\sizzle\\dist\\sizzle.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\sizzle\\dist\\sizzle.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\sizzle\\dist\\sizzle.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\sizzle\\dist\\sizzle.min.map",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\sizzle\\dist\\sizzle.min.map"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\support.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\traversing.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\traversing.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\traversing\\findFilter.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\traversing\\findFilter.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\traversing\\var\\rneedsContext.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\traversing\\var\\rneedsContext.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\class2type.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\class2type.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\concat.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\concat.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\deletedIds.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\deletedIds.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\hasOwn.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\hasOwn.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\indexOf.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\indexOf.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\pnum.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\pnum.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\push.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\push.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\rnotwhite.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\rnotwhite.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\slice.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\slice.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\strundefined.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\strundefined.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\support.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\toString.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\toString.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\wrap.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\wrap.js"
+    },
+    {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\config.js",
       "PackagePath": "staticwebassets\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\customFunction.js",
+      "PackagePath": "staticwebassets\\assets\\js\\customFunction.js"
     },
     {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\dashboards-analytics.js",
@@ -217,6 +905,14 @@
       "PackagePath": "staticwebassets\\assets\\js\\pages-account-settings-account.js"
     },
     {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\site.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\theme.js",
+      "PackagePath": "staticwebassets\\assets\\js\\theme.js"
+    },
+    {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\ui-modals.js",
       "PackagePath": "staticwebassets\\assets\\js\\ui-modals.js"
     },
@@ -235,6 +931,10 @@
     {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\nepali.datepicker.v2.2\\nepali.datepicker.v2.2.min.js",
       "PackagePath": "staticwebassets\\assets\\nepali.datepicker.v2.2\\nepali.datepicker.v2.2.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\nepali.unicode\\nepaliunicode.js",
+      "PackagePath": "staticwebassets\\assets\\nepali.unicode\\nepaliunicode.js"
     },
     {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\.bower.json",
@@ -1563,6 +2263,50 @@
     {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\sweetalert2.d.ts",
       "PackagePath": "staticwebassets\\assets\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\.bower.json",
+      "PackagePath": "staticwebassets\\assets\\toastr\\.bower.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\toastr"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\README.md",
+      "PackagePath": "staticwebassets\\assets\\toastr\\README.md"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\toastr\\bower.json"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.css",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.js",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.js.map",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.js.map"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.less",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.less"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.min.js"
+    },
+    {
+      "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.scss",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.scss"
     },
     {
       "Id": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\vendor\\css\\core.css",

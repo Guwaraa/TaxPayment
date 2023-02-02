@@ -50,7 +50,55 @@
         };
         return ({
             renderIndex: function () {
-
+                    $("#agentType").DataTable({
+                        "responsive": true,
+                        "processing": true,
+                        "serverSide": true,
+                        "ajax": {
+                            "type": 'POST',
+                            "url": "/PremiumSetup/GetGridDetails",
+                            "data": function (json) {
+                                return json;
+                            }
+                        },
+                        "lengthMenu": [
+                            [25, 50, 100],
+                            [25, 50, 100]
+                        ],
+                        "columns": [
+                            { 'data': 'RowNum', "orderable": false },
+                            { 'data': 'VechicleCategory', "orderable": false },
+                            { 'data': 'FiscalYear', "orderable": false },
+                            { 'data': 'InsuranceCompany', "orderable": false },
+                            { 'data': 'Status', "orderable": false },
+                            { 'data': 'Action', "orderable": false }
+                        ],
+                        "columnDefs":
+                            [
+                                { "className": "text-center", "targets": [0, 1, 2, 3] }
+                            ],
+                        "initComplete": function () {
+                            $("#agentType").on("click", ".confirmation",
+                                function (event) {
+                                    event.preventDefault();
+                                    Swal.fire({
+                                        title: "Confirmation",
+                                        text: "Are you sure to carry out the operation?",
+                                        type: 'info',
+                                        showCancelButton: true,
+                                        confirmButtonColor: '#2C94FB',
+                                        cancelButtonColor: '#ff2801',
+                                        confirmButtonText: 'Yes'
+                                    }).then((result) => {
+                                        if (!result.value) {
+                                            event.preventDefault();
+                                        } else {
+                                            $(location).prop("href", $(this).prop("href"));
+                                        }
+                                    });
+                                });
+                        }
+                    });
 
             },
             renderManage: function () {
