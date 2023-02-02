@@ -18,6 +18,7 @@ namespace TaxPayment.Common.Premium
         public string InsuranceCompany { get; set; }
         public string InsuranceRate { get; set; }
         public string Status { get; set; }
+        public string FilterCount { get; set; }
         public List<SelectListItem> VechicleCategoryList { get; set; }
         public List<SelectListItem> FiscalYearList { get; set; }
         public List<SelectListItem> ProvinceList { get; set; }

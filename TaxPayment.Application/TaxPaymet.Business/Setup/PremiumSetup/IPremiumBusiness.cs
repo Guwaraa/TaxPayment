@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ISolutionVersionNext.Shared.GridHelpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,6 @@ namespace TaxPaymet.Business.Setup.PremiumSetup
         SystemResponse ManagePremiumSetupDetails(PremiumDetailsParam param);
         PremiumViewModel GetRequiredDetails();
         PremiumViewModel GetPremiumUpdateDetails(PremiumViewModel premiumParam);
+        Task<List<PremiumDetails>> GetPremiumSetupLists(GridParam gridParam);
     }
 }

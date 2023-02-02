@@ -1,0 +1,117 @@
+﻿@model TaxPayment.Common.KYCDetail.KYCViewModel
+@{
+    ViewData["Title"] = "ApproveKYCDetail";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="col-md-3" style="margin-left:8%">
+        <button type="button" class="btn" style="background-color:gainsboro" onclick="javascript:history.go(-1);"><i class="mdi mdi-arrow-left"></i> Back</button>
+    </div>
+</div>
+<hr />
+<section class="section-forms">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <table class="table table-hover table-condensed">
+                        <thead>
+                            <tr>
+                                <th colspan=2><h3>KYC Details</h3></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Name</strong></td>
+                                <td>@Model.Name</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Date of Birth </strong></td>
+                                <td>@Model.DateOfBirth</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Contact Number </strong></td>
+                                <td>@Model.ContactNumber</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Gender</strong></td>
+                                <td>@Model.Gender</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Current Address </strong></td>
+                                <td>@Model.CurrentAddress</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Parmanent Address</strong></td>
+                                <td>@Model.ParmanentAddress</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Citizenship Number</strong></td>
+                                <td>@Model.CitizenshipNumber</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Parmanent Address</strong></td>
+                                <td>@Model.ParmanentAddress</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Parmanent Address</strong></td>
+                                <td>@Model.ParmanentAddress</td>
+                            <tr>
+                                <td><strong>Parmanent Address</strong></td>
+                                <td>@Model.ParmanentAddress</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <form asp-action="ApproveKYCDetail" asp-controller="KYCDetail" method="post" id="manage-KYCDetails-form" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <label asp-for="Remarks">Remarks<span class="text-danger">*</span></label>
+                            <textarea asp-for="Remarks" class="form-control"></textarea>
+                            <span id="Remarks_jserror"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <button type="submit" id="btnApproveDetail" class="btn btn-primary" onclick="Approve()">
+                                Approve  Details
+                            </button>
+                            <button type="submit" id="btnRejectDetail" class="btn btn-danger">
+                                Reject  Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" asp-for="RowId" id="hdnRowId" value="@Model.RowId" />
+                <input type="hidden" asp-for="ApproveVerify" id="hdnApprove" />
+            </form>
+        </div>
+    </div>
+
+</section>
+@section scripts{
+    <script src="~/Scripts/Setup/kycDetail.js" type="text/javascript"></script>
+    <partial name="_AlertPartial" />
+    <script type="text/javascript">
+        $(function () {
+            var kycDetailManagement = KycDetailManagement.kycDetail();
+            kycDetailManagement.renderManage();
+        });
+    </script>
+    }
+

@@ -1,5 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ISolutionVersionNext.Shared.GridHelpers;
+using ISolutionVersionNext.UtilityHelpers.Alert;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Serilog;
 using TaxPayment.Common.KYCDetail;
+using TaxPayment.Common.Premium;
 using TaxPaymet.Business.KYCDetail;
 
 namespace TaxPayment.Controllers.KYCDetail
@@ -13,12 +18,32 @@ namespace TaxPayment.Controllers.KYCDetail
         }
         public IActionResult Index()
         {
-            var param = new KYCParam
+            return View();
+        }
+        [HttpPost]
+        public async Task<string> GetGridDetails(GridDetails param)
+        {
+            var agentTypeDetails = new GridParam
             {
+                DisplayLength = param.length,
+                DisplayStart = param.start,
+                SortDir = param.order[0].dir,
+                SortCol = param.order[0].column,
                 Flag = "GetGridDetailList",
+                Search = param.search.value,
+                UserName = User.Identity.Name,
             };
-            var response = _kYCDetailBusiness.GetGridDetailList(param);
-            return View(response);
+            var agentType = await _kYCDetailBusiness.GetKycLists(agentTypeDetails);
+            var agentTypeLists = new HtmlGrid<KYCDetails>();
+            agentTypeLists.aaData = agentType;
+            var firstDefault = agentType.FirstOrDefault();
+            if (firstDefault != null)
+            {
+                agentTypeLists.iTotalDisplayRecords = Convert.ToInt32(firstDefault.FilterCount);
+                agentTypeLists.iTotalRecords = Convert.ToInt32(firstDefault.FilterCount);
+            }
+            var result = JsonConvert.SerializeObject(agentTypeLists);
+            return result;
         }
         public IActionResult ManageKycDetail()
         {
@@ -83,32 +108,89 @@ namespace TaxPayment.Controllers.KYCDetail
                 BackImagePath = param.BackImagePath
             };
             var response = _kYCDetailBusiness.ManageKYCDetail(parameter);
-            return RedirectToPage("Index","User");
-
+            return RedirectToPage("Index", "User");
         }
 
-        public IActionResult VerifyKYCDetail(KYCParam param)
+        public IActionResult VerifyKYCDetail(string id)
         {
-            param.Flag = "VerifyKYCDetail";
-            param.VerifiedBy = "admin";
-            var response = _kYCDetailBusiness.ManageKYCDetail(param);
-            return RedirectToAction("Index");
-        }
-        public IActionResult ApproveKYCDetail(KYCParam param)
-        {
-            param.Flag = "ApproveKYCDetail";
-            param.VerifiedBy = "admin";
-            var response = _kYCDetailBusiness.ManageKYCDetail(param);
-            return RedirectToAction("Index");
-        }
-        public IActionResult ViewKYCDetail(string Id)
-        {
-            var param = new KYCParam
+            if (id == null)
+                return RedirectToAction("Index").WithAlertMessage("111", "Could not perform Verify task.");
+            KYCParam doctorDetails = new KYCParam()
             {
-                Flag = "ViewKYCDetail",
+                RowId = id,
+                Flag = "GetRequiredKycDetails"
             };
-            var response = _kYCDetailBusiness.GetKYCDetail(param);
-            return RedirectToAction("Index");
+            var response = _kYCDetailBusiness.VerifyKycDetails(doctorDetails);
+            return View(response);
+        }
+        [HttpPost]
+        public IActionResult VerifyKYCDetail(KYCViewModel doctorViewModels)
+        {
+            var doctorParam = new KYCParam();
+            if (!string.IsNullOrEmpty(doctorViewModels.ApproveVerify))
+            {
+                doctorParam.Flag = "VerifyKYCDetail";
+                doctorParam.VerifiedBy = User.Identity.Name;
+                doctorParam.VerifiedRemarks = doctorViewModels.Remarks;
+                doctorParam.RowId = doctorViewModels.RowId;
+            }
+            else
+            {
+                doctorParam.Flag = "RejectKYCDetail";
+                doctorParam.RejectedBy = User.Identity.Name;
+                doctorParam.RejectedRemarks = doctorViewModels.Remarks;
+                doctorParam.RowId = doctorViewModels.RowId;
+
+            }
+            var response = _kYCDetailBusiness.ManageKYCDetail(doctorParam);
+            return RedirectToAction("Index").WithAlertMessage(response.Code, response.Message);
+        }
+        public IActionResult ApproveKYCDetail(string id)
+        {
+            if (id == null)
+                return RedirectToAction("Index").WithAlertMessage("111", "Could not perform Verify task.");
+            KYCParam doctorDetails = new KYCParam()
+            {
+                RowId = id,
+                Flag = "GetRequiredKycDetails"
+            };
+            var response = _kYCDetailBusiness.VerifyKycDetails(doctorDetails);
+            return View(response);
+        }
+        [HttpPost]
+        public IActionResult ApproveKYCDetail(KYCViewModel doctorViewModels)
+        {
+            var doctorParam = new KYCParam();
+            if (!string.IsNullOrEmpty(doctorViewModels.ApproveVerify))
+            {
+                doctorParam.Flag = "ApproveKYCDetail";
+                doctorParam.ApprovedBy = User.Identity.Name;
+                doctorParam.ApprovedRemarks = doctorViewModels.Remarks;
+                doctorParam.RowId = doctorViewModels.RowId;
+
+            }
+            else
+            {
+                doctorParam.Flag = "RejectKYCDetail";
+                doctorParam.RejectedBy = User.Identity.Name;
+                doctorParam.RejectedRemarks = doctorViewModels.Remarks;
+                doctorParam.RowId = doctorViewModels.RowId;
+
+            }
+            var response = _kYCDetailBusiness.ManageKYCDetail(doctorParam);
+            return RedirectToAction("Index").WithAlertMessage(response.Code, response.Message);
+        }
+        public IActionResult ViewKYCDetail(string id)
+        {
+            if (id == null)
+                return RedirectToAction("Index").WithAlertMessage("111", "Could not perform View KYC Details task.");
+            KYCParam doctorDetails = new KYCParam()
+            {
+                RowId = id,
+                Flag = "GetRequiredKycDetails"
+            };
+            var response = _kYCDetailBusiness.VerifyKycDetails(doctorDetails);
+            return View(response);
         }
     }
 }
