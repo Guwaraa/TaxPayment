@@ -7,6 +7,7 @@ using TaxPayment.Models;
 using TaxPayment.Repository.DapperDao;
 using TaxPayment.Repository.GenericRepository;
 using TaxPaymet.Business.KYCDetail;
+using TaxPaymet.Business.Login;
 using TaxPaymet.Business.Setup.PremiumSetup;
 using TaxPaymet.Business.Setup.TaxSetup;
 
@@ -17,11 +18,19 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddDbContext<TaxSystemContext>(options => options.UseSqlServer("DefaultConnection"));
 
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(10);
+});
+
 
 //Business
 builder.Services.AddScoped<ITaxSetupBusiness, TaxSetupBusiness>();
 builder.Services.AddScoped<IKYCDetailBusiness, KYCDetailBusiness>();
 builder.Services.AddScoped<IPremiumBusiness, PremiumBusiness>();
+builder.Services.AddScoped<ILoginBusiness, LoginBusiness>();
 
 
 //Repository
@@ -40,6 +49,8 @@ var config = new MapperConfiguration(cfg =>
 IMapper mapper = config.CreateMapper();
 
 var app = builder.Build();
+app.UseSession();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

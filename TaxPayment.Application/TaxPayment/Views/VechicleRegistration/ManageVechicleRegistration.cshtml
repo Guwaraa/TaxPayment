@@ -1,0 +1,190 @@
+﻿
+@{
+    ViewData["Title"] = "ManageVechicleRegistration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="section contact min-width" data-section="section6">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <h2>Register Here</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <form asp-controller="VechicleRegistration" asp-action="AddVechicleRegistration" method="post" enctype="multipart/form-data">
+                    <div class="title-kyc">Vechile Details</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <fieldset>
+                                <fieldset>
+                                    <select class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
+                                        <option>Vechile Type</option>
+                                        <option>A</option>
+                                        <option>B</option>
+                                        <option>C</option>
+                                    </select>
+                                </fieldset>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="vNumber"
+                                       type="text"
+                                       class="form-control"
+                                       id="vhumber"
+                                       placeholder="Vechile Number"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="resDate"
+                                       type="text"
+                                       class="form-control"
+                                       id="resDate"
+                                       placeholder="Registered Date"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="comName"
+                                       type="text"
+                                       class="form-control"
+                                       id="comName"
+                                       placeholder="Company Name"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="vModel"
+                                       type="text"
+                                       class="form-control"
+                                       id="vModel"
+                                       placeholder="Vechile Model"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="modificationDate"
+                                       type="text"
+                                       class="form-control"
+                                       id="modificationDate"
+                                       placeholder="Date of Modification"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="ownerName"
+                                       type="text"
+                                       class="form-control"
+                                       id="ownerName"
+                                       placeholder="Owner Name"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="file"
+                                       type="file"
+                                       class="form-control"
+                                       id="image"
+                                       
+                                       style="display:none;" />
+                                <label for="image" class="file-selector">Upload your photo</label>
+                            </fieldset>
+                        </div>
+                    </div>
+
+                    <div class="title-kyc">Tax Information</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="LastpaidDatefrom"
+                                       type="text"
+                                       class="form-control"
+                                       id="LastpaidDatefrom"
+                                       placeholder="Last Paid Date From"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="LastpaidDateTo"
+                                       type="text"
+                                       class="form-control"
+                                       id="LastpaidDateTo"
+                                       placeholder="Last Paid Date To"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="taximage"
+                                       type="file"
+                                       class="form-control"
+                                       id="taximage"
+                                       
+                                       style="display:none;" />
+                                <label for="taximage" class="file-selector">Upload Tax Slip</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="title-kyc">Other Information</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="color"
+                                       type="text"
+                                       class="form-control"
+                                       id="Vechile-power"
+                                       placeholder="Vechile Power"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="color"
+                                       type="text"
+                                       class="form-control"
+                                       id="color"
+                                       placeholder="Vechile Color"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="Engine Number"
+                                       type="text"
+                                       class="form-control"
+                                       id="Engine Number"
+                                       placeholder="Vechile Engine Number"
+                                        />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input name="Vechile-image"
+                                       type="file"
+                                       class="form-control"
+                                       id="Vechile-image"
+                                       
+                                       style="display:none;" />
+                                <label for="Vechile-image" class="file-selector Vechile">Uplode Vechile Image</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="pay-now-btn">
+                        <button>Register Details</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

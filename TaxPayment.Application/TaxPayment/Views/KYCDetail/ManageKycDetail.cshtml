@@ -1,0 +1,142 @@
+﻿@model TaxPayment.Common.KYCDetail.KYCViewModel
+@{
+    ViewData["Title"] = "ManageKycDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="section contact min-width" data-section="section6">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <h2>Kyc Form</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <form asp-controller="KYCDetail" asp-action="AddKycDetail" method="post" enctype="multipart/form-data">
+                    <div class="title-kyc">General Information</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input asp-for="FirstName"
+                                       type="text"
+                                       class="form-control"
+                                       id="name"
+                                       placeholder="First Name"
+                                      />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input asp-for="MiddleName"
+                                       type="text"
+                                       class="form-control"
+                                       id="middel"
+                                       placeholder="Middel Name"
+                                      />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input asp-for="LastName"
+                                       type="text"
+                                       class="form-control"
+                                       id="last"
+                                       placeholder="Last Name"
+                                      />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input asp-for="DateOfBirth"
+                                       type="text"
+                                       class="form-control"
+                                       id="dob"
+                                       placeholder="Date of Birth"
+                                      />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input asp-for="CurrentAddress"
+                                       type="text"
+                                       class="form-control"
+                                       id="contact"
+                                       placeholder="Contact Number"
+                                      />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <select class="form-control dropdown" asp-for="Gender" style="background-color: #414B5C; color: #fff;" id="sel1">
+                                    <option>Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-6">
+                            <fieldset>
+                                <input asp-for="CurrentAddress"
+                                       type="text"
+                                       class="form-control"
+                                       id="Current Address"
+                                       placeholder="Current Address"
+                                      />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-6">
+                            <fieldset>
+                                <input asp-for="ParmanentAddress"
+                                       type="text"
+                                       class="form-control"
+                                       id="Pernament Address"
+                                       placeholder="Pernament Address"
+                                      />
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="title-kyc">Citizenship Information</div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input asp-for="CitizenshipNumber"
+                                       type="text"
+                                       class="form-control"
+                                       id="CitizenshipNum"
+                                       placeholder="Citizenship Number"
+                                      />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input asp-for="FrontImage"
+                                       type="file"
+                                       class="form-control"
+                                       id="front"
+                                       required=""
+                                       style="display:none;" />
+                                <label for="front" class="file-selector">Upload Front side</label>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-4">
+                            <fieldset>
+                                <input asp-for="BackImage"
+                                       type="file"
+                                       class="form-control"
+                                       id="back"
+                                       required=""
+                                       style="display:none;" />
+                                <label for="back" class="file-selector">Upload back side</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="pay-now-btn">
+                        <button type="submit">Submit Kyc</button>
+                        <input type="hidden" asp-for="UserId"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
