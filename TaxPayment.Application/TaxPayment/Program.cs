@@ -1,11 +1,13 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using TaxPayment.Common.Premium;
 using TaxPayment.Common.TaxSetup;
 using TaxPayment.Models;
 using TaxPayment.Repository.DapperDao;
 using TaxPayment.Repository.GenericRepository;
 using TaxPaymet.Business.KYCDetail;
+using TaxPaymet.Business.Setup.PremiumSetup;
 using TaxPaymet.Business.Setup.TaxSetup;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +21,7 @@ builder.Services.AddDbContext<TaxSystemContext>(options => options.UseSqlServer(
 //Business
 builder.Services.AddScoped<ITaxSetupBusiness, TaxSetupBusiness>();
 builder.Services.AddScoped<IKYCDetailBusiness, KYCDetailBusiness>();
+builder.Services.AddScoped<IPremiumBusiness, PremiumBusiness>();
 
 
 //Repository
@@ -32,6 +35,7 @@ var config = new MapperConfiguration(cfg =>
          {
              //Create all maps here
              cfg.CreateMap<TaxSetupViewModel, TaxSetupParam>();
+             //cfg.CreateMap<PremiumViewModel, PremiumDetailsParam>();
          });
 IMapper mapper = config.CreateMapper();
 

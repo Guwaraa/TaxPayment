@@ -1,0 +1,98 @@
+﻿@model TaxPayment.Common.Premium.PremiumViewModel
+@{
+    ViewData["Title"] = "ManagePremiumSetup";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<div class="row">
+    <div class="col-md-8">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="col-md-3" style="margin-left:8%">
+        <button type="button" class="btn" style="background-color:gainsboro" onclick="javascript:history.go(-1);"><i class="mdi mdi-arrow-left"></i> Back</button>
+    </div>
+</div>
+<hr />
+<section class="section-forms">
+    <form method="post" asp-action="@(string.IsNullOrEmpty(Model.RowId) ? "AddPremiumSetup" : "UpdatePremiumSetup")" asp-controller="PremiumSetup" id="manage-PremiumSetup-form">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="VechicleCategory">Vechicle Category<span class="text-danger">*</span></label>
+                            <select asp-for="VechicleCategory" asp-items="@Model.VechicleCategoryList" class="form-control">
+                                <option value="">Select Vechicle Category </option>
+                            </select>
+                            <span id="VechicleCategory_jserror"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="FiscalYear">Fiscal Year<span class="text-danger">*</span></label>
+                            <select asp-for="FiscalYear" asp-items="@Model.FiscalYearList" class="form-control">
+                                <option value="">Select Fiscal Year </option>
+                            </select>
+                            <span id="FiscalYear_jserror"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Province">Province<span class="text-danger">*</span></label>
+                            <select asp-for="Province" asp-items="@Model.ProvinceList" class="form-control">
+                                <option value="">Select Province </option>
+                            </select>
+                            <span id="Province_jserror"></span>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="InsuranceCompany">Insurance Company<span class="text-danger">*</span></label>
+                            <select asp-for="InsuranceCompany" asp-items="@Model.InsuranceCompanyList" class="form-control">
+                                <option value="">Select Insurance Company </option>
+                            </select>
+                            <span id="InsuranceCompany_jserror"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="InsuranceRate">Insurance Rate<span class="text-danger">*</span></label>
+                            <input type="text" asp-for="InsuranceRate" id="InsuranceRate" class="form-control" placeholder="Enter the Insurance Rate">
+                            <span id="InsuranceRate_jserror"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <button type="submit" id="btnAddBranch" class="btn btn-success">
+                                @(string.IsNullOrEmpty(Model.RowId) ? "Add Premium Setup" : "Update Premium Setup")
+                            </button>
+                            <input type="hidden" asp-for="RowId" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+@section scripts{
+    <script src="~/Scripts/Setup/PremiumSetup/premiumSetup.js" type="text/javascript"></script>
+    <partial name="_AlertPartial" />
+    <script src="~/assets/jquery-validation/dist/additional-methods.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            var premiumSetup = PremiumSetupManagement.premiumSetup();
+            premiumSetup.renderManage();
+        });
+    </script>
+}
