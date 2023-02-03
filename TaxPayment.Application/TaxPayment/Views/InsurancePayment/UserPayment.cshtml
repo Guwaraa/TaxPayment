@@ -1,0 +1,64 @@
+﻿@model List<TaxPayment.Common.InsurancePayment.InsurancePayementDetails>
+@{
+    ViewData["Title"] = "UserPayment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="section contact min-width" data-section="section6">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                    <h2>Insurace Payment</h2>
+                </div>
+            </div>
+            <div class="col-md-12" style="margin-left:79%">
+                <button type="button" class="btn" style="background-color:gainsboro" onclick="javascript:history.go(-1);"><i class="mdi mdi-arrow-left"></i> Back</button>
+                <a asp-controller="InsurancePayment" asp-action="Payment" class="btn btn-primary"><i class="mdi mdi-plus"></i>Insurance Payment</a>
+            </div>
+            <div class="col-md-12" style="margin-top:1%">
+                <table class="table table-striped" style="color:white">
+                    <thead>
+                        <tr>
+                            <th class="text-center">SN</th>
+                            <th class="text-center">KYC Code</th>
+                            <th class="text-center">Province</th>
+                            <th class="text-center">Vechicle Category</th>
+                            <th class="text-center">Company Name</th>
+                            <th class="text-center">Insurance Rate</th>
+                            <th class="text-center">PaidDate</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+
+                        @if (Model.Count != 0)
+                        {
+                            @foreach (var item in Model)
+                            {
+                                <tr class="text-center">
+
+                                    <td class="text-center">@item.RowNum</td>
+                                    <td class="text-center">@item.KYCCode</td>
+                                    <td class="text-center">@item.Province</td>
+                                    <td class="text-center">@item.VechicleCategory</td>
+                                    <td class="text-center">@item.CompanyName</td>
+                                    <td class="text-center">@item.InsuranceRate</td>
+                                    <td class="text-center">@item.PaidDate</td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr class="text-center">
+                                <td colspan="5">No Data Exists</td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

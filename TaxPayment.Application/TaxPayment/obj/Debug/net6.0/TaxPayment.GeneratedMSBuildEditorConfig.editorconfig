@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlUGF5bWVudFxQYXltZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/InsurancePayment/UserPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlUGF5bWVudFxVc2VyUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/KYCDetail/ApproveKYCDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS1lDRGV0YWlsXEFwcHJvdmVLWUNEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
