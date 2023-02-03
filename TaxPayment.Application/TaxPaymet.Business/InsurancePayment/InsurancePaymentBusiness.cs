@@ -34,18 +34,18 @@ namespace TaxPaymet.Business.InsurancePayment
             return response;
         }
 
-        public InsurancePayementViewModel GetRequiredDetails()
-        {
-            var flag = "GetRequiredList";
-            var response = _genericRepository.ManageDataWithMultipleSelectListItem(StoreProcedureName, flag);
-            var premiumList = new PremiumViewModel
-            {
-                VechicleCategoryList = response[0],
-                FiscalYearList = response[1],
-                ProvinceList = response[2],
-                InsuranceCompanyList = response[3]
-            };
-            return premiumList;
-        }
+        //public InsurancePayementViewModel GetRequiredDetails()
+        //{
+        //    var flag = "GetRequiredList";
+        //    var response = _genericRepository.ManageDataWithMultipleSelectListItem(StoreProcedureName, flag);
+        //    var premiumList = new PremiumViewModel
+        //    {
+        //        VechicleCategoryList = response[0],
+        //        FiscalYearList = response[1],
+        //        ProvinceList = response[2],
+        //        InsuranceCompanyList = response[3]
+        //    };
+        //    return premiumList;
+        //}
     }
 }
