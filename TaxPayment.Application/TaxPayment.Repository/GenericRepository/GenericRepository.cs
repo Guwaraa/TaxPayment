@@ -71,8 +71,18 @@ namespace TaxPayment.Repository.GenericRepository
         {
             var param = new
             {
-                Flag = flagName
+                Flag = flagName,
             };
+            var multipleSelectList = new List<List<SelectListItem>>();
+            var response = _dapperDao.ExecuteQueryWithMultipleSelectValues<List<List<SelectListItem>>>(spName, param);
+            foreach (var eachResponse in response)
+            {
+                multipleSelectList.Add(eachResponse.Select(x => new SelectListItem { Value = x.Value, Text = x.Description }).ToList());
+            }
+            return multipleSelectList;
+        }
+        public List<List<SelectListItem>> ManageDataWithMultipleSelectListItemOBJ(string spName,object param)
+        {
             var multipleSelectList = new List<List<SelectListItem>>();
             var response = _dapperDao.ExecuteQueryWithMultipleSelectValues<List<List<SelectListItem>>>(spName, param);
             foreach (var eachResponse in response)

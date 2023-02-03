@@ -12,51 +12,47 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <form id="contact" action="" method="post">
+                <form asp-controller="InsurancePayment" asp-action="AddInsurancePayemnt" method="post">
+
                     <div class="row">
                         <div class="col-6">
                             <fieldset>
-                                <input name="rate"
-                                       type="text"
-                                       class="form-control"
-                                       id="rate"
-                                       placeholder="Insurance Rate"
-                                       required="" />
+                                <select asp-for="CompanyName" asp-items="@Model.InsuranceCompanyList" class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
+                                    <option>Choose Company</option>
+                                </select>
                             </fieldset>
                         </div>
                         <div class="col-6">
                             <fieldset>
-                                <select class="form-control dropdown" style="background-color: #414B5C; color: #fff; " id="sel1">
-                                    <option>Choose Vechicle Category</option>
-                                    <option>A</option>
-                                    <option>B</option>
-                                    <option>C</option>
+                                <select asp-for="Province" asp-items="@Model.ProvinceList" class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
+                                    <option>Choose Provience</option>
                                 </select>
                             </fieldset>
                         </div>
                     </div>
+                    <br />
                     <div class="row">
                         <div class="col-6">
                             <fieldset>
-                                <select class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
-                                    <option>Choose Company</option>
-                                    <option>ABC</option>
-                                    <option>XYZ</option>
-                                    <option>ROS</option>
+                                <select asp-for="VechicleCategory" asp-items="@Model.VechicleCategoryList" class="form-control dropdown" style="background-color: #414B5C; color: #fff; " id="sel1">
+                                    <option value="">Choose Vechicle Category</option>
+
                                 </select>
                             </fieldset>
                         </div>
                         <div class="col-6">
                             <fieldset>
-                                <select class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
-                                    <option>Choose Provience</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                </select>
+                                <input asp-for="VechicleNo" class="form-control" placeholder="Enter Vechile Number" />
                             </fieldset>
+                        </div>
+                        <br />
+                        <div class="row" style="padding:20px">
+                            <div class="col-md-6">
+                                <img src="https://ictframe.com/wp-content/uploads/Nepal-Single-Payments.jpg" width="200" height="100" />
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" asp-for="BankCode" style="margin-top:30%" class="form-control" placeholder="Enter payment Detail" />
+                            </div>
                         </div>
                     </div>
                     <div class="pay-now-btn">

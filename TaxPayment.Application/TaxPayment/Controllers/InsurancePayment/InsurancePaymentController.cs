@@ -23,9 +23,32 @@ namespace TaxPayment.Controllers.InsurancePayment
 
         public IActionResult Payment()
         {
-            return  View();
+            var param = new
+            {
+                Flag = "GetRequiredDetail",
+                Userid = HttpContext.Session.GetString("UserId")
+            };
+            var response = _insurancePaymentBusiness.GetRequiredDetails(param);
+            return View(response);
         }
-
+        public IActionResult UserPayment()
+        {
+            var param = new InsurancePaymentParam
+            {
+                Flag = "GetRequiredDetailList",
+                UserId = HttpContext.Session.GetString("UserId"),
+            };
+            var response = _insurancePaymentBusiness.GetGridDetailList(param);
+            return View(response);
+        }
+        [HttpPost]
+        public IActionResult AddInsurancePayemnt(InsurancePaymentParam param)
+        {
+            param.Flag = "AddInsurancePayemnt";
+            param.UserId = HttpContext.Session.GetString("UserId");
+            var response = _insurancePaymentBusiness.ManageInsurancePaymentDetail(param);
+            return View();
+        }
         public IActionResult VerifyInsurancePaymentDetail(InsurancePaymentParam param)
         {
             param.Flag = "VerifyInsurancePaymentDetail";

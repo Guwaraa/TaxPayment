@@ -16,6 +16,7 @@ namespace TaxPayment.Repository.GenericRepository
         List<object> ManageDataWithListObjectMultiple<T0, T1>(string spName, object obj);
         List<object> ManageDataWithObjectMultiple<T0, T1, T2, T3, T4, T5, T6>(string spName, object obj);
         List<List<SelectListItem>> ManageDataWithMultipleSelectListItem(string spName, string flagName);
+        List<List<SelectListItem>> ManageDataWithMultipleSelectListItemOBJ(string spName,object param);
 
     }
 }
