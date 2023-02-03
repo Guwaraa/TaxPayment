@@ -100,12 +100,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/ApproveTaxPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxBcHByb3ZlVGF4UGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/Payemnt.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxQYXllbW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/UserPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxVc2VyUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/VerifyTaxPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxWZXJpZnlUYXhQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/ViewTaxPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxWaWV3VGF4UGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxSetup/Index.cshtml]
