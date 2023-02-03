@@ -1,7 +1,7 @@
 -- =============================================
 -- Created By:	Rohit Manandhar
 -- =============================================
-  CREATE  PROCEDURE Setup.Proc_TAXPAYMENTMANAGEMENT
+  CREATE OR ALTER  PROCEDURE Setup.Proc_TAXPAYMENTMANAGEMENT
 	(
 		@Flag						NVARCHAR(100),
 		@RowId						VARCHAR(100)			= NULL,
@@ -45,7 +45,14 @@
 		@Remarks	 				VARCHAR(MAX)			= NULL,
 		@FilterCount 				VARCHAR(MAX)			= NULL,
 		@ApprovedDate 				VARCHAR(MAX)			= NULL,
-		@ModifiedDate 				VARCHAR(MAX)			= NULL
+		@ModifiedDate 				VARCHAR(MAX)			= NULL,
+		@Action						VARCHAR(MAX)			= NULL,
+		@ApproveVerify 				VARCHAR(MAX)			= NULL,
+		@LastDueDate				DATETIME				= NULL,
+		@LateFeeAmount				VARCHAR(MAX)			= NULL,
+		@PaidDate 				VARCHAR(MAX)				= NULL
+
+
 
 
 

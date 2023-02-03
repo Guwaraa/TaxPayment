@@ -2,6 +2,7 @@
 using ISolutionVersionNext.UtilityHelpers.Alert;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using TaxPayment.Common.InsurancePayment;
 using TaxPayment.Common.KYCDetail;
 using TaxPayment.Common.TaxPayement;
 using TaxPaymet.Business.TaxPayement;
@@ -47,6 +48,16 @@ namespace TaxPayment.Controllers.TaxPayment
         public IActionResult Payemnt()
         {
             return View();
+        }
+        public IActionResult UserPayment()
+        {
+            var param = new TaxPayementParam
+            {
+                Flag = "GetGridDetailList",
+                UserId = HttpContext.Session.GetString("UserId"),
+            };
+            var response = _taxPayementBusiness.GetGridDetailList(param);
+            return View(response);
         }
         public IActionResult VerifyTaxPayment(string id)
         {

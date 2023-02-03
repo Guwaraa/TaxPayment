@@ -36,6 +36,7 @@ builder.Services.AddScoped<IPremiumBusiness, PremiumBusiness>();
 builder.Services.AddScoped<ILoginBusiness, LoginBusiness>();
 builder.Services.AddScoped<IRegistrationBusiness, RegistrationBusiness>();
 builder.Services.AddScoped<IInsurancePaymentBusiness, InsurancePaymentBusiness>();
+builder.Services.AddScoped<ITaxPayementBusiness, TaxPayementBusiness>();
 
 
 //Repository

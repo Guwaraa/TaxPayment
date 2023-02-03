@@ -11221,19 +11221,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ThinkPad\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\TaxPayment.csproj",
+      "projectUniqueName": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\TaxPayment.csproj",
       "projectName": "TaxPayment",
-      "projectPath": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\TaxPayment.csproj",
-      "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-      "outputPath": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment\\obj\\",
+      "projectPath": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\TaxPayment.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11247,11 +11247,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\TaxPayment.Repository.csproj": {
-              "projectPath": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\TaxPayment.Repository.csproj"
+            "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\TaxPayment.Repository.csproj": {
+              "projectPath": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\TaxPayment.Repository.csproj"
             },
-            "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPaymet.Business\\TaxPaymet.Business.csproj": {
-              "projectPath": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPaymet.Business\\TaxPaymet.Business.csproj"
+            "D:\\TaxPayment\\TaxPayment.Application\\TaxPaymet.Business\\TaxPaymet.Business.csproj": {
+              "projectPath": "D:\\TaxPayment\\TaxPayment.Application\\TaxPaymet.Business\\TaxPaymet.Business.csproj"
             }
           }
         }
@@ -11334,7 +11334,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
