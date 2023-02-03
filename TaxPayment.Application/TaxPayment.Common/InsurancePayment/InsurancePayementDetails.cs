@@ -9,7 +9,10 @@ namespace TaxPayment.Common.InsurancePayment
     public class InsurancePayementDetails
     {
         public string KYCCode { get; set; }
+        public string RowId { get; set; }
+        public string Status { get; set; }
         public string RowNum { get; set; }
+        public string Action { get; set; }
         public string Province { get; set; }
         public string VechicleCategory { get; set; }
         public string CompanyName { get; set; }
@@ -17,10 +20,12 @@ namespace TaxPayment.Common.InsurancePayment
         public string PaidDate { get; set; }
         public string VerifiedBy { get; set; }
         public string ApprovedBy { get; set; }
+        public string FilterCount { get; set; }
     }
     public class InsurancePaymentParam
     {
         public string Flag { get; set; }
+        public string RowId { get; set; }
         public string UserId { get; set; }
         public string KYCCode { get; set; }
         public string Province { get; set; }
@@ -35,5 +40,8 @@ namespace TaxPayment.Common.InsurancePayment
         public string VerifiedRemarks { get; set; }
         public string ApprovedBy { get; set; }
         public string ApprovedRemarks { get; set; }
+        public string RejectedBy { get; set; }
+        public string RejectedRemarks { get; set; }
+        public string FilterCount { get; set; }
     }
 }

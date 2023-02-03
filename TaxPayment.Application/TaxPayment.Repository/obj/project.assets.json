@@ -4132,19 +4132,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\ThinkPad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\TaxPayment.Repository.csproj",
+      "projectUniqueName": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\TaxPayment.Repository.csproj",
       "projectName": "TaxPayment.Repository",
-      "projectPath": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\TaxPayment.Repository.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\obj\\",
+      "projectPath": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\TaxPayment.Repository.csproj",
+      "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
+      "outputPath": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4158,8 +4158,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment.Common\\TaxPayment.Common.csproj": {
-              "projectPath": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment.Common\\TaxPayment.Common.csproj"
+            "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment.Common\\TaxPayment.Common.csproj": {
+              "projectPath": "D:\\college\\KIST\\TaxPayment\\TaxPayment.Application\\TaxPayment.Common\\TaxPayment.Common.csproj"
             }
           }
         }
@@ -4239,7 +4239,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

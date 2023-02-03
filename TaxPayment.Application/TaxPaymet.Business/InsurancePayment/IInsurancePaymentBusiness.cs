@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ISolutionVersionNext.Shared.GridHelpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +9,14 @@ using TaxPayment.Common.SystemResponse;
 
 namespace TaxPaymet.Business.InsurancePayment
 {
-    public interface IInsurancePaymentBusiness
+    public interface IInsurancePaymentBusiness  
     {
         List<InsurancePayementDetails> GetGridDetailList(InsurancePaymentParam param);
-        InsurancePayementViewModel GetInsurancePaymentDetail(InsurancePaymentParam param);
+        InsurancePayementViewModel GetInsurancePaymentDetail(InsurancePaymentParam param);  
         SystemResponse ManageInsurancePaymentDetail(InsurancePaymentParam param);
         InsurancePayementViewModel GetRequiredDetails(object param);
+        InsurancePayementViewModel VerifyKycDetails(InsurancePaymentParam doctorparam);
+        SystemResponse ManageKYCDetail(InsurancePaymentParam param);
+        Task<List<InsurancePayementDetails>> GetKycLists(GridParam gridParam);
     }
 }

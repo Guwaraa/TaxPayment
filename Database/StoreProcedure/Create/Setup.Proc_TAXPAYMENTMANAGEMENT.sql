@@ -1,7 +1,7 @@
 -- =============================================
 -- Created By:	Rohit Manandhar
 -- =============================================
-  CREATE OR ALTER  PROCEDURE Setup.Proc_TAXPAYMENTMANAGEMENT
+  ALTER  PROCEDURE Setup.Proc_TAXPAYMENTMANAGEMENT
 	(
 		@Flag						NVARCHAR(100),
 		@RowId						VARCHAR(100)			= NULL,
@@ -46,14 +46,17 @@
 		@FilterCount 				VARCHAR(MAX)			= NULL,
 		@ApprovedDate 				VARCHAR(MAX)			= NULL,
 		@ModifiedDate 				VARCHAR(MAX)			= NULL,
-		@Action						VARCHAR(MAX)			= NULL,
-		@ApproveVerify 				VARCHAR(MAX)			= NULL,
-		@LastDueDate				DATETIME				= NULL,
+		@Province					VARCHAR(MAX)			= NULL,
+		@VechicleCategory			VARCHAR(MAX)			= NULL,
+		@VechicleNo				VARCHAR(MAX)			= NULL,
+		@TaxRate				VARCHAR(MAX)			= NULL,
+		@PaidDate				VARCHAR(MAX)			= NULL,
+		@LastDueDate				VARCHAR(MAX)			= NULL,
 		@LateFeeAmount				VARCHAR(MAX)			= NULL,
-		@PaidDate 				VARCHAR(MAX)				= NULL
-
-
-
+		@VerifiedDate				VARCHAR(MAX)			= NULL,
+		@RowNum				VARCHAR(MAX)			= NULL,
+		@Action						VARCHAR(250)			= NULL,
+		@ApproveVerify						VARCHAR(250)			= NULL
 
 
 
@@ -71,54 +74,87 @@ BEGIN TRY
 	SET @LastRec  = @DisplayStart + @DisplayLength;
 	;WITH CTE_Report AS
 	(
-	Select ROW_NUMBER() over (ORDER BY kd.RowId DESC) AS RowNum,COUNT(*) OVER() AS FilterCount, 
-			kd.RowId,
-               kd.FirstName+' '+kd.MiddleName+' '+ kd.LastName FullName,
-               kd.DateOfBirth,
-               kd.CurrentAddress,
-               kd.ContactNumber,
-               kd.Email,
-               kd.Status,
-               kd.VerifiedBy,
-               kd.ApprovedBy,
-               kd.RejectedBy
-			   FROM Setup.KYCDetails AS kd
-			   )
+	SELECT ROW_NUMBER() OVER (ORDER BY kd.RowId DESC) AS RowNum,COUNT(*) OVER() AS FilterCount, 
+	kd.RowId
+        KYCCode,
+        Province,
+        VechicleCategory,
+        VechicleNo,
+        TaxRate,
+        PaidDate,
+        LastDueDate,
+        LateFeeAmount,
+        CreatedBy,
+        CreatedDate,
+        ModifiedBy,
+        ModifiedDate,
+        VerifiedBy,
+        VerifiedDate,
+        VerifiedRemarks,
+        ApprovedBy,
+        ApprovedDate,
+        ApprovedRemarks,
+        Status,
+        RejectedRemarks,
+        RejectedBy,
+        RejectedDate FROM Setup.TaxPayment kd
+		)
 			   SELECT * FROM CTE_Report WHERE RowNum > @FirstRec AND RowNum <= @LastRec;
 
 	END
-	ELSE IF @Flag='AddKYCDetails'
+	ELSE IF @Flag='AddTaxPayments'
 	BEGIN
 	    BEGIN TRY
-	    	 BEGIN TRANSACTION KYCDetails
-				INSERT INTO Setup.KYCDetails
-				(
-				    KYCCode,
-				    FirstName,
-				    MiddleName,
-				    LastName,
-				    DateOfBirth,
-				    CurrentAddress,
-				    ParmanentAddress,
-				    ContactNumber,
-				    Gender,
-				    Email,
-				    Status
-				)
-				VALUES
-				(   NULL,
-				    @FirstName,
-				    @MiddleName,
-				    @LastName,
-				    @DateOfBirth,
-				    @CurrentAddress,
-				    @ParmanentAddress,
-				    @ContactNumber,
-				    @Gender,
-				    @Email,
-					'A'
-				  )
-				  SELECT '000' Code,'KYC Detail Added Sucessfully' Message
+	    	 BEGIN TRANSACTION TaxPayments
+			INSERT INTO Setup.TaxPayment
+			(
+			    KYCCode,
+			    Province,
+			    VechicleCategory,
+			    VechicleNo,
+			    TaxRate,
+			    PaidDate,
+			    LastDueDate,
+			    LateFeeAmount,
+			    CreatedBy,
+			    CreatedDate,
+			    ModifiedBy,
+			    ModifiedDate,
+			    VerifiedBy,
+			    VerifiedDate,
+			    VerifiedRemarks,
+			    ApprovedBy,
+			    ApprovedDate,
+			    ApprovedRemarks,
+			    Status,
+			    RejectedRemarks,
+			    RejectedBy
+			)
+			VALUES
+			(
+			@KYCCode ,
+			    @Province ,
+			    @VechicleCategory ,
+			    @VechicleNo ,
+			    @TaxRate ,
+			    @PaidDate ,
+			    @LastDueDate ,
+			    @LateFeeAmount ,
+			    @CreatedBy ,
+			    GETDATE() ,
+			    @ModifiedBy ,
+			    @ModifiedDate ,
+			    @VerifiedBy ,
+			    @VerifiedDate ,
+			    @VerifiedRemarks ,
+			    @ApprovedBy ,
+			    @ApprovedDate ,
+			    @ApprovedRemarks ,
+			    @Status ,
+			    @RejectedRemarks ,
+			    @RejectedBy 
+			    )
+				  SELECT '000' Code,'Tax Payment Detail Added Sucessfully' Message
 	    	 COMMIT TRANSACTION KYCDetails
 	   END TRY
 	   BEGIN CATCH
@@ -126,34 +162,14 @@ BEGIN TRY
 	   SELECT 101 Code, ERROR_MESSAGE() Message, '' Id
 	   END CATCH
 	END
-	ELSE IF @Flag='GetRequiredKycDetails'
+	ELSE IF @Flag='GetRequiredDetails'
 	BEGIN
-	SELECT RowId,
-          KYCCode,
-          FirstName,
-          MiddleName,
-          LastName,
-          DateOfBirth,
-          CurrentAddress,
-          ParmanentAddress,
-          ContactNumber,
-          Gender,
-          Email,
-          Status,
-          VerifiedBy,
-          VerifiedDate,
-          VerifiedRemarks,
-          ApprovedBy,
-          ApprovedDate,
-          ApprovedRemarks,
-          RejectedBy,
-          RejectedDate,
-          RejectedRemarks FROM Setup.KYCDetails WHERE RowId=@RowId
+	SELECT * FROM Setup.TaxPayment WHERE RowId=@RowId
 	END
-	ELSE IF @Flag= 'VerifyKYCDetail'
+	ELSE IF @Flag= 'VerifyTaxPayment'
 	BEGIN
 		BEGIN TRANSACTION 
-	     UPDATE Setup.KYCDetails
+	     UPDATE Setup.TaxPayment
 		 SET 
 		 Status='V',
 		 VerifiedBy = 'admin',
@@ -167,10 +183,10 @@ BEGIN TRY
 			 RETURN
 		 END
 	END
-		ELSE IF @Flag= 'ApproveKYCDetail'
+		ELSE IF @Flag= 'ApproveTaxPayment'
 		BEGIN
 			BEGIN TRANSACTION 
-		     UPDATE Setup.KYCDetails
+		     UPDATE Setup.TaxPayment
 			 SET 
 			 ApprovedBy = 'admin',
 			 ApprovedDate=GETDATE(),
@@ -183,12 +199,12 @@ BEGIN TRY
 				 RETURN
 			 END
 		END
-		ELSE IF @Flag= 'RejectKYCDetail'
+		ELSE IF @Flag= 'RejectTaxPayment'
 		BEGIN
 			BEGIN TRANSACTION 
-			SELECT @RejectedMessageRemarks=t.RejectedRemarks FROM Setup.KYCDetails AS t  WHERE  UserId=@UserId
+			SELECT @RejectedMessageRemarks=t.RejectedRemarks FROM Setup.TaxPayment AS t  WHERE  t.RowId=@RowId
 	
-		     UPDATE Setup.KYCDetails
+		     UPDATE Setup.TaxPayment
 			 SET 
 			 Status				=		 'R',
 			 RejectedBy			=		 'admin',

@@ -24,6 +24,9 @@ namespace TaxPayment.Common.InsurancePayment
         public string ApprovedRemarks { get; set; }
         public string VechicleNo { get; set; }
         public string BankCode { get; set; }
+        public string RowId { get; set; }
+        public string Remarks { get; set; }
+        public string ApproveVerify { get; set; }
         public List<SelectListItem> ProvinceList { get; set; }
         public List<SelectListItem> VechicleCategoryList { get; set; }
         public List<SelectListItem> InsuranceCompanyList { get; set; }

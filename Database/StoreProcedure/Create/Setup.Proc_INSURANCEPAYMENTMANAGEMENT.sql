@@ -1,7 +1,7 @@
 -- =============================================
 -- Created By:	Sushant Manandhar
 -- =============================================
-  Create OR ALTER PROCEDURE Setup.Proc_INSURANCEPAYMENTMANAGEMENT
+  ALTER PROCEDURE Setup.Proc_INSURANCEPAYMENTMANAGEMENT
 	(
 		@Flag						NVARCHAR(100),
 		@RowId						VARCHAR(100)			= NULL,
@@ -36,7 +36,11 @@
 		@InsuranceRate				VARCHAR(250)			= NULL,
 		@PaidDate					VARCHAR(250)			= NULL,
 		@VechicleNo					VARCHAR(250)			= NULL,
-		@BankCode					VARCHAR(250)			= NULL
+		@BankCode					VARCHAR(250)			= NULL,
+		@Remarks	 				VARCHAR(MAX)			= NULL,
+		@FilterCount 				VARCHAR(MAX)			= NULL,
+		@ApprovedDate 				VARCHAR(MAX)			= NULL,
+		@ModifiedDate 				VARCHAR(MAX)			= NULL
 
 )
 AS 
@@ -55,6 +59,40 @@ BEGIN TRY
 	   SELECT p.Name,p.NameLocal Description FROM Setting.Province AS p
 
 	   SELECT bbd.VechicleNumber Name,bbd.VechicleNumber Description  FROM Setup.BlueBookDocument AS bbd WHERE bbd.KYCCode=@KYCCode
+	END
+	ELSE IF @Flag='GetGridDetailList'
+	BEGIN
+SET @FirstRec = @DisplayStart;
+	SET @LastRec  = @DisplayStart + @DisplayLength;
+	;WITH CTE_Report AS
+	(
+	Select ROW_NUMBER() over (ORDER BY kd.RowId DESC) AS RowNum,COUNT(*) OVER() AS FilterCount, 
+			kd.RowId,
+            kd.KYCCode,
+            kd.Province,
+            kd.VechicleCategory,
+            kd.CompanyName,
+            kd.InsuranceRate,
+            kd.PaidDate,
+            kd.CreatedBy,
+            kd.CreatedDate,
+            kd.ModifiedBy,
+            kd.ModifiedDate,
+            kd.VerifiedBy,
+            kd.VerifiedDate,
+            kd.VerifiedRemarks,
+            kd.ApprovedBy,
+            kd.ApprovedDate,
+            kd.ApprovedRemarks,
+            kd.VechicleNo,
+            kd.BankCode,
+            kd.RejectedBy,
+            kd.RejectedDate,
+            kd.RejectedRemarks,
+            kd.Status
+			   FROM Setup.InsurancePayment AS kd
+			   )
+			   SELECT * FROM CTE_Report WHERE RowNum > @FirstRec AND RowNum <= @LastRec;
 	END
 	ELSE IF @Flag='AddInsurancePayemnt'
 	BEGIN
@@ -100,7 +138,8 @@ BEGIN TRY
 			BEGIN TRANSACTION 
 		     UPDATE Setup.InsurancePayment
 			 SET 
-			 VerifiedBy = @VerifiedBy,
+			 Status='V',
+			 VerifiedBy = 'admin',
 			 VerifiedDate=GETDATE(),
 			 VerifiedRemarks=@VerifiedRemarks
 			 WHERE KYCCode=@KYCCode
@@ -116,7 +155,8 @@ BEGIN TRY
 				BEGIN TRANSACTION 
 			     UPDATE Setup.InsurancePayment
 				 SET 
-				 ApprovedBy = @ApprovedBy,
+				 Status='A',
+				 ApprovedBy = 'admin',
 				 ApprovedDate=GETDATE(),
 				 ApprovedRemarks=@ApprovedRemarks
 				 WHERE KYCCode=@KYCCode
@@ -127,6 +167,32 @@ BEGIN TRY
 					 RETURN
 				 END
 			END
+			ELSE IF @Flag='GetRequiredDetails'
+			BEGIN
+				SELECT RowId,
+                       KYCCode,
+                       Province,
+                       VechicleCategory,
+                       CompanyName,
+                       InsuranceRate,
+                       PaidDate,
+                       CreatedBy,
+                       CreatedDate,
+                       ModifiedBy,
+                       ModifiedDate,	
+                       VerifiedBy,
+                       VerifiedDate,
+                       VerifiedRemarks,
+                       ApprovedBy,
+                       ApprovedDate,
+                       ApprovedRemarks,
+                       VechicleNo,
+                       BankCode,
+                       RejectedBy,
+                       RejectedDate,
+                       RejectedRemarks,
+                       Status FROM Setup.InsurancePayment WHERE RowId=@RowId
+			END
 			ELSE IF @Flag= 'RejectInsuranceDetail'
 			BEGIN
 				BEGIN TRANSACTION 
@@ -136,7 +202,7 @@ BEGIN TRY
 			     UPDATE Setup.InsurancePayment
 				 SET 
 				 Status				=		 'R',
-				 RejectedBy			=		 @RejectedBy,
+				 RejectedBy			=		 'admin',
 				 RejectedDate		=		 GETDATE(),
 				 RejectedRemarks	=		 CASE WHEN @RejectedMessageRemarks IS NULL THEN @RejectedRemarks ELSE @RejectedMessageRemarks+' , '+@RejectedRemarks END,
 				 VerifiedBy			=		 NULL,
