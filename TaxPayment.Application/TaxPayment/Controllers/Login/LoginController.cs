@@ -20,14 +20,11 @@ namespace TaxPayment.Controllers.Login
         public IActionResult Login(UserParam param)
         {
             param.Flag = "CheckUserName";
-            var response = "000";
-            // var response = _loginBusiness.CheckUserName();
-            if(response=="000")
+             var response = _loginBusiness.CheckUserName(param);
+            if(response.Code=="000")
             {
-                //HttpContext.Session.SetString("UserId", response.Data);
-                //HttpContext.Session.SetString("UserName", response.Extras);
-                HttpContext.Session.SetString("UserId", "1");
-                HttpContext.Session.SetString("UserName", "Admin");
+                HttpContext.Session.SetString("UserId", response.Data);
+                HttpContext.Session.SetString("UserName", response.Extras);
                 return RedirectToAction("Index","User");
                 //var sessionValue = HttpContext.Session.GetString("AnyKey");
             }

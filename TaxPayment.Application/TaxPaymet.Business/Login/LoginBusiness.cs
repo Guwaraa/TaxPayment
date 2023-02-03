@@ -12,7 +12,7 @@ namespace TaxPaymet.Business.Login
     public class LoginBusiness : ILoginBusiness
     {
         private IGenericRepository _genericRepository;
-        private readonly string StoreProcedureName = "";
+        private readonly string StoreProcedureName = "Setting.Proc_UserSetup";
         public LoginBusiness(IGenericRepository genericRepository)
         {
             _genericRepository = genericRepository;

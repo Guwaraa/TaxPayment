@@ -107,26 +107,28 @@
 
                             </fieldset>
                         </div>
+
                         <div class="col-md-4">
                             <fieldset>
                                 <input asp-for="FrontImage"
                                        type="file"
                                        class="form-control"
-                                       required=""
+                                       id="image"
                                        style="display:none;" />
-                                <label for="front" class="file-selector">Upload Front side</label>
-                                <span id="FrontImage_jserror"></span>
+                                <label for="image" class="file-selector">Upload your photo</label>
+
                             </fieldset>
                         </div>
+
                         <div class="col-md-4">
                             <fieldset>
                                 <input asp-for="BackImage"
                                        type="file"
                                        class="form-control"
-                                       required=""
+                                       id="image"
                                        style="display:none;" />
-                                <label for="back" class="file-selector">Upload back side</label>
-                                <span id="BackImage_jserror"></span>
+                                <label for="image" class="file-selector">Upload your photo</label>
+
                             </fieldset>
                         </div>
                     </div>
@@ -138,7 +140,7 @@
             </div>
         </div>
     </div>
-   
+
 
 </section>
 @section scripts{

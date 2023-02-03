@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<TaxPayment.Common.VechicleRegistration.RegistrationDetails>
+@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -23,35 +24,40 @@
                     <thead>
                         <tr>
                             <th class="text-center">SN</th>
-                            <th class="text-center">Fiscal Year</th>
-                            <th class="text-center">Province</th>
-                            <th class="text-center">Status</th>
-                            <th class="text-center">Actions</th>
+                            <th class="text-center">KYC Code</th>
+                            <th class="text-center">Vechicle Type</th>
+                            <th class="text-center">Vechicle Number</th>
+                            <th class="text-center">Registered Date</th>
+                            <th class="text-center">Ownername</th>
+                            <th class="text-center">Action</th>
                         </tr>
                     </thead>
                     <tbody class="table-border-bottom-0">
 
-                        @* @if (Model.Count != 0)
+                        @if (Model.Count != 0)
                         {
-                        @foreach (var item in Model)
-                        {
-                        <tr class="text-center">
-                        <td class="text-center">@item.RowNum</td>
-                        <td class="text-center">@item.FiscalYear</td>
-                        <td class="text-center">@item.Province</td>
-                        <td class="text-center">@item.Status</td>
-                        <td>
-                        <a class="dropdown-item" href="@Url.Action("UpdateTaxSetup","TaxSetup",new { TaxCode = item.TaxCode })"><i class="bx bx-edit-alt"></i> </a>
-                        </td>
-                        </tr>
-                        }
+                            @foreach (var item in Model)
+                            {
+                                <tr class="text-center">
+                         
+                                    <td class="text-center">@item.RowNum</td>
+                                    <td class="text-center">@item.KYCCode</td>
+                                    <td class="text-center">@item.VechicleType</td>
+                                    <td class="text-center">@item.VechicleNumber</td>
+                                    <td class="text-center">@item.RegisteredDate</td>
+                                    <td class="text-center">@item.Ownername</td>
+                                    <td>
+                                        <a class="dropdown-item" style="color:white" href="@Url.Action("UpdateVechicleRegistration","VechicleRegistration",new { UserId = item.UserId })"><i class="bx bx-edit-alt">Edit</i> </a>
+                                    </td>
+                                </tr>
+                            }
                         }
                         else
                         {
-                        <tr class="text-center">
-                        <td colspan="5">No Data Exists</td>
-                        </tr>
-                        }*@
+                            <tr class="text-center">
+                                <td colspan="5">No Data Exists</td>
+                            </tr>
+                        }
 
                     </tbody>
                 </table>

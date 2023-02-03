@@ -20,6 +20,12 @@ namespace TaxPayment.Controllers.InsurancePayment
             var response = _insurancePaymentBusiness.GetGridDetailList(param);
             return View(response);
         }
+
+        public IActionResult Payment()
+        {
+            return  View();
+        }
+
         public IActionResult VerifyInsurancePaymentDetail(InsurancePaymentParam param)
         {
             param.Flag = "VerifyInsurancePaymentDetail";

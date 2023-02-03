@@ -8,5 +8,13 @@ namespace TaxPayment.Controllers.User
         {
             return View();
         }
+        public IActionResult Profile()
+        {
+            return View();
+        }
+        public IActionResult Logout()
+        {
+            return RedirectToAction("Index","Home");
+        }
     }
 }

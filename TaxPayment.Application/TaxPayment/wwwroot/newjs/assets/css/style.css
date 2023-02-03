@@ -1,0 +1,140 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.overflow{
+    overflow: hidden !important;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.dropdown  {
+  border: none;
+  font-size: 13px;
+  border-radius: 0px;
+  height: 40px;
+}
+
+
+.result-container{
+    width: 100%;
+    background-color: #414B5C;
+    height: 100px;
+    margin-top: 30px;
+    padding: 20px 12px ;
+   
+}
+.profile-container{
+    width: 100%;
+    background-color: #414B5C;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 100px;
+    color: #fff;
+    display: flex;   
+    flex-direction: column;
+    gap:30px;
+    height: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.sub-title{
+    color: #fff !important;
+}
+.container-profile{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.proceed-payment{
+    color: #fff;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: 600;
+}
+.profile-image{
+   
+    position: relative;
+}
+
+.cont-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap:50px
+}
+.font-h1{
+    font-size: 24px !important;
+    margin-bottom: 10px !important;
+    margin-top: 0px !important;
+    font-weight: 500 !important;
+}
+
+.verified-btn{
+    position: absolute;
+    bottom: -11px;
+    left: 44%;
+}
+
+.file-selector{
+    color: #fff;
+    background-color: #414B5C;
+    padding: 10px 94px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.Vechile{
+    padding: 10px 87px;
+}
+
+.title-kyc{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: 600;
+    margin-bottom: 20px;
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.sign-in-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff !important;
+}
+.pay-now-btn{
+    display: flex;
+    margin-top: 30px!important;
+    
+}
+.margin-50{
+    padding-top: 200px;
+}
+.kyc-data{
+    background-color: #414B5C;
+    margin-top: 50px;
+    padding: 30px;
+}
+.mt-51{
+    margin-top: 40px !important;
+}
