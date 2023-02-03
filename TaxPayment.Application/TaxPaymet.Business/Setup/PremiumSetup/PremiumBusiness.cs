@@ -33,11 +33,11 @@ namespace TaxPaymet.Business.Setup.PremiumSetup
         private PremiumDetails PremiumSetupGridManagement(PremiumDetails agentType)
         {
             var rowId = agentType.RowId;
-            agentType.Status = agentType.Status == "A" ? "<i class=\"bx-bx-check-circle-alt mdi-18px text-success\" title='Active'></i>" : "<i class=\"mdi mdi-close-circle mdi-18px text-danger\" title='Inactive'></i>";
+            agentType.Status = agentType.Status == "A" ? "<i class=\"bx bxs-check-circle mdi-18px text-success\" title='Active'></i>" : "<i class=\"bx bx-window-close mdi-18px text-danger\" title='Inactive'></i>";
             StringBuilder actionDetails = new StringBuilder();
            
                 actionDetails.Append("<a href='" + "/PremiumSetup/ManagePremiumSetup/" + rowId + "' class='btn btn-sm btn-link btn-round' title='Edit Premium Setup'><i class='bx bx-edit-alt'></i></a>");
-                actionDetails.Append(" <a href='" + "/PremiumSetup/UpdatePremiumSetupStatus/" + rowId + "' class='btn btn-sm btn-success btn-round confirmation' title='Change Status'><i class='mdi mdi-lock-reset'></i></a>");
+                actionDetails.Append(" <a href='" + "/PremiumSetup/UpdatePremiumSetupStatus/" + rowId + "' class='btn btn-sm btn-success btn-round confirmation' title='Change Status'><i class='bx bx-reset'></i></a>");
             agentType.Action = actionDetails.ToString();
             return agentType;
         }

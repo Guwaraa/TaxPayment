@@ -41,7 +41,7 @@
                     ],
                     "columnDefs":
                         [
-                            { "className": "text-center", "targets": [0, 1, 2, 3] }
+                            { "className": "text-center", "targets": [0, 1, 2, 3,4,5,6,7] }
                         ],
                     "initComplete": function () {
                         $("#taxPayment").on("click", ".confirmation",

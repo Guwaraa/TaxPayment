@@ -41,7 +41,7 @@
                     ],
                     "columnDefs":
                         [
-                            { "className": "text-center", "targets": [0, 1, 2, 3] }
+                            { "className": "text-center", "targets": "_all" }
                         ],
                     "initComplete": function () {
                         $("#agentType").on("click", ".confirmation",

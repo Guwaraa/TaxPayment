@@ -37,25 +37,25 @@ namespace TaxPaymet.Business.KYCDetail
             if (!string.IsNullOrEmpty(kycDetail.VerifiedBy) && !string.IsNullOrEmpty(kycDetail.ApprovedBy))
             {
                 kycDetail.Status = "<span class=\"label label-success\">Approve Success</span>";
-                    stringBuilder.Append(" <a href='" + "/KYCDetail/ViewKYCDetail/" + rowId + "' class='btn btn-sm btn-info btn-round' title='View KYC Details'><i class='bx bxs-check-circle'></i></a>");
+                    stringBuilder.Append(" <a href='" + "/KYCDetail/ViewKYCDetail/" + rowId + "' class='btn btn-sm btn-info btn-round' title='View KYC Details'><i class='bx bx-search-alt'></i></a>");
             }
             if (string.IsNullOrEmpty(kycDetail.VerifiedBy))
             {
                 var Status = kycDetail.Status == "R" ? "<span class=\"label label-danger\">Rejected</span>" : "<span class=\"label label-warning\">Verification Pending</span>";
                 if (kycDetail.Status == "R")
                 {
-                        stringBuilder.Append("<a href='" + "/KYCDetail/ViewKYCDetail/" + rowId + "' class='btn btn-sm btn-link btn-round' title='View KYC Details'><i class='mdi mdi-eye'></i></a>");
+                        stringBuilder.Append("<a href='" + "/KYCDetail/ViewKYCDetail/" + rowId + "' class='btn btn-sm btn-link btn-round' title='View KYC Details'><i class='bx bx-search-alt'></i></a>");
                 }
                 else
                 {
-                        stringBuilder.Append(" <a href='" + "/KYCDetail/VerifyKYCDetail/" + rowId + "' class='btn btn-sm btn-info btn-round' title='Verify KYC Details'><i class='mdi mdi-eye'></i></a>");
+                        stringBuilder.Append(" <a href='" + "/KYCDetail/VerifyKYCDetail/" + rowId + "' class='btn btn-sm btn-info btn-round' title='Verify KYC Details'><i class='bx bx-check></i></a>");
                 }
                 kycDetail.Status = Status;
             }
             if (!string.IsNullOrEmpty(kycDetail.VerifiedBy) && string.IsNullOrEmpty(kycDetail.ApprovedBy))
             {
                 kycDetail.Status = "<span class=\"label label-warning\">Approve Pending</span>";
-                    stringBuilder.Append(" <a href='" + "/KYCDetail/ApproveKYCDetail/" + rowId + "' class='btn btn-sm btn-info btn-round' title='Approve KYC Details'><i class='mdi mdi-eye'></i></a>");
+                    stringBuilder.Append(" <a href='" + "/KYCDetail/ApproveKYCDetail/" + rowId + "' class='btn btn-sm btn-info btn-round' title='Approve KYC Details'><i class='bx bx-check'></i></a>");
             }
             kycDetail.Action = stringBuilder.ToString();
             return kycDetail;
