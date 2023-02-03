@@ -40,6 +40,7 @@ namespace TaxPayment.Common.TaxPayement
     {
         public string Flag { get; set; }
         public string RowId { get; set; }
+        public string UserId { get; set; }
         public string RowNum { get; set; }
         public string VerifiedBy { get; set; }
         public string ApprovedBy { get; set; }
@@ -57,13 +58,8 @@ namespace TaxPayment.Common.TaxPayement
         public string VechicleCategory { get; set; }
         public string VechicleNo { get; set; }
         public string TaxRate { get; set; }
-        public string PaidDate { get; set; }
-        public string LastDueDate { get; set; }
         public string LateFeeAmount { get; set; }
         public string CreatedBy { get; set; }
-        public string CreatedDate { get; set; }
         public string ModifiedBy { get; set; }
-        public string ModifiedDate { get; set; }
-        public string VerifiedDate { get; set; }
     }
 }

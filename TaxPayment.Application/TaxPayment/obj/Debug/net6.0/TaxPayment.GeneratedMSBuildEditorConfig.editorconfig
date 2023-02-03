@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/InsurancePayment/ApproveInsurancePaymentDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlUGF5bWVudFxBcHByb3ZlSW5zdXJhbmNlUGF5bWVudERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/InsurancePayment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlUGF5bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +46,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/InsurancePayment/UserPayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlUGF5bWVudFxVc2VyUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/InsurancePayment/VerifyInsurancePaymentDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlUGF5bWVudFxWZXJpZnlJbnN1cmFuY2VQYXltZW50RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/InsurancePayment/ViewInsurancePaymentDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlUGF5bWVudFxWaWV3SW5zdXJhbmNlUGF5bWVudERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/KYCDetail/ApproveKYCDetail.cshtml]
@@ -110,6 +122,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/Payemnt.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxQYXllbW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/UserPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF4UGF5bWVudFxVc2VyUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/college/KIST/TaxPayment/TaxPayment.Application/TaxPayment/Views/TaxPayment/VerifyTaxPayment.cshtml]
