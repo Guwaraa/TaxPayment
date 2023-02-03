@@ -12,6 +12,7 @@ using TaxPaymet.Business.Login;
 using TaxPaymet.Business.Registration;
 using TaxPaymet.Business.Setup.PremiumSetup;
 using TaxPaymet.Business.Setup.TaxSetup;
+using TaxPaymet.Business.TaxPayement;
 
 var builder = WebApplication.CreateBuilder(args);
 

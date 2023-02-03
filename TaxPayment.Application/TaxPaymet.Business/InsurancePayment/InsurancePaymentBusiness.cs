@@ -35,15 +35,16 @@ namespace TaxPaymet.Business.InsurancePayment
             return response;
         }
 
-        public InsurancePayementViewModel GetRequiredDetails(object param)
+        public InsurancePayementViewModel GetRequiredDetails()
         {
-           
-            var response = _genericRepository.ManageDataWithMultipleSelectListItemOBJ(StoreProcedureName,param);
-            var premiumList = new InsurancePayementViewModel
+            var flag = "GetRequiredList";
+            var response = _genericRepository.ManageDataWithMultipleSelectListItem(StoreProcedureName, flag);
+            var premiumList = new PremiumViewModel
             {
                 VechicleCategoryList = response[0],
-                ProvinceList = response[1],
-                InsuranceCompanyList = response[2]
+                FiscalYearList = response[1],
+                ProvinceList = response[2],
+                InsuranceCompanyList = response[3]
             };
             return premiumList;
         }
