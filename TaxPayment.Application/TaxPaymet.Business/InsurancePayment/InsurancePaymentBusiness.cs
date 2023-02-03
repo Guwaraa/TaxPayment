@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace TaxPaymet.Business.InsurancePayment
     public class InsurancePaymentBusiness : IInsurancePaymentBusiness
     {
         private IGenericRepository _genericRepository;
-        private readonly string StoreProcedureName = "Proc_INSURANCEPAYMENTMANAGEMENT";
+        private readonly string StoreProcedureName = "Setup.Proc_INSURANCEPAYMENTMANAGEMENT";
         public InsurancePaymentBusiness(IGenericRepository genericRepository)
         {
             _genericRepository = genericRepository;
@@ -34,16 +35,15 @@ namespace TaxPaymet.Business.InsurancePayment
             return response;
         }
 
-        public InsurancePayementViewModel GetRequiredDetails()
+        public InsurancePayementViewModel GetRequiredDetails(object param)
         {
-            var flag = "GetRequiredList";
-            var response = _genericRepository.ManageDataWithMultipleSelectListItem(StoreProcedureName, flag);
-            var premiumList = new PremiumViewModel
+           
+            var response = _genericRepository.ManageDataWithMultipleSelectListItemOBJ(StoreProcedureName,param);
+            var premiumList = new InsurancePayementViewModel
             {
                 VechicleCategoryList = response[0],
-                FiscalYearList = response[1],
-                ProvinceList = response[2],
-                InsuranceCompanyList = response[3]
+                ProvinceList = response[1],
+                InsuranceCompanyList = response[2]
             };
             return premiumList;
         }

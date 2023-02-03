@@ -6,6 +6,7 @@ using TaxPayment.Common.TaxSetup;
 using TaxPayment.Models;
 using TaxPayment.Repository.DapperDao;
 using TaxPayment.Repository.GenericRepository;
+using TaxPaymet.Business.InsurancePayment;
 using TaxPaymet.Business.KYCDetail;
 using TaxPaymet.Business.Login;
 using TaxPaymet.Business.Registration;
@@ -33,6 +34,7 @@ builder.Services.AddScoped<IKYCDetailBusiness, KYCDetailBusiness>();
 builder.Services.AddScoped<IPremiumBusiness, PremiumBusiness>();
 builder.Services.AddScoped<ILoginBusiness, LoginBusiness>();
 builder.Services.AddScoped<IRegistrationBusiness, RegistrationBusiness>();
+builder.Services.AddScoped<IInsurancePaymentBusiness, InsurancePaymentBusiness>();
 
 
 //Repository

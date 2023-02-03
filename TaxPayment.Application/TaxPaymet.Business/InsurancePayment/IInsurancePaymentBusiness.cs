@@ -13,5 +13,6 @@ namespace TaxPaymet.Business.InsurancePayment
         List<InsurancePayementDetails> GetGridDetailList(InsurancePaymentParam param);
         InsurancePayementViewModel GetInsurancePaymentDetail(InsurancePaymentParam param);
         SystemResponse ManageInsurancePaymentDetail(InsurancePaymentParam param);
+        InsurancePayementViewModel GetRequiredDetails(object param);
     }
 }

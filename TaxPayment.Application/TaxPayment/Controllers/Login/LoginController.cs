@@ -25,8 +25,10 @@ namespace TaxPayment.Controllers.Login
             {
                 HttpContext.Session.SetString("UserId", response.Data);
                 HttpContext.Session.SetString("UserName", response.Extras);
+                //ViewBag["UserId"] =response.Data;
+                //ViewBag["UserName"] = response.Extras;
                 return RedirectToAction("Index","User");
-                //var sessionValue = HttpContext.Session.GetString("AnyKey");
+               
             }
             return View("Login");
         }
