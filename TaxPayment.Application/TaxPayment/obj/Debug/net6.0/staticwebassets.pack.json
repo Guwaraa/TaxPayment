@@ -289,8 +289,104 @@
       "PackagePath": "staticwebassets\\Scripts\\Setup\\TaxSetup\\taxSetup.js"
     },
     {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\Scripts\\Setup\\kycDetail.js",
+      "PackagePath": "staticwebassets\\Scripts\\Setup\\kycDetail.js"
+    },
+    {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\demo.css",
       "PackagePath": "staticwebassets\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\portal.css",
+      "PackagePath": "staticwebassets\\assets\\css\\portal.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\portal.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\portal.css.map"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\portal.css.min.map",
+      "PackagePath": "staticwebassets\\assets\\css\\portal.css.min.map"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\portal.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\portal.min.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\site.min.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\.bower.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\.bower.json"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\.gitignore",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\.gitignore"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\README.md",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\README.md"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\bower.json"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\component.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\component.json"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\composer.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\composer.json"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars-source.gemspec",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars-source.gemspec"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.amd.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.amd.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.amd.min.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.amd.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.js.nuspec",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.js.nuspec"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.min.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.runtime.amd.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.runtime.amd.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.runtime.amd.min.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.runtime.amd.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.runtime.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.runtime.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\handlebars.runtime.min.js",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\handlebars.runtime.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\lib\\handlebars\\source.rb",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\lib\\handlebars\\source.rb"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\handlebars\\package.json",
+      "PackagePath": "staticwebassets\\assets\\handlebars\\package.json"
     },
     {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\img\\avatars\\1.png",
@@ -469,8 +565,364 @@
       "PackagePath": "staticwebassets\\assets\\img\\layouts\\layout-without-navbar-light.png"
     },
     {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\.bower.json",
+      "PackagePath": "staticwebassets\\assets\\jquery\\.bower.json"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\MIT-LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\jquery\\MIT-LICENSE.txt"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\jquery\\bower.json"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\assets\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\jsonp.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\jsonp.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\load.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\load.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\parseJSON.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\parseJSON.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\parseXML.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\parseXML.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\script.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\script.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\var\\nonce.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\var\\nonce.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\var\\rquery.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\var\\rquery.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\ajax\\xhr.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\ajax\\xhr.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\attr.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\attr.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\classes.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\classes.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\prop.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\prop.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\support.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\attributes\\val.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\attributes\\val.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\callbacks.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\callbacks.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\access.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\access.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\init.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\init.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\parseHTML.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\parseHTML.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\ready.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\ready.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\core\\var\\rsingleTag.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\core\\var\\rsingleTag.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\addGetHookIf.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\addGetHookIf.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\curCSS.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\curCSS.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\defaultDisplay.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\defaultDisplay.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\hiddenVisibleSelectors.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\hiddenVisibleSelectors.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\support.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\swap.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\swap.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\var\\cssExpand.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\var\\cssExpand.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\var\\isHidden.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\var\\isHidden.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\var\\rmargin.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\var\\rmargin.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\css\\var\\rnumnonpx.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\css\\var\\rnumnonpx.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\data.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\data.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\data\\accepts.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\data\\accepts.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\data\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\data\\support.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\deferred.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\deferred.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\deprecated.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\deprecated.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\dimensions.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\dimensions.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\effects.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\effects.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\effects\\Tween.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\effects\\Tween.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\effects\\animatedSelector.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\effects\\animatedSelector.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\effects\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\effects\\support.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\event.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\event.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\event\\ajax.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\event\\ajax.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\event\\alias.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\event\\alias.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\event\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\event\\support.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\exports\\amd.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\exports\\amd.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\exports\\global.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\exports\\global.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\intro.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\intro.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\jquery.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\manipulation.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\manipulation.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\manipulation\\_evalUrl.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\manipulation\\_evalUrl.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\manipulation\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\manipulation\\support.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\manipulation\\var\\rcheckableType.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\manipulation\\var\\rcheckableType.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\offset.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\offset.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\outro.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\outro.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\queue.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\queue.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\queue\\delay.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\queue\\delay.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\selector-sizzle.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\selector-sizzle.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\selector.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\selector.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\serialize.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\serialize.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\sizzle\\dist\\sizzle.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\sizzle\\dist\\sizzle.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\sizzle\\dist\\sizzle.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\sizzle\\dist\\sizzle.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\sizzle\\dist\\sizzle.min.map",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\sizzle\\dist\\sizzle.min.map"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\support.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\traversing.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\traversing.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\traversing\\findFilter.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\traversing\\findFilter.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\traversing\\var\\rneedsContext.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\traversing\\var\\rneedsContext.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\class2type.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\class2type.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\concat.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\concat.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\deletedIds.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\deletedIds.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\hasOwn.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\hasOwn.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\indexOf.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\indexOf.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\pnum.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\pnum.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\push.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\push.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\rnotwhite.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\rnotwhite.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\slice.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\slice.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\strundefined.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\strundefined.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\support.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\support.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\var\\toString.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\var\\toString.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\jquery\\src\\wrap.js",
+      "PackagePath": "staticwebassets\\assets\\jquery\\src\\wrap.js"
+    },
+    {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\config.js",
       "PackagePath": "staticwebassets\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\customFunction.js",
+      "PackagePath": "staticwebassets\\assets\\js\\customFunction.js"
     },
     {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\dashboards-analytics.js",
@@ -493,6 +945,14 @@
       "PackagePath": "staticwebassets\\assets\\js\\pages-account-settings-account.js"
     },
     {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\site.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\theme.js",
+      "PackagePath": "staticwebassets\\assets\\js\\theme.js"
+    },
+    {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\js\\ui-modals.js",
       "PackagePath": "staticwebassets\\assets\\js\\ui-modals.js"
     },
@@ -511,6 +971,10 @@
     {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\nepali.datepicker.v2.2\\nepali.datepicker.v2.2.min.js",
       "PackagePath": "staticwebassets\\assets\\nepali.datepicker.v2.2\\nepali.datepicker.v2.2.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\nepali.unicode\\nepaliunicode.js",
+      "PackagePath": "staticwebassets\\assets\\nepali.unicode\\nepaliunicode.js"
     },
     {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\select2\\.bower.json",
@@ -1839,6 +2303,50 @@
     {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\sweetalert2\\sweetalert2.d.ts",
       "PackagePath": "staticwebassets\\assets\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\.bower.json",
+      "PackagePath": "staticwebassets\\assets\\toastr\\.bower.json"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\toastr"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\README.md",
+      "PackagePath": "staticwebassets\\assets\\toastr\\README.md"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\toastr\\bower.json"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.css",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.js",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.js.map",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.js.map"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.less",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.less"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.min.js"
+    },
+    {
+      "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\toastr\\toastr.scss",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.scss"
     },
     {
       "Id": "D:\\TaxPayment\\TaxPayment.Application\\TaxPayment\\wwwroot\\assets\\vendor\\css\\core.css",

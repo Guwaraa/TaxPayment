@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="~/newjs/assets/css/owl.css" />
     <link rel="stylesheet" href="~/newjs/assets/css/lightbox.css" />
     <link rel="stylesheet" href="~/newjs/assets/css/style.css" />
+        @RenderSection("styles", false)
+
 </head>
 
 <body>
@@ -93,6 +95,7 @@
     <script src="~/newjs/assets/js/video.js"></script>
     <script src="~/newjs/assets/js/slick-slider.js"></script>
     <script src="~/newjs/assets/js/custom.js"></script>
-   
+    @RenderSection("scripts", false);
+    @RenderSection("scriptsPartial", false);
 </body>
 </html>
