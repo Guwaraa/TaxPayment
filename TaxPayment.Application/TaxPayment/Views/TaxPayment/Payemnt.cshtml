@@ -1,4 +1,4 @@
-﻿
+﻿@model TaxPayment.Common.TaxPayement.TaxPayementViewModel
 @{
     ViewData["Title"] = "Payemnt";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -13,12 +13,12 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <form id="contact" action="" method="post">
+                <form asp-controller="TaxPayment" asp-action="AddUserPayment" method="post">
 
                     <div class="row">
                         <div class="col-6">
                             <fieldset>
-                                <select class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
+                                <select asp-for="VechiclePower" class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
                                     <option>Choose Bike CC</option>
                                     <option>120 CC</option>
                                     <option>150 CC</option>
@@ -30,7 +30,7 @@
                         </div>
                         <div class="col-6">
                             <fieldset>
-                                <select class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
+                                <select asp-for="Province" class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
                                     <option>Choose Provience</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -39,6 +39,33 @@
                                     <option>5</option>
                                 </select>
                             </fieldset>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-6">
+                            <fieldset>
+                                <select asp-for="VechicleCategory"  class="form-control dropdown" style="background-color: #414B5C; color: #fff; " id="sel1">
+                                    <option value="">Choose Vechicle Category</option>
+                                    <option value="Bike">Bike</option>
+                                    <option value="Car">Car</option>
+
+                                </select>
+                            </fieldset>
+                        </div>
+                        <div class="col-6">
+                            <fieldset>
+                                <input asp-for="VechicleNo" class="form-control" placeholder="Enter Vechile Number" />
+                            </fieldset>
+                        </div>
+                        <br />
+                        <div class="row" style="padding:20px">
+                            <div class="col-md-6">
+                                <img src="https://ictframe.com/wp-content/uploads/Nepal-Single-Payments.jpg" width="200" height="100" />
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" asp-for="BankCode" style="margin-top:30%" class="form-control" placeholder="Enter payment Detail" />
+                            </div>
                         </div>
                     </div>
                     <div class="pay-now-btn">

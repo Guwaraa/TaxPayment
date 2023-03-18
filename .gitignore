@@ -1,0 +1,77 @@
+# .NET Core
+bin/
+obj/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+*.userprefs
+*.vspscc
+*.vssscc
+*.suo
+*.cache
+*.dll.refresh
+*.dbmdl
+*.log
+*.obj
+*.pch
+*.pidb
+*.sqlproj.user
+*.sln.docstates
+*.sln.ide
+*.sln.ncrunchsolution
+*.suo
+*.testsettings
+*.tss
+*.user
+*.vsp
+*.vspx
+*.vst
+*.vstest
+*.vstest.build
+*.vstest.deploy
+*.vstest.log
+*.vtc
+*.vsz
+*.wixobj
+*.wixpdb
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+Packages/
+*.nupkg
+*.snupkg
+
+# MSTest
+testresults/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store App build output
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+*.appx
+*.appxbundle
+*.appxupload
+
+# .NET Core
+**/bin/
+**/obj/
+**/out/
+**/*.lock.json

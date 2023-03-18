@@ -28,7 +28,7 @@
                     <table class="table table-hover table-condensed">
                         <thead>
                             <tr>
-                                <th colspan=2><h3>KYC Details</h3></th>
+                                <th colspan=2><h3>Payment Details</h3></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -60,40 +60,40 @@
                                 <td><strong>Last Due Date</strong></td>
                                 <td>@Model.LastDueDate</td>
                             </tr>
-                            <tr>
-                                <td><strong>Late Fee Amount</strong></td>
-                                <td>@Model.LateFeeAmount</td>
-                            </tr>
+
+
                         </tbody>
                     </table>
                 </div>
             </div>
-            <form asp-action="VerifyTaxPayment" asp-controller="TaxPayment" method="post" id="manage-TaxPayments-form" enctype="multipart/form-data">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="form-group">
-                            <label asp-for="Remarks">Remarks<span class="text-danger">*</span></label>
-                            <textarea asp-for="Remarks" class="form-control"></textarea>
-                            <span id="Remarks_jserror"></span>
+          
+                <form asp-action="VerifyTaxPayment" asp-controller="TaxPayment" method="post" id="manage-TaxPayments-form" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label asp-for="Remarks">Remarks<span class="text-danger">*</span></label>
+                                <textarea asp-for="Remarks" class="form-control"></textarea>
+                                <span id="Remarks_jserror"></span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <hr />
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <button type="submit" id="btnApproveDetail" class="btn btn-primary" onclick="Approve()">
-                                Verify  Details
-                            </button>
-                            <button type="submit" id="btnRejectDetail" class="btn btn-danger">
-                                Reject  Details
-                            </button>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <button type="submit" id="btnApproveDetail" class="btn btn-primary" onclick="Approve()">
+                                    Verify  Details
+                                </button>
+                                <button type="submit" id="btnRejectDetail" class="btn btn-danger">
+                                    Reject  Details
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <input type="hidden" asp-for="RowId" id="hdnRowId" value="@Model.RowId" />
-                <input type="hidden" asp-for="ApproveVerify" id="hdnApprove" />
-            </form>
+                    <input type="hidden" asp-for="RowId" id="hdnRowId" value="@Model.RowId" />
+                    <input type="hidden" asp-for="ApproveVerify" id="hdnApprove" />
+                </form>
+            
         </div>
     </div>
 

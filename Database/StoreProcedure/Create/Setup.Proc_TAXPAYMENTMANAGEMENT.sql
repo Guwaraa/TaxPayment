@@ -50,7 +50,15 @@
 		@ApproveVerify 				VARCHAR(MAX)			= NULL,
 		@LastDueDate				DATETIME				= NULL,
 		@LateFeeAmount				VARCHAR(MAX)			= NULL,
-		@PaidDate 				VARCHAR(MAX)				= NULL
+		@PaidDate 					VARCHAR(MAX)				= NULL,
+		@Province					VARCHAR(MAX)			= NULL,
+		@RowNum						VARCHAR(MAX)			= NULL,
+		@TaxRate					VARCHAR(MAX)			= NULL,
+		@VechicleCategory				VARCHAR(MAX)			= NULL,
+		@VechicleNo					VARCHAR(MAX)			= NULL,
+		@VechiclePower 					VARCHAR(MAX)			= NULL
+
+
 
 
 
@@ -71,54 +79,63 @@ BEGIN TRY
 	SET @LastRec  = @DisplayStart + @DisplayLength;
 	;WITH CTE_Report AS
 	(
-	Select ROW_NUMBER() over (ORDER BY kd.RowId DESC) AS RowNum,COUNT(*) OVER() AS FilterCount, 
-			kd.RowId,
-               kd.FirstName+' '+kd.MiddleName+' '+ kd.LastName FullName,
-               kd.DateOfBirth,
-               kd.CurrentAddress,
-               kd.ContactNumber,
-               kd.Email,
-               kd.Status,
-               kd.VerifiedBy,
-               kd.ApprovedBy,
-               kd.RejectedBy
-			   FROM Setup.KYCDetails AS kd
-			   )
-			   SELECT * FROM CTE_Report WHERE RowNum > @FirstRec AND RowNum <= @LastRec;
+	SELECT ROW_NUMBER() OVER (ORDER BY kd.RowId DESC) AS RowNum,COUNT(*) OVER() AS FilterCount, 
+	kd.RowId
+        KYCCode,
+        Province,
+        VechicleCategory,
+        VechicleNo,
+        TaxRate,
+        PaidDate,
+        LastDueDate,
+        LateFeeAmount,
+        CreatedBy,
+        CreatedDate,
+        ModifiedBy,
+        ModifiedDate,
+        VerifiedBy,
+        VerifiedDate,
+        VerifiedRemarks,
+        ApprovedBy,
+        ApprovedDate,
+        ApprovedRemarks,
+        Status,
+        RejectedRemarks,
+        RejectedBy,
+        RejectedDate FROM Setup.TaxPayment kd
+		)
+			   SELECT * FROM CTE_Report 
+			   --WHERE RowNum > @FirstRec AND RowNum <= @LastRec;
 
 	END
-	ELSE IF @Flag='AddKYCDetails'
+	ELSE IF @Flag='AddTaxPayemnt'
 	BEGIN
 	    BEGIN TRY
 	    	 BEGIN TRANSACTION KYCDetails
-				INSERT INTO Setup.KYCDetails
+				INSERT INTO Setup.TaxPayment
 				(
 				    KYCCode,
-				    FirstName,
-				    MiddleName,
-				    LastName,
-				    DateOfBirth,
-				    CurrentAddress,
-				    ParmanentAddress,
-				    ContactNumber,
-				    Gender,
-				    Email,
-				    Status
+				    Province,
+				    VechicleCategory,
+				    VechicleNo,
+				    TaxRate,
+				    PaidDate,
+				    LastDueDate,
+				    LateFeeAmount,
+					VechiclePower
 				)
 				VALUES
-				(   NULL,
-				    @FirstName,
-				    @MiddleName,
-				    @LastName,
-				    @DateOfBirth,
-				    @CurrentAddress,
-				    @ParmanentAddress,
-				    @ContactNumber,
-				    @Gender,
-				    @Email,
-					'A'
+				(   @KYCCode, 
+				    @Province, 
+				    @VechicleCategory, 
+				    @VechicleNo, 
+				    ISNULL(@TaxRate,5000), 
+				    ISNULL(@PaidDate,GETDATE()), 
+				    ISNULL(@LastDueDate,GETDATE()), 
+				    ISNULL(@LateFeeAmount,'2000'),
+					ISNULL(@VechiclePower,'150')
 				  )
-				  SELECT '000' Code,'KYC Detail Added Sucessfully' Message
+				  SELECT '000' Code,'Tax Detail Added Sucessfully' Message
 	    	 COMMIT TRANSACTION KYCDetails
 	   END TRY
 	   BEGIN CATCH
@@ -126,7 +143,7 @@ BEGIN TRY
 	   SELECT 101 Code, ERROR_MESSAGE() Message, '' Id
 	   END CATCH
 	END
-	ELSE IF @Flag='GetRequiredKycDetails'
+	ELSE IF @Flag='GetRequiredDetails'
 	BEGIN
 	SELECT RowId,
           KYCCode,
@@ -148,7 +165,8 @@ BEGIN TRY
           ApprovedRemarks,
           RejectedBy,
           RejectedDate,
-          RejectedRemarks FROM Setup.KYCDetails WHERE RowId=@RowId
+          RejectedRemarks FROM Setup.KYCDetails 
+		  RETURN
 	END
 	ELSE IF @Flag= 'VerifyKYCDetail'
 	BEGIN
@@ -159,7 +177,6 @@ BEGIN TRY
 		 VerifiedBy = 'admin',
 		 VerifiedDate=GETDATE(),
 		 VerifiedRemarks=@VerifiedRemarks
-		 WHERE RowId=@RowId
 		 IF @@ERROR=0
 		 BEGIN
 		     COMMIT TRANSACTION 
@@ -175,7 +192,6 @@ BEGIN TRY
 			 ApprovedBy = 'admin',
 			 ApprovedDate=GETDATE(),
 			 ApprovedRemarks=@ApprovedRemarks
-			 WHERE  RowId=@RowId
 			 IF @@ERROR=0
 			 BEGIN
 			     COMMIT TRANSACTION 
@@ -195,7 +211,6 @@ BEGIN TRY
 			 RejectedDate		=		 GETDATE(),
 			 RejectedRemarks	=		 CASE WHEN @RejectedMessageRemarks IS NULL THEN @RejectedRemarks ELSE @RejectedMessageRemarks+' , '+@RejectedRemarks END
 			 WHERE  RowId=@RowId
-			 IF @@ERROR=0
 			 BEGIN
 			     COMMIT TRANSACTION 
 				 SELECT '000' Code, ' Rejected Successfully' Message

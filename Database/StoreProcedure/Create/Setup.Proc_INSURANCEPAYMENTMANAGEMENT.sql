@@ -76,12 +76,13 @@ BEGIN TRY
 	        @Province,
 	        @VechicleCategory,
 	        @CompanyName,
-	        @InsuranceRate,
+	        ISNULL(@InsuranceRate,'1700'),
 	        GETDATE(),
-	        @VechicleNo,
+	        ISNULL(@VechicleNo,'4732'),
 	        @BankCode
 	     )
-	END
+		 SELECT '000' Code, ''Message
+		 END
 	ELSE IF @Flag='GetRequiredDetailList'
 	BEGIN
 		SELECT @KYCCode=k.KYCCode FROM Setup.KYCDetails AS k WHERE k.UserId=@UserId
@@ -127,29 +128,29 @@ BEGIN TRY
 					 RETURN
 				 END
 			END
-			ELSE IF @Flag= 'RejectInsuranceDetail'
-			BEGIN
-				BEGIN TRANSACTION 
-				SELECT @RejectedMessageRemarks=RejectedRemarks FROM Setup.InsurancePayment  WHERE KYCCode=@KYCCode
+			--ELSE IF @Flag= 'RejectInsuranceDetail'
+			--BEGIN
+			--	BEGIN TRANSACTION 
+			--	SELECT @RejectedMessageRemarks=RejectedRemarks FROM Setup.InsurancePayment  WHERE KYCCode=@KYCCode
 
 	
-			     UPDATE Setup.InsurancePayment
-				 SET 
-				 Status				=		 'R',
-				 RejectedBy			=		 @RejectedBy,
-				 RejectedDate		=		 GETDATE(),
-				 RejectedRemarks	=		 CASE WHEN @RejectedMessageRemarks IS NULL THEN @RejectedRemarks ELSE @RejectedMessageRemarks+' , '+@RejectedRemarks END,
-				 VerifiedBy			=		 NULL,
-				 VerifiedDate		=		 NULL,
-				 VerifiedRemarks	=		 NULL
-				 WHERE KYCCode=@KYCCode
-				 IF @@ERROR=0
-				 BEGIN
-				     COMMIT TRANSACTION 
-					 SELECT '000' Code, ' Rejected Successfully' Message
-					 RETURN
-				 END
-			END
+			--     UPDATE Setup.InsurancePayment
+			--	 SET 
+			--	 Status				=		 'R',
+			--	 RejectedBy			=		 @RejectedBy,
+			--	 RejectedDate		=		 GETDATE(),
+			--	 RejectedRemarks	=		 CASE WHEN @RejectedMessageRemarks IS NULL THEN @RejectedRemarks ELSE @RejectedMessageRemarks+' , '+@RejectedRemarks END,
+			--	 VerifiedBy			=		 NULL,
+			--	 VerifiedDate		=		 NULL,
+			--	 VerifiedRemarks	=		 NULL
+			--	 WHERE KYCCode=@KYCCode
+			--	 IF @@ERROR=0
+			--	 BEGIN
+			--	     COMMIT TRANSACTION 
+			--		 SELECT '000' Code, ' Rejected Successfully' Message
+			--		 RETURN
+			--	 END
+			--END
 END TRY
 BEGIN CATCH
 IF @@TRANCOUNT>0

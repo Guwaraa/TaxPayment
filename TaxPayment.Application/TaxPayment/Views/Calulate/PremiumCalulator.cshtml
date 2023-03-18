@@ -1,4 +1,4 @@
-﻿
+﻿@model TaxPayment.Common.TaxPayement.TaxPayementViewModel
 @{
     ViewData["Title"] = "PremiumCalulator";
     Layout = "~/Views/Shared/_FrontLayout.cshtml";
@@ -17,25 +17,15 @@
                     <div class="row">
                         <div class="col-6">
                             <fieldset>
-                                <input name="rate"
-                                       type="text"
-                                       class="form-control"
-                                       id="rate"
-                                       placeholder="Insurance Rate"
-                                       required="" />
-                            </fieldset>
-                        </div>
-                        <div class="col-6">
-                            <fieldset>
-                                <select class="form-control dropdown" style="background-color: #414B5C; color: #fff; " id="sel1">
+                                <select class="form-control dropdown" asp-for="VechicleCategory" style="background-color: #414B5C; color: #fff; " id="sel1">
                                     <option>Choose Vechicle Category</option>
-                                    <option>A</option>
-                                    <option>B</option>
-                                    <option>C</option>
+                                    <option value="Bike">Bike</option>
+                                    <option value="Car">Car</option>
                                 </select>
                             </fieldset>
                         </div>
                     </div>
+                    <br />
                     <div class="row">
                         <div class="col-6">
                             <fieldset>
@@ -49,19 +39,33 @@
                         </div>
                         <div class="col-6">
                             <fieldset>
-                                <select class="form-control dropdown" style="background-color: #414B5C; color: #fff;" id="sel1">
+                                <select class="form-control dropdown" asp-for="Province" style="background-color: #414B5C; color: #fff;" id="sel1" onChange="calculate()">
                                     <option>Choose Provience</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                    <option value="1">Province 1</option>
+                                    <option value="2">Province 2</option>
+                                    <option value="3">Province 3</option>
+                                    <option value="4">Province 4</option>
+                                    <option value="5">Province 5</option>
                                 </select>
+                            </fieldset>
+                        </div>
+
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-6">
+                            <fieldset>
+                                <input name="rate"
+                                       type="text"
+                                       class="form-control"
+                                       id="rate"
+                                       placeholder="Insurance Rate"
+                                       required="" />
                             </fieldset>
                         </div>
                     </div>
                     <div class="pay-now-btn">
-                        <button>Pay Now</button>
+                        <button>Calculate Now</button>
                     </div>
 
                 </form>

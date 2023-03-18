@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TaxPayment.Common.TaxPayement;
 
 namespace TaxPayment.Controllers.Calculate
 {
@@ -8,6 +9,8 @@ namespace TaxPayment.Controllers.Calculate
         {
             return View();
         }
+        
+        
         public IActionResult TaxCalulator()
         {
             return View();

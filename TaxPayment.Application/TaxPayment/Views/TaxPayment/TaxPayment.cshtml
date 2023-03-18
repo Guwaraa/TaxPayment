@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "TaxPayment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section-forms " style="height:100vh">
+    <div class="panel panel-default" id="qrCode">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <table class="table table-hover table-condensed">
+                        <thead>
+                            <tr>
+                                <th colspan=2><h3>Payment Details</h3></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>KYC Code</strong></td>
+                                <td>KYC-1</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Province</strong></td>
+                                <td>@Model.Province</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Vechicle Category</strong></td>
+                                <td>@Model.VechicleCategory</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Vechicle No</strong></td>
+                                <td>@Model.VechicleNo</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Tax Rate</strong></td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Paid Date</strong></td>
+                                <td>@Model.TaxRate</td>
+
+                            </tr>
+                            <tr>
+                                <td><strong>Last Due Date</strong></td>
+                                <td>@Model.LastDueDate</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="qr-div">
+    asdasdasdasdas
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode@0.18.0/lib/qrcode.min.js"></script>
+<script>
+    var qr = new QRCode(document.getElementById("qrCode"), {
+    text: "This is the content of the QR code",
+    width: 128,
+    height: 128,
+    colorDark: "#000000",
+    colorLight: "#ffffff",
+    correctLevel: QRCode.CorrectLevel.H
+  });
+</script>

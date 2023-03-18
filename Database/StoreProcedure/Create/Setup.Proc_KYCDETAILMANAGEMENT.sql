@@ -160,14 +160,18 @@ BEGIN TRY
 			 RETURN
 		 END
 	END
+		
 		ELSE IF @Flag= 'ApproveKYCDetail'
 		BEGIN
-			BEGIN TRANSACTION 
-		     UPDATE Setup.KYCDetails
+			BEGIN TRANSACTION  
+
+			SELECT @KYCCode=MAX(ISNULL(KYCCode,0))+1 FROM Setup.KYCDetails WHERE KYCCode=@KYCCode 
+			UPDATE Setup.KYCDetails
 			 SET 
 			 ApprovedBy = 'admin',
 			 ApprovedDate=GETDATE(),
-			 ApprovedRemarks=@ApprovedRemarks
+			 ApprovedRemarks=@ApprovedRemarks,
+			 KYCCode=@KYCCode
 			 WHERE  RowId=@RowId
 			 IF @@ERROR=0
 			 BEGIN

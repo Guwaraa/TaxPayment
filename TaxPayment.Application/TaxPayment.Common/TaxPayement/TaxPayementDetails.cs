@@ -40,6 +40,7 @@ namespace TaxPayment.Common.TaxPayement
     {
         public string Flag { get; set; }
         public string RowId { get; set; }
+        public string VechiclePower { get; set; }
         public string UserId { get; set; }
         public string RowNum { get; set; }
         public string VerifiedBy { get; set; }

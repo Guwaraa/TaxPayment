@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace TaxPayment.Common.TaxPayement
         public string Flag { get; set; }
         public string RowId { get; set; }
         public string RowNum { get; set; }
+        public string BankCode { get; set; }
         public string VerifiedBy { get; set; }
         public string ApprovedBy { get; set; }
         public string Remarks { get; set; }
@@ -24,17 +26,16 @@ namespace TaxPayment.Common.TaxPayement
         public string VerifiedRemarks { get; set; }
         public string KYCCode { get; set; }
         public string Province { get; set; }
+        public string VechiclePower { get; set; }
         public string VechicleCategory { get; set; }
+        public List<SelectListItem> VechicleCategoryList { get; set; }
         public string VechicleNo { get; set; }
         public string TaxRate { get; set; }
         public string PaidDate { get; set; }
         public string LastDueDate { get; set; }
         public string LateFeeAmount { get; set; }
         public string CreatedBy { get; set; }
-        public string CreatedDate { get; set; }
         public string ModifiedBy { get; set; }
-        public string ModifiedDate { get; set; }
-        public string VerifiedDate { get; set; }
 
     }
 }

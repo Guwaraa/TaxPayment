@@ -10,6 +10,10 @@ namespace TaxPayment.Controllers
         {
             return View();
         }
+        public IActionResult Admin()
+        {
+            return View(); 
+        }
        
     }
 }

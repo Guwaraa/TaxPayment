@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using TaxPayment.Common.InsurancePayment;
 using TaxPaymet.Business.InsurancePayment;
 
@@ -17,7 +18,8 @@ namespace TaxPayment.Controllers.InsurancePayment
             {
                 Flag = "GetGridDetailList",
             };
-            var response = _insurancePaymentBusiness.GetGridDetailList(param);
+            //var response = _insurancePaymentBusiness.GetGridDetailList(param);
+            var response = new List<InsurancePayementDetails>();
             return View(response);
         }
 
@@ -47,7 +49,7 @@ namespace TaxPayment.Controllers.InsurancePayment
             param.Flag = "AddInsurancePayemnt";
             param.UserId = HttpContext.Session.GetString("UserId");
             var response = _insurancePaymentBusiness.ManageInsurancePaymentDetail(param);
-            return View();
+            return RedirectToAction("UserPayment");
         }
         public IActionResult VerifyInsurancePaymentDetail(InsurancePaymentParam param)
         {
@@ -72,5 +74,6 @@ namespace TaxPayment.Controllers.InsurancePayment
             var response = _insurancePaymentBusiness.GetInsurancePaymentDetail(param);
             return RedirectToAction("Index");
         }
+        
     }
 }
